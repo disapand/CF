@@ -8354,11 +8354,16 @@ button.close {
   padding: 0;
 }
 
+a {
+  color: #000;
+}
+
 .navbar {
   margin-bottom: 0;
 }
 
 .navbar .active {
+  color: #8bc12a !important;
   border-bottom: #8bc12a solid 3px;
 }
 
@@ -8369,6 +8374,7 @@ button.close {
 }
 
 .navbar-bg {
+  margin-top: -1px;
   background-image: url("/images/navbar-bg.jpg");
   background-size: cover;
 }
