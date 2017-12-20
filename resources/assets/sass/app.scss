@@ -7,3 +7,30 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//custom
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  .active {
+    border-bottom: #8bc12a solid 3px;
+  }
+}
+
+.navbar-nav {
+  li {
+    a {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 40px;
+    }
+  }
+}
+
+.navbar-bg {
+  background-image: url("/images/navbar-bg.jpg");
+  background-size: cover;
+}
