@@ -8,6 +8,11 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
+@font-face {
+  font-family: FZLT;
+  src: url("/fonts/FZLTHJW.TTF");
+}
+
 //custom
 .container-fluid {
   padding: 0;

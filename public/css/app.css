@@ -8350,6 +8350,11 @@ button.close {
   }
 }
 
+@font-face {
+  font-family: FZLT;
+  src: url("/fonts/FZLTHJW.TTF");
+}
+
 .container-fluid {
   padding: 0;
 }

@@ -6,6 +6,7 @@
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
     <title>@yield("title")</title>
     <style>
         .navbar-header {
@@ -40,9 +41,19 @@
             background-color: #eee;
         }
 
+        .ewm {
+            margin-top: 15%;
+            margin-bottom: 3%;
+        }
+
+        .dtbz {
+            font-size: 1.2em;
+            padding-right: 1em;
+        }
+
     </style>
 </head>
-<body>
+<body id="app">
 <div class="container-fluid">
     {{--导航栏--}}
     <nav class="navbar navbar-default" role="navigation">
@@ -50,7 +61,7 @@
             <img src="images/logo.png" alt="泾河城服">
         </div>
         <div>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="font-family:FZLT">
                 <li>
                     <a href="#" class="active">走进城服</a>
                 </li>
@@ -66,7 +77,7 @@
     <div class="col-md-12 navbar-bg">
         <div class="row">
             <div class="col-md-6 ejdh">
-                <ul class="nav navbar-nav" style="height: 50px;">
+                <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT">
                     @section('ejdh')
                         <li><a href="#" class="active">企业简介</a></li>
                         <li><a href="#">发展愿景</a></li>
@@ -78,21 +89,48 @@
     </div>
 
     {{--正文内容--}}
-    {{--@yield('contents)--}}
+    @yield('contents')
 
     {{--页面底部--}}
     <div class="footer">
         
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <img src="images/ewm.jgp" alt="">
+                <img src="images/ewm.jpg" alt="" class="center-block ewm">
             </div>
         </div>
-        
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <p class="text-center">旅游咨询热线</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="images/lxdh.png" alt="" class="center-block">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="text-center" style="margin: 5% 0;">
+                    <span class="glyphicon glyphicon-map-marker dtbz"></span>
+                    <span style=" font-family: FZLT;font-size: 1.2em;">陕西省西咸新区泾河新城城市综合服务有限公司</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <p class="text-center" style="font-size: 0.8em; color: #434343; margin-top: 5%; margin-bottom: 5%">泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE NEW CITY  &copy;  All Right Reserve</p>
+            </div>
+        </div>
+
     </div>
     
 </div>
 
 
 </body>
+
 </html>
