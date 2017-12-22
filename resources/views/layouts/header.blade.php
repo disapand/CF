@@ -5,8 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/app.css">
-    <script src="js/app.js"></script>
+    @section('css')
+        <link rel="stylesheet" href="css/app.css">
+        <script src="js/app.js"></script>
+    @show
     <title>@yield("title")</title>
     <style>
         .navbar-header {
@@ -32,6 +34,7 @@
             color: #e9f4f4;
             border-bottom: #e9f4f4 solid 1px;
         }
+
         .ejdh ul a:active {
             color: #e9f4f4;
         }
@@ -40,7 +43,7 @@
             background-color: transparent !important;
         }
 
-        .footer{
+        .footer {
             background-color: #eee;
         }
 
@@ -96,7 +99,7 @@
 
     {{--页面底部--}}
     <div class="footer">
-        
+
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <img src="images/ewm.jpg" alt="" class="center-block ewm">
@@ -125,12 +128,13 @@
 
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <p class="text-center" style="font-size: 0.8em; color: #434343; margin-top: 5%; margin-bottom: 5%">泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE NEW CITY  &copy;  All Right Reserve</p>
+                <p class="text-center" style="font-size: 0.8em; color: #434343; margin-top: 5%; margin-bottom: 5%">
+                    泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE NEW CITY &copy; All Right Reserve</p>
             </div>
         </div>
 
     </div>
-    
+
 </div>
 
 
@@ -147,5 +151,8 @@
         $(this).addClass('active')
     })
 </script>
+
+@section('script')
+@show
 
 </html>
