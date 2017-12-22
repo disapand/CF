@@ -1,7 +1,8 @@
 @extends('layouts.header')
 
 @section('contents')
-    <hq>测试中</hq>
+    <h1>测试中</h1>
     <ul>
     </ul>
+    {{ $t }}
 @endsection

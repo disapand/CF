@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/app.css">
     <script src="js/app.js"></script>
@@ -31,6 +31,9 @@
         .ejdh ul .active {
             color: #e9f4f4;
             border-bottom: #e9f4f4 solid 1px;
+        }
+        .ejdh ul a:active {
+            color: #e9f4f4;
         }
 
         a:hover {
@@ -61,7 +64,7 @@
             <img src="images/logo.png" alt="泾河城服">
         </div>
         <div>
-            <ul class="nav navbar-nav" style="font-family:FZLT">
+            <ul class="nav navbar-nav" style="font-family:FZLT" id="yjdh">
                 <li>
                     <a href="#" class="active">走进城服</a>
                 </li>
@@ -77,7 +80,7 @@
     <div class="col-md-12 navbar-bg">
         <div class="row">
             <div class="col-md-6 ejdh">
-                <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT">
+                <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT" id="ejdh">
                     @section('ejdh')
                         <li><a href="#" class="active">企业简介</a></li>
                         <li><a href="#">发展愿景</a></li>
@@ -132,5 +135,17 @@
 
 
 </body>
+
+<script>
+    $('#ejdh li a').click(function (event) {
+        $('#ejdh').find('a').removeClass('active');
+        $(this).addClass('active');
+    })
+
+    $('#yjdh li a').click(function (event) {
+        $('#yjdh').find('a').removeClass('active');
+        $(this).addClass('active')
+    })
+</script>
 
 </html>

@@ -8363,6 +8363,11 @@ a {
   color: #000;
 }
 
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+}
+
 .navbar {
   margin-bottom: 0;
 }
