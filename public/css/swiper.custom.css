@@ -140,8 +140,8 @@
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
-  left: 10px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAgCAYAAAD0S5PyAAAAu0lEQVRIibXWSwoCMRBF0ZceuYHYK3HpDt2BOLDt3QjXgR0Ikk8lhQUZ5gReKkUCoMmKkq6S3osDuEm6SDoJGF0RePKtHVi9wBmQGxhBqoAVicBWAyxIDrxKQA8xAS3EDNSQIaCExGNjAqIheLmBHJkGEpID2yiQkLsHALRICsfzDtWH3ytvHq1gu71hvWIz1Gs2E/SXtp+CWid0h5EFMUOW9N3jMYdcg7oLjSAlaJ1BitAM8gs9Avi/Fh9w4uf/IpNVgQAAAABJRU5ErkJggg==");
+  left: 50px;
   right: auto;
 }
 .swiper-button-prev.swiper-button-black,
@@ -154,8 +154,8 @@
 }
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
-  right: 10px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAgCAYAAAD0S5PyAAABaUlEQVRIiZ3Ux24UQRAG4B9fyDiyJufwHrwE74d4B4KQRZaFSSaZnEFckeDA6eOwtdJq5V3vdEsj9cy0vq7qLtU2XErSS3Ixye+0DKzpj1XMIl2f4DDeFnS/BRpMjuBdQfewrwUZQO8Luou9LUhwFB8KuoM9LUhwDB8Luo3dLUhwHJ8KuoVdLUhwAp8LujkJ2irfk/hS0Mo4aJrTP4WvBd3YDJq2Fk7jW0HXR6EulXlmCLqGnS1IcBbfC7qKHS1IcA4/CrqC7S1IcB4/C7o809Q/kj9J/tZ8riWKQ3hTUaxititwEK8LeKB6TxfgADYKWDPUvKYFlvGqgIeYG/4/DdDDywIeYX50TRfgMRY2WzcJ2I8XBTzB4ri1k4DnBTzF0qSIxwHrBazX+8S0Rz8s1c4qki2BUWSxcldnMRUwjCzU6avb6E0LDJB5/funX1DLXYABslLAhn5pdwKQmST/kjxLciHJr5a+8B/9QhvsQvHsKwAAAABJRU5ErkJggg==");
+  right: 50px;
   left: auto;
 }
 .swiper-button-next.swiper-button-black,
