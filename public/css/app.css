@@ -8355,8 +8355,18 @@ button.close {
   src: url("/fonts/FZLTHJW.TTF");
 }
 
+body,
+a,
+p,
+h1,
+h2,
+h3 {
+  font-family: FZLT;
+  color: #434343;
+}
+
 .container-fluid {
-  padding: 0;
+  padding: 0 !important;
 }
 
 a {

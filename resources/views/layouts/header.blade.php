@@ -5,11 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/favicon.ico">
     @section('css')
         <link rel="stylesheet" href="css/app.css">
         <script src="js/app.js"></script>
     @show
-    <title>@yield("title")</title>
+    <title>{{ $title or '泾河城服' }}</title>
     <style>
         .navbar-header {
             margin-left: 15%;
@@ -57,6 +58,12 @@
             padding-right: 1em;
         }
 
+        .end {
+            background-image: url("images/vi.jpg");
+            background-size: cover;
+            height: 5px;
+        }
+
     </style>
 </head>
 <body id="app">
@@ -99,6 +106,11 @@
 
     {{--页面底部--}}
     <div class="footer">
+
+        <div class="row">
+            <div class="col-md-12 end"></div>
+        </div>
+
 
         <div class="row">
             <div class="col-md-4 col-md-offset-4">

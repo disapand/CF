@@ -13,8 +13,8 @@ class TestController extends Controller
      */
     public function index()
     {
-        $t = 'ceshi';
-        return view('test', compact('t'));
+        $title = '泾河城服--企业简介';
+        return view('qyjj', compact('title'));
     }
 
     /**

@@ -48,14 +48,8 @@
             background-size: cover;
         }
 
-        .vibg .swiper-pagination-bullet-active{
+        .vibg .swiper-pagination-bullet-active {
             background-color: #8ec322;
-        }
-
-        .end {
-            background-image: url("images/vi.jpg");
-            background-size: cover;
-            height: 5px;
         }
 
     </style>
@@ -120,7 +114,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <div class="row">
         <div class="col-md-2 col-md-offset-5">
@@ -150,9 +144,12 @@
         <div class="col-md-3 col-mg-offset-3">
 
             <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li role="presentation" class="active"><a href="#xxxq" aria-controls="#xxxq" role="tab" data-toggle="tab">西咸新区新闻</a></li>
-                <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab" data-toggle="tab">泾河新城新闻</a></li>
-                <li role="presentation"><a href="#jhcf" aria-controls="jhcf" role="tab" data-toggle="tab">泾河城服新闻</a></li>
+                <li role="presentation" class="active"><a href="#xxxq" aria-controls="#xxxq" role="tab"
+                                                          data-toggle="tab">西咸新区新闻</a></li>
+                <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab" data-toggle="tab">泾河新城新闻</a>
+                </li>
+                <li role="presentation"><a href="#jhcf" aria-controls="jhcf" role="tab" data-toggle="tab">泾河城服新闻</a>
+                </li>
             </ul>
 
             <div class="tab-content">
@@ -319,9 +316,11 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-3" style="margin-top: 50px;margin-bottom: 50px;">
             <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab" data-toggle="tab">相关企事业单位</a></li>
+                <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab" data-toggle="tab">相关企事业单位</a>
+                </li>
                 <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab" data-toggle="tab">合作伙伴</a></li>
-                <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab" data-toggle="tab">行业网站链接</a></li>
+                <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab" data-toggle="tab">行业网站链接</a>
+                </li>
             </ul>
 
             <div class="tab-content">
@@ -354,15 +353,11 @@
                         <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
                     </ul>
                 </div>
-        </div>
+            </div>
 
 
         </div>
 
-    </div>
-
-    <div class="row">
-        <div class="col-md-12 end"></div>
     </div>
 
 @endsection
@@ -378,7 +373,7 @@
                 speed: 1500,
                 direction: 'horizontal',
                 loop: true,
-                autoplayDisableOnInteraction : false,
+                autoplayDisableOnInteraction: false,
 
                 // 如果需要分页器
                 pagination: '.swiper-pagination',
