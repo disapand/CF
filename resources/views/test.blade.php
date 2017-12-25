@@ -374,10 +374,11 @@
     <script>
         $(document).ready(function () {
             var mySwiper = new Swiper('.swiper-container', {
-                autoplay: 3000,
+                autoplay: 5000,
                 speed: 1500,
                 direction: 'horizontal',
                 loop: true,
+                autoplayDisableOnInteraction : false,
 
                 // 如果需要分页器
                 pagination: '.swiper-pagination',
