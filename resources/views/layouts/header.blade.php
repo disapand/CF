@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/favicon.ico">
     @section('css')
-        <link rel="stylesheet" href="css/app.css">
-        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <script src="{{ asset('js/app.js') }}"></script>
     @show
     <title>{{ $title or '泾河城服' }}</title>
     <style>
@@ -66,7 +66,7 @@
 
     </style>
 </head>
-<body id="app">
+<body>
 <div class="container-fluid">
     {{--导航栏--}}
     <nav class="navbar navbar-default" role="navigation">
@@ -75,15 +75,17 @@
         </div>
         <div>
             <ul class="nav navbar-nav" style="font-family:FZLT" id="yjdh">
-                <li>
-                    <a href="#" class="active">走进城服</a>
-                </li>
-                <li><a href="#">物业管理</a></li>
-                <li><a href="#">招商运营</a></li>
-                <li><a href="#">研学活动</a></li>
-                <li><a href="#">文旅交流</a></li>
-                <li><a href="#">定制服务</a></li>
-                <li><a href="#">综合服务</a></li>
+                @section('yjdh')
+                    <li>
+                        <a href="{{ url('/') }}" class="active">走进城服</a>
+                    </li>
+                    <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+                    <li><a href="#">招商运营</a></li>
+                    <li><a href="#">研学活动</a></li>
+                    <li><a href="#">文旅交流</a></li>
+                    <li><a href="#">定制服务</a></li>
+                    <li><a href="#">综合服务</a></li>
+                @show
             </ul>
         </div>
     </nav>
@@ -92,9 +94,9 @@
             <div class="col-md-6 ejdh">
                 <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT" id="ejdh">
                     @section('ejdh')
-                        <li><a href="#" class="active">企业简介</a></li>
-                        <li><a href="#">发展愿景</a></li>
-                        <li><a href="#">组织架构</a></li>
+                        <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
+                        <li><a href="{{ url('/fzyj') }}">发展愿景</a></li>
+                        <li><a href="{{ url('/zzjg') }}">组织架构</a></li>
                     @show
                 </ul>
             </div>
@@ -151,19 +153,6 @@
 
 
 </body>
-
-<script>
-    $('#ejdh li a').click(function (event) {
-        $('#ejdh').find('a').removeClass('active');
-        $(this).addClass('active');
-    })
-
-    $('#yjdh li a').click(function (event) {
-        $('#yjdh').find('a').removeClass('active');
-        $(this).addClass('active')
-    })
-</script>
-
 @section('script')
 @show
 

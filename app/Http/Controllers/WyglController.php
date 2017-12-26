@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TestController extends Controller
+class WyglController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,8 @@ class TestController extends Controller
      */
     public function index()
     {
-        return view('test');
+        $title = '物业管理';
+        return view('wygl.wygl', compact('title'));
     }
 
     /**
@@ -45,26 +46,7 @@ class TestController extends Controller
      */
     public function show($id)
     {
-        $tzlj = '';
-        $title = '泾河城服';
-        switch ($id){
-            case 'qyjj':
-                $tzlj = 'qyjj';
-                $title .= '--企业简介';
-                break;
-            case 'fzyj':
-                $tzlj = 'fzyj';
-                $title .= '--发展愿景';
-                break;
-            case 'zzjg':
-                $tzlj = 'zzjg';
-                $title .= '--组织架构';
-                break;
-            default:
-                $tzlj = 'test';
-        }
-
-        return view($tzlj, compact('title'));
+        //
     }
 
     /**

@@ -11,8 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::get('/test', 'TestController@index');
+Route::get('/', 'TestController@index');
+
+
+Route::get('/wygl', 'WyglController@index');
+
+Route::get('/{bt}', 'TestController@show');

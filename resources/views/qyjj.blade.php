@@ -1,7 +1,9 @@
 @extends('layouts.header')
 
-@section('css')
-    @parent
+@section('ejdh')
+    <li><a href="{{ url('/qyjj') }}"  class="active">企业简介</a></li>
+    <li><a href="{{ url('/fzyj') }}">发展愿景</a></li>
+    <li><a href="{{ url('/zzjg') }}">组织架构</a></li>
 @endsection
 
 @section('contents')
