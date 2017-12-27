@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class WyglController extends Controller
+class ZsyyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,8 @@ class WyglController extends Controller
      */
     public function index()
     {
-        $title = '物业管理';
-        return view('wygl.wygl', compact('title'));
+        $title = '招商运营';
+        return view('zsyy.zsyy', compact('title'));
     }
 
     /**
@@ -46,35 +46,32 @@ class WyglController extends Controller
      */
     public function show($id)
     {
-        $tzlj = 'wygl.';
-        $title = '物业管理';
+        $tzlj = 'zsyy.';
+        $title = '招商运营--';
+
         switch ($id) {
-            case 'xzl':
-                $tzlj .= 'xzl';
-                $title .= '--写字楼';
+            case 'cyfh':
+                $tzlj .= 'cyfh';
+                $title .= '产业孵化中心';
                 break;
-            case 'whjq':
-                $tzlj .= 'whjq';
-                $title .= '--文化景区';
+            case 'cwt':
+                $tzlj .= 'cwt';
+                $title .= '崇文塔景区';
                 break;
-            case 'cyy':
-                $tzlj .= 'cyy';
-                $title .= '--产业园';
+            case 'cwjy':
+                $tzlj .= 'cwjy';
+                $title .= '崇文佳苑';
                 break;
-            case 'zz':
-                $tzlj .= 'zz';
-                $title .= '--住宅';
-                break;
-            case 'sy':
-                $tzlj .= 'sy';
-                $title .= '--商业';
+            case 'cwsy':
+                $tzlj .= 'cwsy';
+                $title .= '崇文·尚学';
                 break;
             default:
-                $tzlj .= 'wygl';
+                $tzlj = 'zsyy';
+                $title = '招商运营';
         }
 
         return view($tzlj, compact('title'));
-
     }
 
     /**

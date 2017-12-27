@@ -59,7 +59,7 @@
         }
 
         .end {
-            background-image: url("images/vi.jpg");
+            background-image: url(" {{ asset('images/vi.jpg') }}");
             background-size: cover;
             height: 5px;
         }
@@ -71,7 +71,7 @@
     {{--导航栏--}}
     <nav class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
-            <img src="images/logo.png" alt="泾河城服">
+            <img src=" {{ asset('images/logo.png') }}" alt="泾河城服">
         </div>
         <div>
             <ul class="nav navbar-nav" style="font-family:FZLT" id="yjdh">
@@ -80,11 +80,11 @@
                         <a href="{{ url('/') }}" class="active">走进城服</a>
                     </li>
                     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-                    <li><a href="#">招商运营</a></li>
-                    <li><a href="#">研学活动</a></li>
-                    <li><a href="#">文旅交流</a></li>
-                    <li><a href="#">定制服务</a></li>
-                    <li><a href="#">综合服务</a></li>
+                    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+                    <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
+                    <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
+                    <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
+                    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
                 @show
             </ul>
         </div>
@@ -116,7 +116,7 @@
 
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <img src="images/ewm.jpg" alt="" class="center-block ewm">
+                <img src="{{ asset('images/ewm.jpg') }}" alt="" class="center-block ewm">
             </div>
         </div>
         <div class="row">
@@ -127,7 +127,7 @@
 
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <img src="images/lxdh.png" alt="" class="center-block">
+                <img src="{{ asset('images/lxdh.png') }}" alt="" class="center-block">
             </div>
         </div>
 
