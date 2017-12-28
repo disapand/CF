@@ -13,7 +13,8 @@ class YxhdController extends Controller
      */
     public function index()
     {
-        //
+        $title = '研学活动';
+        return view('yxhd.yxhd', compact('title'));
     }
 
     /**
@@ -45,7 +46,36 @@ class YxhdController extends Controller
      */
     public function show($id)
     {
-        //
+        $tzlj = 'yxhd.';
+        $title = '研学活动--';
+
+        switch ($id) {
+            case 'ytwg':
+                $tzlj .= 'ytwg';
+                $title .= '一塔五馆';
+                break;
+            case 'tsty':
+                $tzlj .= 'tsty';
+                $title .= '特色体验';
+                break;
+            case 'jqld':
+                $tzlj .= 'jqld.jqld';
+                $title .= '景区联动';
+                break;
+            case 'yxyd':
+                $tzlj .= 'yxyd';
+                $title .= '研学营地';
+                break;
+            default:
+                $tzlj = 'yxhd';
+                $title = '研学活动';
+        }
+
+        return view($tzlj, compact('title'));
+    }
+
+    public function jqld($ld){
+        return view();
     }
 
     /**

@@ -62,8 +62,8 @@ class ZsyyController extends Controller
                 $tzlj .= 'cwjy';
                 $title .= '崇文佳苑';
                 break;
-            case 'cwsy':
-                $tzlj .= 'cwsy';
+            case 'cwsx':
+                $tzlj .= 'cwsx';
                 $title .= '崇文·尚学';
                 break;
             default:

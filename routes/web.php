@@ -24,4 +24,7 @@ Route::get('/wygl/{bt}', 'WyglController@show');
 Route::get('/zsyy', 'ZsyyController@index');
 Route::get('/zsyy/{bt}', 'ZsyyController@show');
 
+Route::get('/yxhd', 'YxhdController@index');
+Route::get('/yxhd/{bt}','YxhdController@show');
+
 Route::get('/{bt}', 'TestController@show');
