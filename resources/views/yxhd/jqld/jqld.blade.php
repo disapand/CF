@@ -23,43 +23,43 @@
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_blhx.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;margin-top: 150px;">
+            <a href=" {{ url('/yxhd/jqld/blhx') }}"><img src="{{ asset('images/yxhd/jqld/jqld_blhx.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;margin-top: 150px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_hsjy.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;">
+            <a href="{{ url('/yxhd/jqld/hsjy') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_ddyd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;">
+            <a href="{{ url('/yxhd/jqld/ddyd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ddyd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_hsjy2.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;">
+            <a href="{{ url('/yxhd/jqld/hsjy2') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy2.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_ngty.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;">
+            <a href="{{ url('/yxhd/jqld/ngty') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ngty.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_spgd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;">
+            <a href="{{ url('/yxhd/jqld/spgd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_spgd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/jqld/jqld_sztt.jpg') }}" alt="" style="width: 100%;margin-bottom: 150px;">
+            <a href="{{ url('/yxhd/jqld/sztt') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 150px;"></a>
         </div>
     </div>
     

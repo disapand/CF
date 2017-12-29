@@ -75,7 +75,44 @@ class YxhdController extends Controller
     }
 
     public function jqld($ld){
-        return view();
+        $tzlj = 'yxhd.jqld.';
+        $title = '景区联动--';
+
+        switch ($ld) {
+            case 'blhx':
+                $tzlj .= 'blhx';
+                $title .= '博览华夏';
+                break;
+            case 'hsjy':
+                $tzlj .= 'hsjy';
+                $title .= '红色教育';
+                break;
+            case 'ddyd':
+                $tzlj .= 'ddyd';
+                $title .= '大地原点';
+                break;
+            case 'hsjy2':
+                $tzlj .= 'hsjy2';
+                $title .= '红色教育';
+                break;
+            case 'ngty':
+                $tzlj .= 'ngty';
+                $title .= '农耕体验';
+                break;
+            case 'spgd':
+                $tzlj .= 'spgd';
+                $title .= '寿平古渡';
+                break;
+            case 'sztz':
+                $tzlj .= 'sztz';
+                $title .= '素质拓展';
+                break;
+            default:
+                $tzlj = 'yxhd';
+                $title = '研学活动';
+        }
+
+        return view($tzlj, compact('title'));
     }
 
     /**

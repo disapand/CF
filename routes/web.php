@@ -25,6 +25,7 @@ Route::get('/zsyy', 'ZsyyController@index');
 Route::get('/zsyy/{bt}', 'ZsyyController@show');
 
 Route::get('/yxhd', 'YxhdController@index');
+Route::get('/yxhd/jqld/{bt}', 'YxhdController@jqld');
 Route::get('/yxhd/{bt}','YxhdController@show');
 
 Route::get('/{bt}', 'TestController@show');
