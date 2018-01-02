@@ -59,7 +59,7 @@
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/sztt') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 150px;"></a>
+            <a href="{{ url('/yxhd/jqld/sztz') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 150px;"></a>
         </div>
     </div>
     
