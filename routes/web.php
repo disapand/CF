@@ -28,4 +28,6 @@ Route::get('/yxhd', 'YxhdController@index');
 Route::get('/yxhd/jqld/{bt}', 'YxhdController@jqld');
 Route::get('/yxhd/{bt}','YxhdController@show');
 
+Route::get('/wljl','WljlController@index');
+
 Route::get('/{bt}', 'TestController@show');

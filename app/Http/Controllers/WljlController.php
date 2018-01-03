@@ -13,7 +13,8 @@ class WljlController extends Controller
      */
     public function index()
     {
-        //
+        $title ="文旅交流";
+        return view('wyjl.wljl', compact('title'));
     }
 
     /**
