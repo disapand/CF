@@ -13,7 +13,13 @@ class DzfwController extends Controller
      */
     public function index()
     {
-        //
+        $title = '定制服务--回迁安置';
+        return view('dzfw.hqaz', compact('title'));
+    }
+
+    public function index_zw() {
+        $title = '定制服务--政务培训';
+        return view('dzfw.zwpx', compact('title'));
     }
 
     /**
