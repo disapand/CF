@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use function Sodium\compare;
 
 class ZhjwController extends Controller
 {
@@ -13,7 +14,7 @@ class ZhjwController extends Controller
      */
     public function index()
     {
-        //
+        return redirect(url('/zhfw/zhcs'));
     }
 
     /**
@@ -45,7 +46,34 @@ class ZhjwController extends Controller
      */
     public function show($id)
     {
-        //
+        $title = '综合服务--';
+        $tzlj = 'zhfw.';
+        switch ($id) {
+            case 'szgc':
+                $title .= '市政工程';
+                $tzlj .= 'szgc';
+                break;
+            case 'ggjt':
+                $title .= '公共交通';
+                $tzlj .= 'ggjt';
+                break;
+            case 'jjny':
+                $title .= '洁净能源';
+                $tzlj .= 'jjny';
+                break;
+            case 'cygn':
+                $title .= '餐饮管理';
+                $tzlj .= 'cygl';
+                break;
+            case 'zhcs':
+                $title .= '智慧城市';
+                $tzlj .= 'szgc';
+                break;
+            default:
+
+        }
+
+        return view($tzlj, compact('title'));
     }
 
     /**

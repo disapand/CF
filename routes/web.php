@@ -33,4 +33,7 @@ Route::get('/wljl','WljlController@index');
 Route::get('/dzfw','DzfwController@index');
 Route::get('/dzfw/zwpx','DzfwController@index_zw');
 
+Route::get('/zhfw', 'ZhjwController@index');
+Route::get('/zhfw/{bt}', 'ZhjwController@show');
+
 Route::get('/{bt}', 'TestController@show');
