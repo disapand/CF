@@ -60,6 +60,18 @@ class TestController extends Controller
                 $tzlj = 'zzjg';
                 $title .= '--组织架构';
                 break;
+            case 'qyfp':
+                $tzlj = 'qyfp.qyfp';
+                $title .= '--企业扶贫';
+                break;
+            case 'tsdj':
+                $tzlj = 'qyfp.tsdj';
+                $title .= '--特色党建';
+                break;
+            case 'tdjs':
+                $tzlj = 'qyfp.tdjs';
+                $title .= '--团队建设';
+                break;
             default:
                 $tzlj = 'test';
         }

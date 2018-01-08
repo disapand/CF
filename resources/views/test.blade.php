@@ -88,7 +88,7 @@
             <div class="thumbnail center-block djtp">
                 <img src="images/tp1.jpg" alt="..." style="width: 100%;">
                 <div class="caption text-center">
-                    <h3><a href="#">特色党建</a></h3>
+                    <h3><a href="{{ url('/tsdj') }}">特色党建</a></h3>
                     <p>做新时代有理想的共产党员</p>
                 </div>
             </div>
@@ -98,7 +98,7 @@
             <div class="thumbnail center-block djtp">
                 <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                 <div class="caption text-center">
-                    <h3><a href="#">企业扶贫</a></h3>
+                    <h3><a href="{{ url('/qyfp') }}">企业扶贫</a></h3>
                     <p>践行精准扶贫政策 加快城乡统筹发展</p>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="thumbnail center-block djtp">
                 <img src="images/tp3.jpg" alt="..." style="width: 100%;">
                 <div class="caption text-center">
-                    <h3><a href="#">团队建设</a></h3>
+                    <h3><a href="{{ url('/tdjs') }}">团队建设</a></h3>
                     <p>用激情和梦想去塑造城服人</p>
                 </div>
             </div>
