@@ -18,7 +18,7 @@
         }
 
         .ejdh {
-            margin-left: 33%;
+            margin-left: 50%;
         }
 
         .ejdh ul {
@@ -29,11 +29,14 @@
             padding-top: 15px;
             padding-bottom: 0;
             height: 100%;
+            color: #fff;
+            opacity: .55;
         }
 
         .ejdh ul .active {
             color: #e9f4f4;
             border-bottom: #e9f4f4 solid 1px;
+            opacity: 1;
         }
 
         .ejdh ul a:active {
@@ -91,7 +94,7 @@
     </nav>
     <div class="col-md-12 navbar-bg">
         <div class="row">
-            <div class="col-md-6 ejdh">
+            <div class="col-md-12 ejdh">
                 <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT" id="ejdh">
                     @section('ejdh')
                         <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
