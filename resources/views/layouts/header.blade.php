@@ -67,6 +67,12 @@
             height: 5px;
         }
 
+        .wzys p{
+            line-height: 2.5em;
+            text-align: justify;
+            text-indent: 2em;
+        }
+
     </style>
 </head>
 <body>

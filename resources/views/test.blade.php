@@ -44,7 +44,7 @@
         }
 
         .vibg {
-            background-image: url("images/vi.jpg");
+            background-image: url("{{ url('images/vi.jpg') }}");
             background-size: cover;
         }
 
