@@ -8399,3 +8399,20 @@ a {
   background-size: cover;
 }
 
+.ejdh {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 50px;
+}
+
+.wzys p {
+  line-height: 2.5em;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.img-100 {
+  width: 100%;
+}
+

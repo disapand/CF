@@ -17,10 +17,6 @@
             margin-right: 10%;
         }
 
-        .ejdh {
-            margin-left: 50%;
-        }
-
         .ejdh ul {
             height: 60px;
         }
@@ -67,12 +63,6 @@
             height: 5px;
         }
 
-        .wzys p{
-            line-height: 2.5em;
-            text-align: justify;
-            text-indent: 2em;
-        }
-
     </style>
 </head>
 <body>
@@ -101,7 +91,7 @@
     <div class="col-md-12 navbar-bg">
         <div class="row">
             <div class="col-md-12 ejdh">
-                <ul class="nav navbar-nav" style="height: 50px; font-family: FZLT" id="ejdh">
+                <ul class="nav navbar-nav ejdh" id="ejdh">
                     @section('ejdh')
                         <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
                         <li><a href="{{ url('/fzyj') }}">发展愿景</a></li>

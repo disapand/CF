@@ -24,18 +24,18 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src=" {{ asset('images/zhfw/jjny_dt.jpg') }}" alt="" style="width: 100%;">
+            <img src=" {{ asset('images/zhfw/jjny_dt.jpg') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/zhfw/jjny_z.png') }}" alt="" class="center-block" style="margin-top: 60px;margin-bottom: 60px;">
+            <img src="{{ asset('images/zhfw/jjny_z.png') }}" alt="" class="center-block img-100" style="margin-top: 60px;margin-bottom: 60px;">
         </div>
     </div>
 
-    <div class="row" style="line-height: 2em;margin-bottom: 50px;">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys">
             <p style="text-indent: 2em;text-align: justify;">为了贯彻落实省、市“铁腕治霾”工作部署，根据《西咸新区铁腕治霾2017年1+10方案》的要求，做好原煤散烧污染治理工作，让环保节能的洁净煤走进千家万户，从真正意义上实现洁净煤的使用普及化。为了确保洁净煤符合国家环保要求，并且在经营过程中合法合规，城服公司开展泾河新城洁净煤配送中心(简称洁净煤配送中心)。同时按照“合理布局、保障供应" 的原则，在辖区建设四个配送网点，实现统一质量标准和统一配送，确保居民以及用煤单位的洁净煤使用全覆盖。 </p>
         </div>
     </div>

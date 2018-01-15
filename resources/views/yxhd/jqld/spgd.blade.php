@@ -62,15 +62,15 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-bottom: 50px;">
-            <p style="text-align: justify;text-indent: 2em;line-height: 2.5em;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
+            <p>
                 崇文塔景区位于西咸新区泾河新城，是大西安北部中心首席文化景区，中华优秀传统文化博览馆集群，占地面积20万平方米，打造以“崇文尚学·博览华夏”为主题的综合性文化旅游度假区，以高87.218米的中国第一高砖塔——崇文塔为核心，聚集了陕西丝路商旅文化发展研究基地——陕商文化博览馆、秦腔文化教育基地——国艺秦腔馆、汇集陕西省内2000余项非物质文化遗产——三秦非遗博览馆、西北地区大型国学主题博览馆——崇文国学馆、以太极养生为主题的培训基地——崇文尚武太极院以及生动还原数十项历史典故——文化雕塑园等文化展区，并设计有4.2万平方米的综合商业区、3000平方米运动健身区，是集文物保护、研学旅行、休闲度假、运动健身于一体的国家AAA级景区。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-bottom: 50px;">
-            <p style="text-align: justify;text-indent: 2em;line-height: 2.5em;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
+            <p>
                 走进崇文塔景区，接受崇文尚学的精神洗礼；身临其境、驻足文化雕塑园，历史典故真实再现；参观四个不同文化主题的展馆，进入科学、历史、文学、艺术等一身的传统知识宝库，传播了解国学、回味传统，这里将是塑造美好心灵的生动课堂。同学们通过多种体验活动，提高动手能力的同时深入了解传统技艺的魅力。</p>
         </div>
     </div>
@@ -107,15 +107,15 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-bottom: 50px;">
-            <p style="text-align: justify;text-indent: 2em;line-height: 2.5em;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
+            <p>
                 寿平民宿小镇是一极具民宿特色的精品田园小镇，千百年间，泾河水蜿蜒流淌，古渡口摆渡船往来穿梭于烟波之上，日出日落繁忙不息。时光荏苒，摆渡人早已收桨登岸。如今，一座极具古韵的寿平民宿小镇正走入大众视野，再次让人们感受到泾河水畔院落的独特韵味。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-bottom: 50px;">
-            <p style="text-align: justify;text-indent: 2em;line-height: 2.5em;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
+            <p>
                 走进寿平民宿小镇，感受古渡文化，追溯千百年来渡口的历史变迁，寿平民宿小镇拓展区占地约25亩，由苹果、梨子、杏、李子等果树围合出5个不同的区域，区域内设置各种拓展器材，让学员在拓展体验的过程中，增强团队意识、培养团队协作能力、自我管理能力并体验田园风光。</p>
         </div>
     </div>

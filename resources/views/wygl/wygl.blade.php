@@ -24,18 +24,18 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="{{ asset('images/wygl_dt.jpg') }}" alt="" style="width: 100%;">
+            <img src="{{ asset('images/wygl_dt.jpg') }}" alt=""  class="img-100">
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 50px;">
-            <img src=" {{ asset('images/wygl_z.png') }}" alt="" style="width: 99%;">
+            <img src=" {{ asset('images/wygl_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-bottom: 50px;">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
             <p style="text-indent: 2em;">泾河新城城服公司负责泾河新城内各项目的物业管理工作，已建立了一支会管理、精业务、肯奉献、高素质、服务优的物业管理队伍，目前物业管理部门有土建工程师、弱电工程师、强电工程师、市政物业运营管理、设备管理员、绿化维护以及消防安全等多专业管理人员。随着泾河新城建设步伐的加快，还将继续扩大业务，通过多种方式展现具有特色的物业管理理念，在泾河新城的发展趋势下，配合做好区域内各项目的物业管理工作。</p>
         </div>
     </div>
