@@ -31,8 +31,8 @@
     </div>
 
     <div class="row" style="line-height: 2em;margin-bottom: 50px;">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <p style="text-indent: 2em;text-align: justify;">为丰富广大员工的业余生活，完善公司团队建设制度，增强员工之间的沟通与交流，丰富员工的业余文化生活，增进各部门之间的合作与凝聚力，营造积极向上、团结奋进的企业文化氛围，根据公司实际，我们定期制定团建方案、丰富团建内容，力求通过团建活动的开展，为公司打造一支团结、民主、高效、务实的队伍。</p>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys">
+            <p>为丰富广大员工的业余生活，完善公司团队建设制度，增强员工之间的沟通与交流，丰富员工的业余文化生活，增进各部门之间的合作与凝聚力，营造积极向上、团结奋进的企业文化氛围，根据公司实际，我们定期制定团建方案、丰富团建内容，力求通过团建活动的开展，为公司打造一支团结、民主、高效、务实的队伍。</p>
         </div>
     </div>
 

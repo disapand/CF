@@ -47,13 +47,13 @@
                     <img src="{{ asset('images/cyfa_z.png') }}" alt="">
                 </div>
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p>查看详情 >></p>
+                    <p><a href="{{ url('/zsyy/cyfh') }}">查看详情 >></a></p>
                 </div>
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                     <img src="{{ asset('images/cwt_z.png') }}" alt="">
                 </div>
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p>查看详情 >></p>
+                    <p><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
                 </div>
             </div>
             <div class="row">
@@ -70,13 +70,13 @@
                         <img src="{{ asset('images/spms_z.png') }}" alt="">
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                        <p>查看详情 >></p>
+                        <p><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                         <img src="{{ asset('images/jhzh_z.png') }}" alt="">
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                        <p>查看详情 >></p>
+                        <p><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
                     </div>
                 </div>
                 <div class="row">
@@ -94,13 +94,13 @@
                         <img src="{{ asset('images/jhrl_z.png') }}" alt="">
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                        <p>查看详情 >></p>
+                        <p><a href="{{ url('/wygl/sy') }}">查看详情 >></a></p>
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                         <img src="{{ asset('images/cwjy_z.png') }}" alt="">
                     </div>
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                        <p>查看详情 >></p>
+                        <p><a href="{{ url('/wygl/zz') }}">查看详情 >></a></p>
                     </div>
                 </div>
                 <div class="row" style="margin-bottom: 150px;">
