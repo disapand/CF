@@ -30,11 +30,13 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\News whereTrash($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\News whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string $sort
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\News whereSort($value)
  */
 class News extends Model
 {
     protected $fillable = [
-      'title','author','content','count','share','top','show','trash'
+      'title','author','content','count','share','top','show','trash','sort'
     ];
 
 }

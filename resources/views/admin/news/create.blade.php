@@ -12,7 +12,7 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                <form action="{{ route('news.store') }}" method="POST" role="form">
+                <form action="{{ route('news.store') }}" method="POST" role="form" id="news">
                     {!! csrf_field() !!}
                     <legend>添加新闻</legend>
 
@@ -27,9 +27,22 @@
                                value="{{ $author or '泾河城服' }}">
                     </div>
 
+                    <div class="form-group">
+                        <label for="sort" class="control-label">新闻类别</label>
+
+                        <select class="form-control" id="sort" name="sort">
+                            <option value="西咸新区" selected>西咸新区</option>
+                            <option value="泾河新城">泾河新城</option>
+                            <option value="泾河城服">泾河城服</option>
+
+                        </select>
+
+                    </div>
+
+
                     <script id="ueditor" name="content" type="text/plain"></script>
 
-                    <button type="submit" class="btn btn-primary" style="margin:20px 0;">添加</button>
+                    <button type="submit" class="btn btn-primary" style="margin:20px 0;" id="submit">添加</button>
                 </form>
             </div>
         </div>
@@ -43,14 +56,25 @@
     @parent
     <script src="https://cdn.bootcss.com/bootstrap-switch/4.0.0-alpha.1/js/bootstrap-switch.js"></script>
     <script type="text/javascript">
-        var ue = UE.getEditor('ueditor',{
+        var ue = UE.getEditor('ueditor', {
             //一些参数
-            elementPathEnabled:false,
-            wordCount:false,
+            elementPathEnabled: false,
+            wordCount: false,
+            initialFrameHeight: 500,
         });
         ue.ready(function () {
             ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.
         });
+
+        $('#submit').click(function () {
+            if ($('#title').val() != null && $('#title').val() != '' && $('#title').val() != undefined
+                && $('#author').val() != null && $('#author').val() != '' && $('#author').val() != undefined
+                && ue.getContent() != '' && ue.getContent() != null) {
+            } else {
+                alert('标题、作者和新闻内容都不能为空！请确认填写后再次提交');
+                return false;
+            }
+        })
 
     </script>
 @endsection()

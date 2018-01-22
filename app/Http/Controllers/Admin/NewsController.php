@@ -17,8 +17,7 @@ class NewsController extends Controller
     {
         $title = '城服管理后台';
 
-        $news = News::where('trash', '!=', '1')->get();
-
+        $news = News::where('trash', '!=', '1') -> paginate(15);
         return view('admin.news.index', compact('title', 'news'));
     }
 
@@ -30,8 +29,8 @@ class NewsController extends Controller
     public function create()
     {
         $title = '添加新闻';
-        $author = '';
-        return view('admin.news.create', compact('title', 'author'));
+//        $author = '';
+        return view('admin.news.create', compact('title'));
     }
 
     /**
@@ -46,6 +45,7 @@ class NewsController extends Controller
             'title' => $request->input('title'),
             'author' => $request->input('author'),
             'content' => $request->input('content'),
+            'sort' => $request -> input('sort'),
             'count' =>  0,
             'share' =>  0,
             'trash' =>  false,
@@ -77,8 +77,9 @@ class NewsController extends Controller
     public function edit($id)
     {
         $new = News::findOrFail($id);
-//        dd($new);
-        return view('admin.news.edit', compact('new'));
+        $sort = ['西咸新区','泾河新区','泾河城服'];
+//        dd($sort);
+        return view('admin.news.edit', compact('new', 'sort'));
     }
 
     /**
@@ -93,6 +94,8 @@ class NewsController extends Controller
         $new = News::findOrFail($id);
         $new -> title = $request -> input('title');
         $new -> content = $request -> input('content');
+        $new['sort'] = $request -> input('sort');
+//        dd($new);
         $new -> save();
         return redirect() -> route('news.index');
     }
