@@ -5088,7 +5088,7 @@ tbody.collapse.in {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #008cd6;
 }
 
 .nav > li.disabled > a {
@@ -5106,7 +5106,7 @@ tbody.collapse.in {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: #008cd6;
   border-color: #3097D1;
 }
 
@@ -5122,7 +5122,7 @@ tbody.collapse.in {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #008cd6;
 }
 
 .nav-tabs > li {
@@ -5138,15 +5138,15 @@ tbody.collapse.in {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #ddd;
+  border-color: #008cd6 #008cd6 #008cd6;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  color: #fff;
+  background-color: #008cd6;
+  border: 1px solid #008cd6;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -5230,13 +5230,13 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ddd;
+  border: 1px solid #008cd6;
 }
 
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a,
   .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #008cd6;
     border-radius: 4px 4px 0 0;
   }
 
@@ -5246,7 +5246,7 @@ tbody.collapse.in {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #fff;
+    border-bottom-color: #008cd6;
   }
 }
 
@@ -8363,6 +8363,10 @@ h2,
 h3 {
   font-family: FZLT;
   color: #434343;
+}
+
+body {
+  font-size: 16px;
 }
 
 .container-fluid {
