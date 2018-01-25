@@ -52,14 +52,22 @@
             background-color: #8ec322;
         }
 
+        .btm {
+            opacity: 0.8;
+        }
+
+        .btm:hover, .btm:active {
+            opacity: 1;
+        }
+
     </style>
 
 @endsection
 
 @section('contents')
 
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row" style="margin-right: 0;margin-left: 0;width: 100%;">
+        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -84,7 +92,7 @@
     </div>
 
     {{-- 特色党建、企业扶贫、团队建设 --}}
-    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px;margin-left: 0;margin-right: 0">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -121,13 +129,14 @@
         </div>
     </div>
 
-    <div class="row" style="padding-top: 50px; padding-bottom: 50px;background-color: #eeeeee">
+    <div class="row"
+         style="padding-top: 50px; padding-bottom: 50px;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="images/xwzx.png" alt="">
+                    <img src="images/xwzx.png" alt="" class="center-block">
                 </div>
             </div>
 
@@ -196,8 +205,8 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
+        <div class="col-md-12" style="padding-right: 0;padding-left: 0;">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -221,11 +230,12 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-4" style="margin-top: 100px;margin-bottom: 50px;">
-                    <img src="images/fwdt.png" alt="">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-4"
+                     style="margin-top: 100px;margin-bottom: 50px;">
+                    <img src="images/fwdt.png" alt="" class="center-block">
                 </div>
             </div>
             <div class="row fwdt" style="margin-top: 50px; margin-bottom: 50px;">
@@ -281,94 +291,102 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12 vibg">
-            <div class="col-md-4 col-md-offset-3" style="margin-top: 50px;margin-bottom: 50px;">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="images/wy.jpg" alt="">
+    <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2">
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/wy.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/wy.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/wy.jpg" alt="">
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="images/wy.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/wy.jpg" alt="">
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- 如果需要导航按钮 -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
+                            <a href=""><img src="{{ asset('images/wyfuzn.png') }}" alt="" class="center-block btm"></a>
                         </div>
                     </div>
-                    <!-- 如果需要分页器 -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- 如果需要导航按钮 -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                            <a href=""><img src="{{ asset('images/jqfwzn.png') }}" alt="" class="center-block btm"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                            <a href=""><img src="{{ asset('images/zsyzzn.png') }}" alt="" class="center-block btm"></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-3 fw" style="margin-left: 20px;">
-                <div class="row" style="margin-top: 110px;">
-                    <img src="images/fz.png" alt="">
-                    <a href="" style="margin-left: 30px;"><img src="images/fwzx.png" alt=""></a>
-                </div>
-                <div class="row" style="margin-top: 50px;">
-                    <img src="images/ta.png" alt="">
-                    <a href="" style="margin-left: 30px;"><img src="images/jqfw.png" alt=""></a>
-                </div>
-                <div class="row" style="margin-top: 50px;">
-                    <img src="images/zhu.png" alt="">
-                    <a href="" style="margin-left: 30px;"><img src="images/zsyz.png" alt=""></a>
-                </div>
-
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3" style="margin-top: 50px;margin-bottom: 50px;">
-            <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab" data-toggle="tab">相关企事业单位</a>
-                </li>
-                <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab" data-toggle="tab">合作伙伴</a></li>
-                <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab" data-toggle="tab">行业网站链接</a>
-                </li>
-            </ul>
-
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="qsy">
-                    <ul style="list-style: none;">
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
-                    </ul>
-                </div>
-
-                <div role="tabpanel" class="tab-pane" id="hzhb">
-                    <ul style="list-style: none;">
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
-                    </ul>
-                </div>
-
-                <div role="tabpanel" class="tab-pane" id="hywz">
-                    <ul style="list-style: none;">
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
-                        <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
+    <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
+        <div class="col-md-8 col-md-offset-2" style="margin-top: 50px;margin-bottom: 50px;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab"
+                                                                  data-toggle="tab">相关企事业单位</a>
+                        </li>
+                        <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab"
+                                                   data-toggle="tab">合作伙伴</a></li>
+                        <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab"
+                                                   data-toggle="tab">行业网站链接</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="qsy">
+                            <ul style="list-style: none;">
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
+                            </ul>
+                        </div>
 
+                        <div role="tabpanel" class="tab-pane" id="hzhb">
+                            <ul style="list-style: none;">
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
+                            </ul>
+                        </div>
 
+                        <div role="tabpanel" class="tab-pane" id="hywz">
+                            <ul style="list-style: none;">
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 
 @endsection

@@ -43,6 +43,11 @@
             background-color: #eee;
         }
 
+        .footer .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
         .ewm {
             margin-top: 15%;
             margin-bottom: 3%;
@@ -58,6 +63,7 @@
             background-size: cover;
             height: 5px;
         }
+
 
     </style>
 </head>
@@ -107,11 +113,12 @@
             </div>
         </div>
     </div>
+</div>
+{{--正文内容--}}
+@yield('contents')
 
-    {{--正文内容--}}
-    @yield('contents')
-
-    {{--页面底部--}}
+{{--页面底部--}}
+<div class="container-fluid">
     <div class="footer">
 
         <div class="row">
