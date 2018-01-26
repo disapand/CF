@@ -60,6 +60,10 @@
             opacity: 1;
         }
 
+        .tab-content .active {
+            display: inline-block;
+        }
+
     </style>
 
 @endsection
@@ -141,7 +145,7 @@
             </div>
 
             <div class="row" style="margin-top: 50px;margin-bottom: 50px;">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -158,7 +162,7 @@
                     <!-- 如果需要分页器 -->
                     <div class="swiper-pagination fyq2"></div>
                 </div>
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
 
                     <ul class="nav nav-tabs nav-justified" role="tablist">
                         <li role="presentation" class="active"><a href="#xxxq" aria-controls="#xxxq" role="tab"
@@ -172,7 +176,7 @@
                     </ul>
 
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="xxxq">
+                        <div role="tabpanel" class="tab-pane active" id="xxxq" style="width: 100%;">
                             <ul>
                                 <li><a href="">泾河新城2017年第45周空气质量</a></li>
                                 <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
@@ -182,7 +186,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="jhxc">
+                        <div role="tabpanel" class="tab-pane" id="jhxc" style="width: 100%;">
                             <ul>
                                 <li><a href="">泾河新城2017年第45周空气质量</a></li>
                                 <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
@@ -191,7 +195,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="jhcf">
+                        <div role="tabpanel" class="tab-pane" id="jhcf" style="width: 100%;">
                             <ul>
                                 <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
                                 <li><a href="">泾河新城权责清单目录</a></li>
@@ -319,17 +323,17 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
-                            <a href=""><img src="{{ asset('images/wyfuzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/wygl') }}"><img src="{{ asset('images/wyfuzn.png') }}" alt="" class="center-block btm"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
-                            <a href=""><img src="{{ asset('images/jqfwzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/yxhd/jqld') }}"><img src="{{ asset('images/jqfwzn.png') }}" alt="" class="center-block btm"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
-                            <a href=""><img src="{{ asset('images/zsyzzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/zsyy') }}"><img src="{{ asset('images/zsyzzn.png') }}" alt="" class="center-block btm"></a>
                         </div>
                     </div>
                 </div>
@@ -353,9 +357,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 30px;">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="tab-content">
+                    <div class="tab-content" id="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="qsy">
                             <ul style="list-style: none;">
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
@@ -412,6 +416,18 @@
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
             })
+
+            /*Tabs内容居中*/
+            var tab = $('#tab-content');
+            var qsy = $('#qsy');
+            var hzhb = $('#hzhb');
+            var hywz = $('#hywz');
+            qsy_left = tab.width() / 2 - qsy.width() / 2;
+            hzhb_left = tab.width() / 2 - hzhb.width() / 2;
+            hywz_left = tab.width() / 2 - hywz.width() / 2;
+            qsy.attr('style', 'margin-left:' + qsy_left + 'px');
+            hzhb.attr('style', 'margin-left:' + hzhb_left + 'px');
+            hywz.attr('style', 'margin-left:' + hywz_left + 'px');
 
         })
     </script>

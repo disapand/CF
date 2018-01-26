@@ -20,6 +20,16 @@
     <li><a href="{{ url('/wygl/sy') }}"  class="active">商业</a></li>
 @endsection
 
+@section('css')
+    @parent
+    <style>
+        .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4 {
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+    </style>
+@endsection
+
 @section('contents')
     
     <div class="row">
@@ -29,32 +39,34 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block" style="margin-top: 150px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block" style="margin-top: 100px;">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/cyfhzx_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
             <p style="margin-top: 50px;text-indent: 2em;margin-bottom: 50px;">泾合热力位于泾河新城西南位置，由一座6层综合办公楼及独立餐厅组成。项目配备项目经理1名，项目主管1名，保洁员5名，前台接待1名。日常服务包含办公楼清洁、餐厅清洁、客房服务、前台接待、户外道路清扫等工作。</p>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 150px;">
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-3">
-            <img src=" {{ asset('images/sy1.jpg') }}" alt="" class="img-100">
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src=" {{ asset('images/sy2.jpg') }}" alt="" class="img-100">
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src=" {{ asset('images/sy3.jpg') }}" alt="" class="img-100">
+    <div class="row" style="margin-bottom: 100px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img src=" {{ asset('images/sy1.jpg') }}" alt="" class="img-100">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img src=" {{ asset('images/sy2.jpg') }}" alt="" class="img-100">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img src=" {{ asset('images/sy3.jpg') }}" alt="" class="img-100">
+            </div>
         </div>
     </div>
 

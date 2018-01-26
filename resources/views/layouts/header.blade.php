@@ -35,9 +35,9 @@
             color: #e9f4f4;
         }
 
-        a:hover {
+       /* a:hover {
             background-color: transparent !important;
-        }
+        }*/
 
         .footer {
             background-color: #eee;
@@ -64,6 +64,15 @@
             height: 5px;
         }
 
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .col-md-12, .col-xs-12, .col-lg-12, .col-sm-12 {
+            padding-left: 0;
+            padding-right: 0;
+        }
 
     </style>
 </head>
