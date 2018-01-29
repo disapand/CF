@@ -78,10 +78,10 @@
                         <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/banner1.jpg" alt="">
+                        <img src="images/banner2.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/banner1.jpg" alt="">
+                        <img src="images/banner3.jpg" alt="">
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
@@ -178,29 +178,29 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="xxxq" style="width: 100%;">
                             <ul>
-                                <li><a href="">泾河新城2017年第45周空气质量</a></li>
-                                <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="">泾河新城权责清单目录</a></li>
-                                <li><a href="">陕西省西咸新区泾河新城政务服务中心</a></li>
-                                <li><a href="">产为孵化基地规划公示牌</a></li>
+                                <li><a href="{{ url('/news') }}">泾河新城2017年第45周空气质量</a></li>
+                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
+                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
+                                <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
+                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="jhxc" style="width: 100%;">
                             <ul>
-                                <li><a href="">泾河新城2017年第45周空气质量</a></li>
-                                <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="">泾河新城权责清单目录</a></li>
-                                <li><a href="">产为孵化基地规划公示牌</a></li>
+                                <li><a href="{{ url('/news') }}">泾河新城2017年第45周空气质量</a></li>
+                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
+                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
+                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="jhcf" style="width: 100%;">
                             <ul>
-                                <li><a href="">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="">泾河新城权责清单目录</a></li>
-                                <li><a href="">陕西省西咸新区泾河新城政务服务中心</a></li>
-                                <li><a href="">产为孵化基地规划公示牌</a></li>
+                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
+                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
+                                <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
+                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
                             </ul>
                         </div>
                     </div>
@@ -360,7 +360,7 @@
             <div class="row" style="margin-top: 30px;">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="tab-content" id="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="qsy">
+                        <div role="tabpanel" class="tab-pane active" id="qsy" style="margin-left: 200px;">
                             <ul style="list-style: none;">
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
@@ -370,7 +370,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hzhb">
+                        <div role="tabpanel" class="tab-pane" id="hzhb" style="margin-left: 280px;">
                             <ul style="list-style: none;">
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
@@ -379,7 +379,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hywz">
+                        <div role="tabpanel" class="tab-pane" id="hywz" style="margin-left: 280px;">
                             <ul style="list-style: none;">
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
                                 <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
@@ -418,17 +418,6 @@
             })
 
             /*Tabs内容居中*/
-            var tab = $('#tab-content');
-            var qsy = $('#qsy');
-            var hzhb = $('#hzhb');
-            var hywz = $('#hywz');
-            qsy_left = tab.width() / 2 - qsy.width() / 2;
-            hzhb_left = tab.width() / 2 - hzhb.width() / 2;
-            hywz_left = tab.width() / 2 - hywz.width() / 2;
-            qsy.attr('style', 'margin-left:' + qsy_left + 'px');
-            hzhb.attr('style', 'margin-left:' + hzhb_left + 'px');
-            hywz.attr('style', 'margin-left:' + hywz_left + 'px');
-
         })
     </script>
 
