@@ -28,14 +28,14 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 50px;">
+        <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 100px;margin-bottom: 50px;">
             <img src=" {{ asset('images/zsyy/cwt_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 150px;">
-            <p style="text-indent: 2em;text-align: justify">崇文塔景区占地面积300余亩。景区以高87.218米的中国第一高砖塔-----崇文塔为核心,拥有2.48万㎡综合商业区、3000㎡运动健身区域；其中综合商业区分为4个区域，位于崇文塔的四个方向，崇文塔文化商业广场，一期以优质餐饮、休闲娱乐、办公服务、地方特色展馆为四大业态，缔造全新消费体验以及高端感官视觉盛宴，形成以“吃、住、行、旅、娱、购、体验”等功能来满足和丰富消费者的需求。</p>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+            <p>崇文塔景区占地面积300余亩。景区以高87.218米的中国第一高砖塔-----崇文塔为核心,拥有2.48万㎡综合商业区、3000㎡运动健身区域；其中综合商业区分为4个区域，位于崇文塔的四个方向，崇文塔文化商业广场，一期以优质餐饮、休闲娱乐、办公服务、地方特色展馆为四大业态，缔造全新消费体验以及高端感官视觉盛宴，形成以“吃、住、行、旅、娱、购、体验”等功能来满足和丰富消费者的需求。</p>
         </div>
     </div>
 

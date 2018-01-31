@@ -28,14 +28,14 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 50px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 100px;margin-bottom: 50px;">
             <img src=" {{ asset('images/zsyy/zsyy_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 150px;">
-            <p style="text-indent: 2em;text-align: justify">泾河新城城服公司负责泾河新城内各项目的招商管理工作，已建立了一支会管理、精业务、高素质、服务优的招商管理队伍，目前主要负责区域内崇文塔景区、产业孵化中心、崇文佳苑社区的招商管理工作。随着泾河新城建设步伐的加快，还将继续承接各项目的招商管理，秉承“诚信实现双赢，服务泾河新城为原则”，在泾河新城的发展趋势下，配合做好区域内各项目的招商管理工作。</p>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+            <p>泾河新城城服公司负责泾河新城内各项目的招商管理工作，已建立了一支会管理、精业务、高素质、服务优的招商管理队伍，目前主要负责区域内崇文塔景区、产业孵化中心、崇文佳苑社区的招商管理工作。随着泾河新城建设步伐的加快，还将继续承接各项目的招商管理，秉承“诚信实现双赢，服务泾河新城为原则”，在泾河新城的发展趋势下，配合做好区域内各项目的招商管理工作。</p>
         </div>
     </div>
 

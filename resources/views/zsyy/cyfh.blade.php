@@ -28,20 +28,20 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 50px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 100px;margin-bottom: 50px;">
             <img src=" {{ asset('images/zsyy/cyfh_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-top: 50px;">
-            <p style="text-indent: 2em;text-align: justify">泾河新城产业孵化中心是由泾河新城开发建设（集团）有限公司开发建设。项目位于西安整体区位中轴线上，高泾南路以北、包茂复线以东、崇文塔北侧，整体地块东、南两侧紧邻城市干道，高速道路位于该地块西侧，区位优势明显。占地约6.5万平方米，总建筑面积63805平方米，是陕西省西咸新区泾河新城重点项目。</p>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
+            <p>泾河新城产业孵化中心是由泾河新城开发建设（集团）有限公司开发建设。项目位于西安整体区位中轴线上，高泾南路以北、包茂复线以东、崇文塔北侧，整体地块东、南两侧紧邻城市干道，高速道路位于该地块西侧，区位优势明显。占地约6.5万平方米，总建筑面积63805平方米，是陕西省西咸新区泾河新城重点项目。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 150px;">
-            <p style="text-indent: 2em;text-align: justify">产业孵化中心一号楼致力打造成为泾河新城中小企业孵化基地，其中1号、2号、4号楼对外招商，5号楼用于政务服务大厅、企业展厅，泾河税务和泾河工商办公场地；3号楼用于泾河新城管委会、泾河新城开发建设(集团)有限公司和外协单位办公使用，6号楼为公寓楼，7号楼为食堂和运动场地。</p>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+            <p >产业孵化中心一号楼致力打造成为泾河新城中小企业孵化基地，其中1号、2号、4号楼对外招商，5号楼用于政务服务大厅、企业展厅，泾河税务和泾河工商办公场地；3号楼用于泾河新城管委会、泾河新城开发建设(集团)有限公司和外协单位办公使用，6号楼为公寓楼，7号楼为食堂和运动场地。</p>
         </div>
     </div>
 

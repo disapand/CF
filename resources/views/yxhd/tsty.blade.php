@@ -28,20 +28,20 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 50px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 100px;margin-bottom: 50px;">
             <img src=" {{ asset('images/yxhd/tsty_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3 wzys" style="margin-bottom: 50px;">
-            <p style="text-indent: 2em;text-align: justify">“耳闻之不如目见之，目见之不如足践之”，研学旅行就是将书本知识和生活经验深度融合,在活动中做到寓学于乐，知行合一。学生们在老师的指导下自己动手绘制马勺脸谱，提笔感受书法艺术，体验面塑文化，在崇文塔广场领略腰鼓魅力。从听、看到动手实践，研学旅行使同学们在享受互动体验的同时，更深入了解了中华民族的传统艺术知识，使其得以更好的传承。</p>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
+            <p>“耳闻之不如目见之，目见之不如足践之”，研学旅行就是将书本知识和生活经验深度融合,在活动中做到寓学于乐，知行合一。学生们在老师的指导下自己动手绘制马勺脸谱，提笔感受书法艺术，体验面塑文化，在崇文塔广场领略腰鼓魅力。从听、看到动手实践，研学旅行使同学们在享受互动体验的同时，更深入了解了中华民族的传统艺术知识，使其得以更好的传承。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/yxhd/tsty_bg.png') }}" alt="" style="width: 100%;margin-bottom: 150px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <img src="{{ asset('images/yxhd/tsty_bg.png') }}" alt="" style="width: 100%;margin-bottom: 100px;">
         </div>
     </div>
     

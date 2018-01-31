@@ -1,5 +1,31 @@
 @extends('layouts.header')
 
+@section('css')
+    @parent
+    <link rel="stylesheet" href="{{ asset('css/swiper.custom.css') }}">
+    <style>
+        .prev2{
+            margin-left: -95px;
+            background-color: #eee;
+            background-size: 60% 60%;
+            width: 30px;
+            height: 50px;
+        }
+
+        .next2{
+            margin-right: -95px;
+            background-color: #eee;
+            background-size: 60% 60%;
+            width: 30px;
+            height: 50px;
+        }
+
+        .prev2:hover, .next2:hover {
+            background-color: #008cd5;
+        }
+    </style>
+@endsection
+
 @section('yjdh')
     <li>
         <a href="{{ url('/') }}">走进城服</a>
@@ -60,6 +86,10 @@
                     <img src="{{ asset('images/wyjl/wljl_xt3.jpg') }}" alt="" style="width: 99%;">
                 </div>
             </div>
+
+            <div class="swiper-container"></div>
+            <div class="swiper-button-prev prev2"></div>
+            <div class="swiper-button-next next2"></div>
 
             <div class="row" style="margin-top: 20px;">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
