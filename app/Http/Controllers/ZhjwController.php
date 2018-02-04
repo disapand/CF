@@ -67,7 +67,7 @@ class ZhjwController extends Controller
                 break;
             case 'zhcs':
                 $title .= '智慧城市';
-                $tzlj .= 'szgc';
+                $tzlj .= 'zhcs';
                 break;
             default:
 

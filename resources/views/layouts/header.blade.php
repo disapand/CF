@@ -17,10 +17,6 @@
             margin-right: 10%;
         }
 
-        .ejdh ul {
-            height: 60px;
-        }
-
         .ejdh ul a {
             padding-top: 15px;
             padding-bottom: 0;
@@ -43,6 +39,11 @@
             background-color: #eee;
         }
 
+        .footer .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
         .ewm {
             margin-top: 15%;
             margin-bottom: 3%;
@@ -59,33 +60,53 @@
             height: 5px;
         }
 
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .col-md-12, .col-xs-12, .col-lg-12, .col-sm-12 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
     </style>
 </head>
 <body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logo_cf.png') }}" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav" id="yjdh" style="padding-top: 10px;">
+            @section('yjdh')
+                <li>
+                    <a href="{{ url('/') }}" class="active">走进城服</a>
+                </li>
+                <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+                <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+                <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
+                <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
+                <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
+                <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+            @show
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
 <div class="container-fluid">
-    {{--导航栏--}}
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-            <img src=" {{ asset('images/logo.png') }}" alt="泾河城服">
-        </div>
-        <div>
-            <ul class="nav navbar-nav" style="font-family:FZLT" id="yjdh">
-                @section('yjdh')
-                    <li>
-                        <a href="{{ url('/') }}" class="active">走进城服</a>
-                    </li>
-                    <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-                    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-                    <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
-                    <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
-                    <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
-                    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
-                @show
-            </ul>
-        </div>
-    </nav>
-    <div class="col-md-12 navbar-bg">
-        <div class="row">
+    <div class="row" style="margin: 0">
+        <div class="col-md-12 navbar-bg">
             <div class="col-md-12 ejdh">
                 <ul class="nav navbar-nav ejdh" id="ejdh">
                     @section('ejdh')
@@ -97,11 +118,12 @@
             </div>
         </div>
     </div>
+</div>
+{{--正文内容--}}
+@yield('contents')
 
-    {{--正文内容--}}
-    @yield('contents')
-
-    {{--页面底部--}}
+{{--页面底部--}}
+<div class="container-fluid">
     <div class="footer">
 
         <div class="row">
@@ -116,7 +138,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <p class="text-center">旅游咨询热线</p>
+                <p class="text-center">咨询热线</p>
             </div>
         </div>
 
@@ -138,7 +160,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <p class="text-center" style="font-size: 0.8em; color: #434343; margin-top: 5%; margin-bottom: 5%">
-                    泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE NEW CITY &copy; All Right Reserve</p>
+                    泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE CITY SERVICE &copy; All Right Reserve</p>
             </div>
         </div>
 

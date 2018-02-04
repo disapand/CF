@@ -22,44 +22,44 @@
 @section('contents')
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href=" {{ url('/yxhd/jqld/blhx') }}"><img src="{{ asset('images/yxhd/jqld/jqld_blhx.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;margin-top: 150px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href=" {{ url('/yxhd/jqld/blhx') }}"><img src="{{ asset('images/yxhd/jqld/jqld_blhx.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;margin-top: 100px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/hsjy') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/hsjy') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/ddyd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ddyd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/ddyd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ddyd.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/hsjy2') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy2.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/hsjy2') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy2.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/ngty') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ngty.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/ngty') }}"><img src="{{ asset('images/yxhd/jqld/jqld_ngty.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/spgd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_spgd.jpg') }}" alt="" style="width: 100%;margin-bottom: 50px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/spgd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_spgd.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-            <a href="{{ url('/yxhd/jqld/sztz') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 150px;"></a>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld/sztz') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 100px;"></a>
         </div>
     </div>
     

@@ -36,6 +36,14 @@ Route::get('/dzfw/zwpx','DzfwController@index_zw');
 Route::get('/zhfw', 'ZhjwController@index');
 Route::get('/zhfw/{bt}', 'ZhjwController@show');
 
+Route::get('/news', function (){
+    return view('news.xxxq');
+});
+
+Route::get('/news/1', function (){
+    return view('news.news1');
+});
+
 Route::get('/{bt}', 'TestController@show');
 Route::group(['prefix' => '/admin'], function () {
     Route::resource('news','Admin\NewsController');
