@@ -45,3 +45,6 @@ Route::get('/news/1', function (){
 });
 
 Route::get('/{bt}', 'TestController@show');
+Route::group(['prefix' => '/admin'], function () {
+    Route::resource('news','Admin\NewsController');
+});
