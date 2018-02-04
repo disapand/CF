@@ -35,10 +35,6 @@
             color: #e9f4f4;
         }
 
-       /* a:hover {
-            background-color: transparent !important;
-        }*/
-
         .footer {
             background-color: #eee;
         }
