@@ -178,7 +178,7 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="xxxq" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news') }}">泾河新城2017年第45周空气质量</a></li>
+                                <li><a href="{{ url('/news/sort/西咸新区') }}">泾河新城2017年第45周空气质量</a></li>
                                 <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
                                 <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
                                 <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
@@ -188,7 +188,7 @@
 
                         <div role="tabpanel" class="tab-pane" id="jhxc" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news') }}">泾河新城2017年第45周空气质量</a></li>
+                                <li><a href="{{ url('/news/sort/泾河新城') }}">泾河新城2017年第45周空气质量</a></li>
                                 <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
                                 <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
                                 <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
@@ -197,7 +197,7 @@
 
                         <div role="tabpanel" class="tab-pane" id="jhcf" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
+                                <li><a href="{{ url('/news/sort/泾河城服') }}">关于开展泾河新城砂石场、白灰场</a></li>
                                 <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
                                 <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
                                 <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>

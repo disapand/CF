@@ -44,6 +44,8 @@ Route::get('/news/1', function (){
     return view('news.news1');
 });
 
+Route::get('/news/sort/{sort}','Admin\NewsController@show_by_sort');
+
 Route::get('/{bt}', 'TestController@show');
 Route::group(['prefix' => '/admin'], function () {
     Route::resource('news','Admin\NewsController');

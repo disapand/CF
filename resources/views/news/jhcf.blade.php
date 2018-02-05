@@ -57,7 +57,7 @@
     <div class="container-fluid">
         <div class="row" style="margin-top: 100px;">
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-                <img src=" {{ asset('images/news/news_xxxq_t.png') }}" alt="" class="center-block img-100">
+                <img src=" {{ asset('images/news/news_jhcf_t.png') }}" alt="" class="center-block img-100">
             </div>
         </div>
         <div class="row" style="margin-top: 60px;margin-bottom: 80px;">

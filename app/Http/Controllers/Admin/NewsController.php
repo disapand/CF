@@ -67,7 +67,25 @@ class NewsController extends Controller
     {
         $new = News::findOrFail($id);
 //        dd($new);
-        return view('admin.news.show', compact('new'));
+        return view('news.news1', compact('new'));
+    }
+
+    public function show_by_sort($sort){
+        $news = News::where(['sort' => $sort, 'trash' => false])->paginate(15);
+        $tzlj = 'news.';
+        switch ($sort){
+            case '西咸新区':
+                $tzlj .= 'xxxq';
+                break;
+            case '泾河城服':
+                $tzlj .= 'jhcf';
+                break;
+            case '泾河新城':
+                $tzlj .= 'jhxq';
+                break;
+            default:;
+        }
+        return view($tzlj, compact('news'));
     }
 
     /**
