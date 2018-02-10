@@ -1,15 +1,24 @@
 @extends('layouts.header')
 
 @section('yjdh')
+    <li>
+        <a href="{{ url('/admin/news') }}" class="active">新闻管理</a>
+    </li>
 @endsection
 
 @section('ejdh')
+    <li>
+        <a href="{{ url('/admin/news') }}" class="active">新闻列表</a>
+    </li>
+    <li>
+        <a href="{{ url('/admin/news/create') }}">添加新闻</a>
+    </li>
 @endsection
 
 @section('contents')
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style="margin-top: 30px">
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                 <table class="table table-hover table-striped">
                     <thead>
