@@ -178,29 +178,25 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="xxxq" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news/sort/西咸新区') }}">泾河新城2017年第45周空气质量</a></li>
-                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
-                                <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
-                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
+                                @foreach($xxxq as $xx)
+                                    <li><a href="{{ url('/admin/news/'.$xx['id'])}}">{{ $xx['title'] }}</a></li>
+                                @endforeach
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="jhxc" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news/sort/泾河新城') }}">泾河新城2017年第45周空气质量</a></li>
-                                <li><a href="{{ url('/news') }}">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
-                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
+                                @foreach($jhxq as $xq)
+                                    <li><a href="{{ url('/admin/news/'.$xq['id'])}}">{{ $xq['title'] }}</a></li>
+                                @endforeach
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="jhcf" style="width: 100%;">
                             <ul>
-                                <li><a href="{{ url('/news/sort/泾河城服') }}">关于开展泾河新城砂石场、白灰场</a></li>
-                                <li><a href="{{ url('/news') }}">泾河新城权责清单目录</a></li>
-                                <li><a href="{{ url('/news') }}">陕西省西咸新区泾河新城政务服务中心</a></li>
-                                <li><a href="{{ url('/news') }}">产为孵化基地规划公示牌</a></li>
+                                @foreach($jhcf as $cf)
+                                    <li><a href="{{ url('/admin/news/'.$cf['id'])}}">{{ $cf['title'] }}</a></li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
@@ -323,17 +319,20 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
-                            <a href="{{ url('/wygl') }}"><img src="{{ asset('images/wyfuzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/wygl') }}"><img src="{{ asset('images/wyfuzn.png') }}" alt=""
+                                                              class="center-block btm"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
-                            <a href="{{ url('/yxhd/jqld') }}"><img src="{{ asset('images/jqfwzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/yxhd/jqld') }}"><img src="{{ asset('images/jqfwzn.png') }}" alt=""
+                                                                   class="center-block btm"></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
-                            <a href="{{ url('/zsyy') }}"><img src="{{ asset('images/zsyzzn.png') }}" alt="" class="center-block btm"></a>
+                            <a href="{{ url('/zsyy') }}"><img src="{{ asset('images/zsyzzn.png') }}" alt=""
+                                                              class="center-block btm"></a>
                         </div>
                     </div>
                 </div>
