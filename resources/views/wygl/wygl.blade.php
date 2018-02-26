@@ -26,9 +26,41 @@
     @parent
     <style>
         .col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2 {
-            padding-right: 1px;
-            padding-left: 1px;
+            padding-right: 5px;
+            padding-left: 5px;
         }
+
+        .tpbt{
+            margin-bottom: -2px;
+        }
+
+        .tpbt span {
+            color: #fff;
+            font-size: 1.5em;
+            display: inline-block;
+            margin-left: -15px;
+            padding-left: 15px;
+            padding-right: 75px;
+            background-image:url('{{ asset('images/tpbt_bg.png') }}');
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        .tpbt a {
+            line-height: 2.5em;
+            padding-left: 50px;
+        }
+
+        .tpbt:hover>div>a {
+            text-decoration: none;
+            color: #008cd6;
+        }
+
+        .tpbt:hover div span {
+            cursor: pointer;
+            background-image: url("{{ asset('images/tpbt_bg_hv.png') }}");
+        }
+
     </style>
 @endsection
 
@@ -47,81 +79,209 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 50px;">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+            <h3 style="color: #008cd6;">一、概况</h3>
             <p style="text-indent: 2em;">
-                泾河新城城服公司负责泾河新城内各项目的物业管理工作，已建立了一支会管理、精业务、肯奉献、高素质、服务优的物业管理队伍，目前物业管理部门有土建工程师、弱电工程师、强电工程师、市政物业运营管理、设备管理员、绿化维护以及消防安全等多专业管理人员。随着泾河新城建设步伐的加快，还将继续扩大业务，通过多种方式展现具有特色的物业管理理念，在泾河新城的发展趋势下，配合做好区域内各项目的物业管理工作。</p>
+                泾河城服物业管理团队是一支会管理、精业务、肯奉献、高素质、服务优的队伍。公司在管物业项目10余个，服务人员120余人，管理面积超过30余万平方米，项目涵盖高端住宅区、商业写字楼、政府办公楼、商业综合体、旅游综合体等。业务范围涉及项目前期规划、高级会议服务、星级酒店服务、环境卫生服务、安全秩序维护、园林绿化养护、设备维护保养、配套设施管理、资产委托管理等。</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+            <h3 style="color: #008cd6;">二、服务理念</h3>
+            <p style="text-indent: 2em;">
+                践行“物有所依，业有所托”的服务承诺，发扬“精细、专业、诚信、和谐”的物业管理理念，以物业管理服务、增值服务为主要业务，达到物业管理精细化、专业服务标准化、管理手段现代化。</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+            <h3 style="color: #008cd6;">三、发展愿景</h3>
+            <p style="text-indent: 2em;">
+                打造泾河新城乃至西咸新区管理服务的标杆企业，不断强化标准，成为全国物业管理服务行业标准。</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 50px;">
+            <h3 style="color: #008cd6;">四、发展优势</h3>
+            <p style="text-indent: 2em;">
+                本土化网络布局，聚焦行业终端的服务战略定位，优秀的管理团队和人才梯队建设，完善的管理体系保障，为物业保值增值的全方位贴心服务。</p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row" style="margin-top: 20px;">
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/cyfa_z.png') }}" alt="">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                	<div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        	<span>产业孵化中心</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/zsyy/cyfh') }}">查看更多 >></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/zsyy/cyfh') }}">查看详情 >></a></p>
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/cwt_z.png') }}" alt="">
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>崇文塔景区</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl1.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl1.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl2.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl2.jpg') }}" alt="" class="img-100">
                 </div>
             </div>
 
             <div class="row" style="margin-top: 20px;">
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/spms_z.png') }}" alt="">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>崇文·尚学</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/jhzh_z.png') }}" alt="">
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/wygl/whjq') }}">查看详情 >></a></p>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>崇文佳苑</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/zz') }}">查看更多 >></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl3.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl3.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl4.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl4.jpg') }}" alt="" class="img-100">
                 </div>
             </div>
-
 
             <div class="row" style="margin-top: 20px;">
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/jhrl_z.png') }}" alt="">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河公安分局</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>{{--没加链接--}}
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/wygl/sy') }}">查看详情 >></a></p>
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <img src="{{ asset('images/cwjy_z.png') }}" alt="">
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
-                    <p class="text-center"><a href="{{ url('/wygl/zz') }}">查看详情 >></a></p>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河消防</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/zz') }}">查看更多 >></a>{{--没加链接--}}
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 150px;">
+            <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl5.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl5.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl6.jpg') }}" alt="" style="width: 98%;">
+                    <img src=" {{ asset('images/wygl6.jpg') }}" alt="" class="img-100">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>信访办</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>{{--没加链接--}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河热力物业</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src=" {{ asset('images/wygl7.jpg') }}" alt="" class="img-100">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src=" {{ asset('images/wygl8.jpg') }}" alt="" class="img-100">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>寿平民宿小镇</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span style="margin-left: -25px">泾河智慧农业园</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/cyy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src=" {{ asset('images/wygl9.jpg') }}" alt="" class="img-100">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src=" {{ asset('images/wygl10.jpg') }}" alt="" class="img-100">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>餐饮管理</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>{{--没加链接--}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 100px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src=" {{ asset('images/wygl11.jpg') }}" alt="" class="img-100">
                 </div>
             </div>
         </div>

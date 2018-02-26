@@ -5,7 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="bookmark" type="image/x-icon" href="favicon.ico"/>
+    　　
+    <link rel="shortcut icon" href="favicon.ico">
+    　　
+    <link rel="icon" href="favicon.ico">
     @section('css')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}"></script>
@@ -35,9 +40,9 @@
             color: #e9f4f4;
         }
 
-       /* a:hover {
-            background-color: transparent !important;
-        }*/
+        /* a:hover {
+             background-color: transparent !important;
+         }*/
 
         .footer {
             background-color: #eee;
@@ -51,6 +56,7 @@
         .ewm {
             margin-top: 15%;
             margin-bottom: 3%;
+            width: 50%;
         }
 
         .dtbz {
@@ -97,12 +103,13 @@
                 <li>
                     <a href="{{ url('/') }}" class="active">走进城服</a>
                 </li>
-                <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-                <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-                <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
-                <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
-                <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
                 <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+                <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
+                <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
+                <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+                <li><a href="{{ url('/wygl') }}">市政工程</a></li>{{--还没有开发--}}
+                <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+                {{--<li><a href="{{ url('/dzfw') }}">定制服务</a></li>--}}{{--跟综合服务合并--}}
             @show
         </ul>
     </div><!-- /.navbar-collapse -->
@@ -142,7 +149,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <p class="text-center">咨询热线</p>
+                <p class="text-center">联系我们</p>
             </div>
         </div>
 

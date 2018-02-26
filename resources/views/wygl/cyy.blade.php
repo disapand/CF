@@ -1,5 +1,15 @@
 @extends('layouts.header')
 
+@section('css')
+    @parent
+    <style>
+        .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2{
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+    </style>
+@endsection
+
 @section('yjdh')
     <li>
         <a href="{{ url('/') }}">走进城服</a>

@@ -64,6 +64,32 @@
             display: inline-block;
         }
 
+        .yqlj ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .yqlj li {
+            list-style: none;
+        }
+
+        .yqlj p {
+            font-size: 1.8em;
+            color: #008cd5;
+        }
+
+        .yqlj a {
+            display: inline-block;
+            padding: 10px 0;
+            width: 200px;
+        }
+
+        .yqlj a:hover{
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #008cd5;
+        }
+
     </style>
 
 @endsection
@@ -104,7 +130,7 @@
                         <img src="images/tp1.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
                             <h3><a href="{{ url('/tsdj') }}">特色党建</a></h3>
-                            <p>围绕业务抓党建 抓好党建促发展</p>
+                            <p>围绕业务抓党建 <br /> 抓好党建促发展</p>
                         </div>
                     </div>
 
@@ -115,7 +141,7 @@
                         <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
                             <h3><a href="{{ url('/qyfp') }}">企业扶贫</a></h3>
-                            <p>践行精准扶贫政策 加快城乡统筹发展</p>
+                            <p>践行精准扶贫政策 <br /> 加快城乡统筹发展</p>
                         </div>
                     </div>
                 </div>
@@ -125,7 +151,7 @@
                         <img src="images/tp3.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
                             <h3><a href="{{ url('/tdjs') }}">团队建设</a></h3>
-                            <p>科技创新服务 诚信实现双赢 专业成就精品</p>
+                            <p>科技创新服务 诚信实现 <br /> 双赢 专业成就精品</p>
                         </div>
                     </div>
                 </div>
@@ -260,7 +286,7 @@
                         <img src="images/fw1.jpg" alt="..." style="width: 100%;">
                         <hr>
                         <div class="caption">
-                            <h3><a href="#">定制服务动态</a></h3>
+                            <h3><a href="#">市政工程动态</a></h3>
                             <ul>
                                 <li>泾河新城2017年第45周空气质量</li>
                                 <li>关于开展泾河新城砂石场、白灰场</li>
@@ -340,18 +366,18 @@
         </div>
     </div>
 
-    <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
-        <div class="col-md-8 col-md-offset-2" style="margin-top: 50px;margin-bottom: 50px;">
+    <div class="row" style="margin-top: 50px;margin-bottom: 50px">
+        {{--<div class="col-md-8 col-md-offset-2" style="margin-top: 50px;margin-bottom: 50px;">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <ul class="nav nav-tabs nav-justified" role="tablist">
                         <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab"
-                                                                  data-toggle="tab">相关企事业单位</a>
+                                                                  data-toggle="tab">相关链接</a>
                         </li>
                         <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab"
-                                                   data-toggle="tab">合作伙伴</a></li>
+                                                   data-toggle="tab">新闻媒体网站</a></li>
                         <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab"
-                                                   data-toggle="tab">行业网站链接</a>
+                                                   data-toggle="tab">合作伙伴</a>
                         </li>
                     </ul>
                 </div>
@@ -361,32 +387,64 @@
                     <div class="tab-content" id="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="qsy" style="margin-left: 200px;">
                             <ul style="list-style: none;">
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">西咸新区</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">五个新城</a></li>
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="hzhb" style="margin-left: 280px;">
                             <ul style="list-style: none;">
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_11.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">新华网</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">人民网</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">华商网</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">陕西传媒网</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">陕西日报</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">华商报</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">西安晚报</a></li>
                             </ul>
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="hywz" style="margin-left: 280px;">
                             <ul style="list-style: none;">
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_03.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_05.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_07.jpg" alt=""></li>
-                                <li style="float: left;margin-right: 10px;"><img src="images/hze_09.jpg" alt=""></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">茯茶镇</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">泾河实业</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">添丽茶事</a></li>
+                                <li style="float: left;margin-right: 10px;"><a href="{{ url('') }}">煜恒国际教育旅行社</a></li>
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>--}}
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
+        	<div class="row yqlj text-center">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                	<p>相关链接</p>
+                    <ul>
+                        <li><a href="">西咸新区</a></li>
+                        <li><a href="">五个新城</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <p>新闻媒体网站</p>
+                    <ul>
+                        <li><a href="">新华网</a></li>
+                        <li><a href="">人民网</a></li>
+                        <li><a href="">华商网</a></li>
+                        <li><a href="">陕西传媒网</a></li>
+                        <li><a href="">陕西日报</a></li>
+                        <li><a href="">华商报</a></li>
+                        <li><a href="">西安晚报</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <p>合作伙伴</p>
+                    <ul>
+                        <li><a href="">茯茶镇</a></li>
+                        <li><a href="">泾河实业</a></li>
+                        <li><a href="">添丽茶事</a></li>
+                        <li><a href="">煜恒国际教育旅行社</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
