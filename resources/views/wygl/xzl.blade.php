@@ -4,12 +4,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/wygl') }}" class="active">物业管理</a></li>
-    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-    <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
-    <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
-    <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
     <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+    <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
+    <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
+    <li><a href="{{ url('/wygl') }}"  class="active">物业管理</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>{{--还没有开发--}}
+    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
 @endsection
 
 @section('ejdh')
@@ -18,6 +18,7 @@
     <li><a href="{{ url('/wygl/cyy') }}">产业园</a></li>
     <li><a href="{{ url('/wygl/zz') }}">住宅</a></li>
     <li><a href="{{ url('/wygl/sy') }}">商业</a></li>
+    <li><a href="{{ url('/zhfw/cygn') }}">餐饮管理</a></li>
 @endsection
 
 @section('css')

@@ -30,16 +30,17 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-    <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
-    <li><a href="{{ url('/wljl') }}" class="active">文旅交流</a></li>
-    <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
     <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+    <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
+    <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
+    <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
+    <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
 @endsection
 
 @section('ejdh')
-
+    <li><a href="{{ url('/wljl/cwtjq') }}">崇文塔景区</a></li>
+    <li><a href="{{ url('/wljl/zbjq') }}">周边景区</a></li>
 @endsection
 
 @section('contents')

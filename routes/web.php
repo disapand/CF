@@ -29,6 +29,7 @@ Route::get('/yxhd/jqld/{bt}', 'YxhdController@jqld');
 Route::get('/yxhd/{bt}','YxhdController@show');
 
 Route::get('/wljl','WljlController@index');
+Route::get('/wljl/{bt}','WljlController@show');
 
 Route::get('/dzfw','DzfwController@index');
 Route::get('/dzfw/zwpx','DzfwController@index_zw');

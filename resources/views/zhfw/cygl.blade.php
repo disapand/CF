@@ -14,19 +14,20 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+    <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
+    <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
+    <li><a href="{{ url('/wygl') }}"  class="active">物业管理</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-    <li><a href="{{ url('/yxhd') }}">研学活动</a></li>
-    <li><a href="{{ url('/wljl') }}">文旅交流</a></li>
-    <li><a href="{{ url('/dzfw') }}">定制服务</a></li>
-    <li><a href="{{ url('/zhfw') }}" class="active">综合服务</a></li>
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
-    <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
-    <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
+    <li><a href="{{ url('/wygl/xzl') }}">写字楼</a></li>
+    <li><a href="{{ url('/wygl/whjq') }}">文化景区</a></li>
+    <li><a href="{{ url('/wygl/cyy') }}">产业园</a></li>
+    <li><a href="{{ url('/wygl/zz') }}">住宅</a></li>
+    <li><a href="{{ url('/wygl/sy') }}">商业</a></li>
     <li><a href="{{ url('/zhfw/cygn') }}" class="active">餐饮管理</a></li>
 @endsection
 

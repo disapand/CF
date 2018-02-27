@@ -13,7 +13,7 @@ class WljlController extends Controller
      */
     public function index()
     {
-        $title ="文旅交流";
+        $title ="全域旅游";
         return view('wyjl.wljl', compact('title'));
     }
 
@@ -46,7 +46,23 @@ class WljlController extends Controller
      */
     public function show($id)
     {
-        //
+        $title = '全域旅游--';
+        $tzly = 'wyjl.';
+        switch ($id){
+            case 'cwtjq':
+                $title .= '崇文塔景区';
+                $tzly .= 'cwtjq';
+                break;
+            case 'zbjq':
+                $title .= '周边景区';
+                $tzly .= 'zbjq';
+                break;
+            case 'cwbt':
+                $title .= '崇文宝塔';
+                $tzly .= 'cwbt';
+                break;
+        }
+        return view($tzly, compact('title'));
     }
 
     /**
