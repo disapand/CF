@@ -13,7 +13,7 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/yxhd/ytwg') }}">一塔五馆</a></li>
+    <li><a href="{{ url('/yxhd/ytwg') }}">合作交流</a></li>
     <li><a href="{{ url('/yxhd/tsty') }}" class="active">特色体验</a></li>
     <li><a href="{{ url('/yxhd/jqld') }}">景区联动</a></li>
     <li><a href="{{ url('/yxhd/yxyd') }}">研学营地</a></li>

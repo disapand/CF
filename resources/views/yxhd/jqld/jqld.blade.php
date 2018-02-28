@@ -13,7 +13,7 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/yxhd/ytwg') }}">一塔五馆</a></li>
+    <li><a href="{{ url('/yxhd/ytwg') }}">合作交流</a></li>
     <li><a href="{{ url('/yxhd/tsty') }}">特色体验</a></li>
     <li><a href="{{ url('/yxhd/jqld') }}" class="active">景区联动</a></li>
     <li><a href="{{ url('/yxhd/yxyd') }}">研学营地</a></li>
@@ -24,12 +24,6 @@
     <div class="row">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <a href=" {{ url('/yxhd/jqld/blhx') }}"><img src="{{ asset('images/yxhd/jqld/jqld_blhx.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;margin-top: 100px;"></a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <a href="{{ url('/yxhd/jqld/hsjy') }}"><img src="{{ asset('images/yxhd/jqld/jqld_hsjy.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
@@ -51,16 +45,10 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-bottom: 100px">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <a href="{{ url('/yxhd/jqld/spgd') }}"><img src="{{ asset('images/yxhd/jqld/jqld_spgd.jpg') }}" alt="" style="width: 100%;margin-bottom: 30px;"></a>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <a href="{{ url('/yxhd/jqld/sztz') }}"><img src="{{ asset('images/yxhd/jqld/jqld_sztz.jpg') }}" alt="" style="width: 100%;margin-bottom: 100px;"></a>
-        </div>
-    </div>
-    
 @endsection

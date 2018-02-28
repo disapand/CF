@@ -67,6 +67,16 @@
             text-align: justify;
             line-height: 2em;
         }
+
+        .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6{
+            padding: 0 7.5px;
+        }
+
+        h3{
+            font-size: 1.6em;
+            color: #018cd4;
+        }
+
     </style>
 @endsection
 
@@ -83,35 +93,41 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/wljl/cwtjq') }}" class="active">崇文塔景区</a></li>
-    <li><a href="{{ url('/wljl/zbjq') }}">周边景区</a></li>
+    <li><a href="{{ url('/wljl/cwtjq') }}">崇文塔景区</a></li>
+    <li><a href="{{ url('/wljl/zbjq') }}"  class="active">周边景区</a></li>
 @endsection
 
 @section('contents')
 
     <div class="row" style="margin-bottom: 30px;margin-top: 30px;">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <a href="{{ url('/wljl/cwtjq') }}" class="bak"><< 返回</a>
+            <a href="{{ url('/wljl/zbjq') }}" class="bak"><< 返回</a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
         	<ul class="sider-bar">
-                <li class="li-active"><a href="{{ url('wljl/cwbt') }}">崇文宝塔</a></li>
-                <li><a href="{{ url('/wljl/cwgxg') }}">崇文国学馆</a></li>
-                <li><a href="{{ url('/wljl/sqfybwg') }}">三秦非遗博览馆</a></li>
-                <li><a href="{{ url('/wljl/sswhblg') }}">陕商文化博览馆</a></li>
-                <li><a href="{{ url('/wljl/gyqqg') }}">国艺秦腔馆</a></li>
+                <li><a href="{{ url('wljl/fcz') }}">伏茶镇</a></li>
+                <li><a href="{{ url('/wljl/lhc') }}">乐华城</a></li>
+                <li><a href="{{ url('/wljl/spmsxz') }}">寿平民宿小镇</a></li>
+                <li><a href="{{ url('/wljl/jhzhnyy') }}">泾河智慧农业园</a></li>
+                <li class="li-active"><a href="{{ url('/wljl/ddyd') }}">大地原点</a></li>
             </ul>
         </div>
 
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="{{ asset('images/wyjl/cwbt.jpg') }}" alt="" class="img-100">
-                <div class="bt">崇文宝塔</div>
-            <p>崇文塔原名铁佛寺塔，87.218米13层，中国第一高砖塔。建于明万历19年（1591年），传当时在朝为官泾阳藉刑部尚书—李世达为传承圣贤劝学之志，勉励学童努力向学，故修建此塔，名为崇文塔。</p>
-            <p>崇文塔采取八卦悬顶设计，塔身为八棱形状，全青砖修建而成,每层有四窗、四佛龛,最高层为城垛式,晴天登塔远望泾渭、南山。</p>
-            <p style="margin-bottom: 100px">自明朝以后泾、三、高文人辈出，书法家于佑任，左联创始人冯润璋，国学大师吴宓，当代作家李若冰、雷抒雁、白描，书法家蒙志军等皆出于此，这或许是巧合，而宝塔崇文尚学的精神古今传承。</p>
+            <img src="{{ asset('images/wyjl/ddyd1.jpg') }}" alt="" class="img-100">
+            <div class="bt">大地原点</div>
+            <p>亦称大地基准点，是国家地理坐标——经纬度的起算点和基准点。大地原点是人为界定的一个点，是利用高斯平面直角坐标的方法建立全国统一坐标系。20世纪70年代，中国决定建立自己独立的大地坐标系统。通过实地考察、综合分析，最后将中国的大地原点，确定在陕西省泾阳县永乐镇北横流村，具体位置在：北纬34°32′27.00″东经108°55′25.00″。</p>
+            <div class="row" style="margin-bottom: 100px;margin-top: 50px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{ asset('images/wyjl/ddyd2.jpg') }}" alt="" class="img-100">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{ asset('images/wyjl/ddyd3.jpg') }}" alt="" class="img-100">
+                </div>
+            </div>
         </div>
     </div>
 

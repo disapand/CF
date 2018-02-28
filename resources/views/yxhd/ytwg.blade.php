@@ -101,7 +101,7 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/yxhd/ytwg') }}" class="active">一塔五馆</a></li>
+    <li><a href="{{ url('/yxhd/ytwg') }}" class="active">合作交流</a></li>
     <li><a href="{{ url('/yxhd/tsty') }}">特色体验</a></li>
     <li><a href="{{ url('/yxhd/jqld') }}">景区联动</a></li>
     <li><a href="{{ url('/yxhd/yxyd') }}">研学营地</a></li>
@@ -111,195 +111,20 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="{{ asset('images/yxhd/ytwg/ytwg_dt.jpg') }}" alt="" class="img-100">
+            <img src="{{ asset('images/yxhd/hzjl_dt.jpg') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row" style="margin-top: 100px;">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 30px;">
-            <img src="{{ asset('images/yxhd/ytwg/ytwg_z1.png') }}" alt="" class="center-block">
+            <img src="{{ asset('images/yxhd/hzjl_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
-            <p style="text-align: center">走进陕商文化博览馆，学习了解陕商文化、陕商发展历史及陕商精神，领略在茶马古道和盐马古道上驰骋的天下第一商帮的魄力。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="swiper-container swiper1">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_1.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_2.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_3.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_4.jpg') }}" alt="" class="img-100">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row preview" style="z-index: 3;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                	<ul>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl1.jpg') }}" alt="" class="img-100" id="sl1"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_2.jpg') }}" alt=""  class="img-100" id="sl2"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_3.jpg') }}" alt=""  class="img-100" id="sl3"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl4.jpg') }}" alt=""  class="img-100" id="sl4"></li>
-                    </ul>
-                </div>
-
-                <div class="arrow-left"></div>
-                <div class="arrow-right"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top: 100px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 30px;">
-            <img src="{{ asset('images/yxhd/ytwg/ytwg_z2.png') }}" alt="" class="center-block">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
-            <p style="text-align: center">在国艺秦腔馆，学生们学习了解秦腔艺术的特色及发展历史，大俗大雅美秦腔大放其彩。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="swiper-container swiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_5.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_6.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_7.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_8.jpg') }}" alt="" class="img-100">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row preview" style="z-index: 3;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <ul>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_5.jpg') }}" alt="" class="img-100" id="sl5"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_6.jpg') }}" alt=""  class="img-100" id="sl6"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_7.jpg') }}" alt=""  class="img-100" id="sl7"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_8.jpg') }}" alt=""  class="img-100" id="sl8"></li>
-                    </ul>
-                </div>
-
-                <div class="arrow-left"></div>
-                <div class="arrow-right"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top: 100px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 30px;">
-            <img src="{{ asset('images/yxhd/ytwg/ytwg_z3.png') }}" alt="" class="center-block">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
-            <p>在三秦非遗博览馆，学习了解我省非物质文化遗产知识，观看合阳提线木偶戏、华县皮影戏、泾阳茯砖茶制作技艺等省内81项非物质文化遗产项目，学生们在享受传统文化艺术表演的同时，了解了中华民族的传统艺术知识，感受到了三秦大地灿烂的文化及悠久的历史。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="swiper-container swiper3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_9.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_10.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_11.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_12.jpg') }}" alt="" class="img-100">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row preview" style="z-index: 3;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <ul>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_9.jpg') }}" alt="" class="img-100" id="sl9"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_10.jpg') }}" alt=""  class="img-100" id="sl10"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_11.jpg') }}" alt=""  class="img-100" id="sl11"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_12.jpg') }}" alt=""  class="img-100" id="sl12"></li>
-                    </ul>
-                </div>
-
-                <div class="arrow-left"></div>
-                <div class="arrow-right"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top: 100px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 30px;">
-            <img src="{{ asset('images/yxhd/ytwg/ytwg_z4.png') }}" alt="" class="center-block">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
-            <p>走进崇文国学馆，学生们了解“礼、乐、射、御、书、数”六艺文化，领会中国在文字、建筑、医药、天文地理等方面的发展与成就，同学们纷纷表示受益良多。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="swiper-container swiper4">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_13.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_14.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_15.jpg') }}" alt="" class="img-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/yxhd/ytwg/ytwg_lb_16.jpg') }}" alt="" class="img-100">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row preview" style="z-index: 3; margin-bottom: 100px;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <ul>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_13.jpg') }}" alt="" class="img-100" id="sl13"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_14.jpg') }}" alt=""  class="img-100" id="sl14"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_15.jpg') }}" alt=""  class="img-100" id="sl15"></li>
-                        <li><img src="{{ asset('images/yxhd/ytwg/ytwg_sl_16.jpg') }}" alt=""  class="img-100" id="sl16"></li>
-                    </ul>
-                </div>
-
-                <div class="arrow-left"></div>
-                <div class="arrow-right"></div>
-            </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+            <p>近年来，泾河新城以打造国内文化旅游新高地，大力发展文化旅游产业，加快旅游景区建设，完善旅游服务功能，打造精品旅游景点，全力构建大西安北部中心文化旅游目的地。随着发展，新城文化旅游产业已初具规模，实现了全域旅游立体化的转变。近年来，泾河新城以打造国内文化旅游新高地，大力发展文化旅游产业，加快旅游景区建设，完善旅游服务功能，打造精品旅游景点，全力构建大西安北部中心文化旅游目的地。随着发展，新城文化旅游产业已初具规模，实现了全域旅游立体化的转变。</p>
+            <p>为加强在校学生实践教学，提高学生实践能力和科学研究的基本技能，达到资源共享、相互促进，发挥各自优势，泾河城服和西安科技大学达成共识，共同建立“特色鲜明、区位优势突出、国内领先、对国内外开放”的实习示范基地。</p>
         </div>
     </div>
 

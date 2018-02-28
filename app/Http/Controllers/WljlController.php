@@ -61,6 +61,42 @@ class WljlController extends Controller
                 $title .= '崇文宝塔';
                 $tzly .= 'cwbt';
                 break;
+            case 'cwgxg':
+                $title .= '崇文国学馆';
+                $tzly .= 'cwgxg';
+                break;
+            case 'sqfybwg':
+                $title .= '三秦非遗博物馆';
+                $tzly .= 'sqfybwg';
+                break;
+            case 'sswhblg':
+                $title .= '陕商文化博览馆';
+                $tzly .= 'sswhblg';
+                break;
+            case 'gyqqg':
+                $title .= '国艺秦腔馆';
+                $tzly .= 'gyqqg';
+                break;
+            case 'fcz':
+                $title .= '伏茶镇';
+                $tzly .= 'fcz';
+                break;
+            case 'lhc':
+                $title .= '乐华城';
+                $tzly .= 'lhc';
+                break;
+            case 'spmsxz':
+                $title .= '寿平民宿小镇';
+                $tzly .= 'spmsxz';
+                break;
+            case 'jhzhnyy':
+                $title .= '泾河智慧农业园';
+                $tzly .= 'jhzhnyy';
+                break;
+            case 'ddyd':
+                $title .= '大地原点';
+                $tzly .= 'ddyd';
+                break;
         }
         return view($tzly, compact('title'));
     }

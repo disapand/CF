@@ -47,15 +47,15 @@
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a href=""><img src="{{ asset('images/wyjl/cwgxg.jpg') }}" alt="" class="img-100"></a>
-                    <a href=""><img src="{{ asset('images/wyjl/sqfybwg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/cwgxg') }}"><img src="{{ asset('images/wyjl/cwgxg.jpg') }}" alt="" class="img-100"></a>
+                    <a href="{{ url('/wljl/sqfybwg') }}"><img src="{{ asset('images/wyjl/sqfybwg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/cwbt') }}"><img src="{{ asset('images/wyjl/cwt.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a href=""><img src="{{ asset('images/wyjl/sswhblg.jpg') }}" alt="" class="img-100"></a>
-                    <a href=""><img src="{{ asset('images/wyjl/gyqqg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/sswhblg') }}"><img src="{{ asset('images/wyjl/sswhblg.jpg') }}" alt="" class="img-100"></a>
+                    <a href="{{ url('/wljl/gyqqg') }}"><img src="{{ asset('images/wyjl/gyqqg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
                 </div>
             </div>
         </div>

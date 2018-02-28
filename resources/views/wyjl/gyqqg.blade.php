@@ -98,20 +98,20 @@
     <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
         	<ul class="sider-bar">
-                <li class="li-active"><a href="{{ url('wljl/cwbt') }}">崇文宝塔</a></li>
+                <li><a href="{{ url('wljl/cwbt') }}">崇文宝塔</a></li>
                 <li><a href="{{ url('/wljl/cwgxg') }}">崇文国学馆</a></li>
                 <li><a href="{{ url('/wljl/sqfybwg') }}">三秦非遗博览馆</a></li>
                 <li><a href="{{ url('/wljl/sswhblg') }}">陕商文化博览馆</a></li>
-                <li><a href="{{ url('/wljl/gyqqg') }}">国艺秦腔馆</a></li>
+                <li class="li-active"><a href="{{ url('/wljl/gyqqg') }}">国艺秦腔馆</a></li>
             </ul>
         </div>
 
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="{{ asset('images/wyjl/cwbt.jpg') }}" alt="" class="img-100">
-                <div class="bt">崇文宝塔</div>
-            <p>崇文塔原名铁佛寺塔，87.218米13层，中国第一高砖塔。建于明万历19年（1591年），传当时在朝为官泾阳藉刑部尚书—李世达为传承圣贤劝学之志，勉励学童努力向学，故修建此塔，名为崇文塔。</p>
-            <p>崇文塔采取八卦悬顶设计，塔身为八棱形状，全青砖修建而成,每层有四窗、四佛龛,最高层为城垛式,晴天登塔远望泾渭、南山。</p>
-            <p style="margin-bottom: 100px">自明朝以后泾、三、高文人辈出，书法家于佑任，左联创始人冯润璋，国学大师吴宓，当代作家李若冰、雷抒雁、白描，书法家蒙志军等皆出于此，这或许是巧合，而宝塔崇文尚学的精神古今传承。</p>
+            <img src="{{ asset('images/wyjl/gyqqg1.jpg') }}" alt="" class="img-100">
+            <div class="bt">国艺秦腔馆</div>
+            <p style="margin-bottom: 50px">国艺秦腔馆位于崇文塔景区东南侧，展陈面积为1020平方米，展馆以大型秦腔文化浮雕拉开序幕，展现秦腔大美大雅的艺术特点，整个展馆划分为国、艺两大区域，通过雕塑、实物、油画、多媒体体感交会互动、“唱吧”等元素和互动设备，使参观者在娱乐的同时加深印象，了解秦腔的特色魅力，发扬秦腔传统文化。</p>
+            <img src="{{ asset('images/wyjl/gyqqg2.jpg') }}" alt="" class="img-100">
+            <img src="{{ asset('images/wyjl/gyqqg3.jpg') }}" alt="" class="img-100" style="margin-top: 10px;margin-bottom: 100px">
         </div>
     </div>
 
