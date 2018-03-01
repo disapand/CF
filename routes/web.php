@@ -36,6 +36,7 @@ Route::get('/dzfw/zwpx','DzfwController@index_zw');
 
 Route::get('/zhfw', 'ZhjwController@index');
 Route::get('/zhfw/{bt}', 'ZhjwController@show');
+Route::get('/szgc/{bt}', 'ZhjwController@szgc');
 
 Route::get('/news', function (){
     return view('news.xxxq');

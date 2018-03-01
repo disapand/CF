@@ -19,6 +19,7 @@
     <li><a href="{{ url('/wygl/zz') }}">住宅</a></li>
     <li><a href="{{ url('/wygl/sy') }}">商业</a></li>
     <li><a href="{{ url('/zhfw/cygn') }}">餐饮管理</a></li>
+    <li><a href="{{ url('/wygl/shfw') }}">社会服务</a></li>
 @endsection
 
 @section('css')
@@ -180,7 +181,7 @@
                             <span>泾河公安分局</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
                         </div>
                     </div>
                 </div>
@@ -190,7 +191,7 @@
                             <span>泾河消防</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/zz') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
                         </div>
                     </div>
                 </div>
@@ -211,7 +212,7 @@
                             <span>信访办</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
                         </div>
                     </div>
                 </div>

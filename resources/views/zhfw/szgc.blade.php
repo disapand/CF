@@ -23,6 +23,10 @@
 @endsection
 
 @section('ejdh')
+    <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
+    <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
+    <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
+    <li><a href="{{ url('/szgc/fwts') }}">氛围提升</a></li>
 @endsection
 
 @section('contents')

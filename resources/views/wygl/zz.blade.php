@@ -16,9 +16,10 @@
     <li><a href="{{ url('/wygl/xzl') }}">写字楼</a></li>
     <li><a href="{{ url('/wygl/whjq') }}">文化景区</a></li>
     <li><a href="{{ url('/wygl/cyy') }}">产业园</a></li>
-    <li><a href="{{ url('/wygl/zz') }}"  class="active">住宅</a></li>
+    <li><a href="{{ url('/wygl/zz') }}" class="active">住宅</a></li>
     <li><a href="{{ url('/wygl/sy') }}">商业</a></li>
     <li><a href="{{ url('/zhfw/cygn') }}">餐饮管理</a></li>
+    <li><a href="{{ url('/wygl/shfw') }}">社会服务</a></li>
 @endsection
 
 @section('css')

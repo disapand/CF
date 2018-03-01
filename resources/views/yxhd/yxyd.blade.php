@@ -16,7 +16,7 @@
         .preview ul {
             list-style: none;
             display: block;
-            width: 100%;
+            width: 225%;
             clear: both;
             overflow: hidden;
             -webkit-padding-start: 0;
@@ -24,7 +24,7 @@
 
         .preview ul li {
             float: left;
-            width: 25%;
+            width: 11.1%;
             padding: 20px 7px;
         }
 
@@ -147,18 +147,35 @@
                     <div class="swiper-slide">
                         <img src="{{ asset('images/yxhd/yxyd_lb_5.jpg') }}" alt="" class="img-100">
                     </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/yxhd/yxyd_lb_6.jpg') }}" alt="" class="img-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/yxhd/yxyd_lb_7.jpg') }}" alt="" class="img-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/yxhd/yxyd_lb_8.jpg') }}" alt="" class="img-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/yxhd/yxyd_lb_9.jpg') }}" alt="" class="img-100">
+                    </div>
                 </div>
             </div>
 
             <div class="row preview" style="z-index: 3;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="overflow: hidden">
                 	<ul>
                         <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_1.jpg') }}" alt="" class="img-100" id="sl1"></li>
                         <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_2.jpg') }}" alt="" class="img-100" id="sl2"></li>
                         <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_3.jpg') }}" alt="" class="img-100" id="sl3"></li>
                         <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_4.jpg') }}" alt="" class="img-100" id="sl4"></li>
-                        {{--<li><img src="{{ asset('images/yxhd/yxyd_lb_sl_5.jpg') }}" alt="" class="img-100" id="sl5"></li>--}}
+                        <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_5.jpg') }}" alt="" class="img-100" id="sl5"></li>
+                        <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_6.jpg') }}" alt="" class="img-100" id="sl6"></li>
+                        <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_7.jpg') }}" alt="" class="img-100" id="sl7"></li>
+                        <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_8.jpg') }}" alt="" class="img-100" id="sl8"></li>
+                        <li><img src="{{ asset('images/yxhd/yxyd_lb_sl_9.jpg') }}" alt="" class="img-100" id="sl9"></li>
                     </ul>
+                    <div></div>
                 </div>
 
                 <div class="arrow-left"></div>
@@ -197,14 +214,63 @@
 
             $('.preview .arrow-left').click(function (e) {
                 if (mySwiper1.activeIndex == 1) {
-                    mySwiper1.slideTo(5, 1000)
+                    mySwiper1.slideTo(9, 1000)
+                }
+                mySwiper1.slidePrev()
+            })
+            $('.preview .arrow-left').click(function (e) {
+                if (mySwiper1.activeIndex == 1) {
+                    $('.preview ul').animate({
+                        'margin-left': '0'
+                    }, 1000)
+                }
+                mySwiper1.slidePrev()
+            })
+            $('.preview .arrow-left').click(function (e) {
+                if (mySwiper1.activeIndex == 5) {
+                    $('.preview ul').animate({
+                        'margin-left': '-25%'
+                    }, 1000)
+                }
+                mySwiper1.slidePrev()
+            })
+            $('.preview .arrow-left').click(function (e) {
+                if (mySwiper1.activeIndex == 9) {
+                    $('.preview ul').animate({
+                        'margin-left': '-125%'
+                    }, 1000)
                 }
                 mySwiper1.slidePrev()
             })
 
             $('.preview .arrow-right').click(function (e) {
-                if (mySwiper1.activeIndex == 5) {
+                if (mySwiper1.activeIndex == 9) {
                     mySwiper1.slideTo(1, 1000)
+                }
+                mySwiper1.slideNext()
+            })
+            $('.preview .arrow-right').click(function (e) {
+                if (mySwiper1.activeIndex == 1) {
+                    $('.preview ul').animate({
+                        'margin-left': '0'
+                    }, 1000)
+                }
+                mySwiper1.slideNext()
+            })
+
+            $('.preview .arrow-right').click(function (e) {
+                if (mySwiper1.activeIndex == 5) {
+                    $('.preview ul').animate({
+                        'margin-left': '-100%'
+                    }, 1000)
+                }
+                mySwiper1.slideNext()
+            })
+            $('.preview .arrow-right').click(function (e) {
+                if (mySwiper1.activeIndex == 9) {
+                    $('.preview ul').animate({
+                        'margin-left': '-125%'
+                    }, 1000)
                 }
                 mySwiper1.slideNext()
             })

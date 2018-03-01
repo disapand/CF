@@ -21,7 +21,7 @@
         .sider-bar li {
             cursor: pointer;
             list-style: none;
-            width: 280px;
+            width: 98%;
             background-color: #ccc;
             margin: 5px 0;
             padding: 5px 0;

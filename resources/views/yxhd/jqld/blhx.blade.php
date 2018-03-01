@@ -34,6 +34,15 @@
             background-color: #008cd5;
         }
 
+        a{
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #008cd5;
+        }
+
     </style>
 @endsection
 
@@ -57,6 +66,13 @@
 @endsection
 
 @section('contents')
+
+    <div class="row" style="margin-top: 50px">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+            <a href="{{ url('/yxhd/jqld') }}"><< 返回</a>
+        </div>
+    </div>
+
 
     <div class="row">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">

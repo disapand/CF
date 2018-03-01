@@ -23,11 +23,11 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
-    <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
+    <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
     <li><a href="{{ url('/zhfw/jjny') }}" class="active">洁净能源</a></li>
     <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
-    <li><a href="{{ url('/dzfw/zwpx') }}">政务培训</a></li>
+    <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
+    <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
 @endsection
 
 @section('contents')

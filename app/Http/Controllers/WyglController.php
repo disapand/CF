@@ -69,6 +69,22 @@ class WyglController extends Controller
                 $tzlj .= 'sy';
                 $title .= '--商业';
                 break;
+            case 'gafj':
+                $tzlj .= 'gafj';
+                $title .= '--公安分局';
+                break;
+            case 'jhxf':
+                $tzlj .= 'jhxf';
+                $title .= '--泾河消防';
+                break;
+            case 'xfb':
+                $tzlj .= 'xfb';
+                $title .= '--信访办';
+                break;
+            case 'shfw':
+                $tzlj .= 'shfw';
+                $title .= '--社会服务';
+                break;
             default:
                 $tzlj .= 'wygl';
         }

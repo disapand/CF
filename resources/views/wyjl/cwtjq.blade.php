@@ -48,14 +48,14 @@
         	<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/cwgxg') }}"><img src="{{ asset('images/wyjl/cwgxg.jpg') }}" alt="" class="img-100"></a>
-                    <a href="{{ url('/wljl/sqfybwg') }}"><img src="{{ asset('images/wyjl/sqfybwg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/sqfybwg') }}"><img src="{{ asset('images/wyjl/sqfybwg.jpg') }}" alt="" class="img-100"  style="margin-top: 4%;"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/cwbt') }}"><img src="{{ asset('images/wyjl/cwt.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/sswhblg') }}"><img src="{{ asset('images/wyjl/sswhblg.jpg') }}" alt="" class="img-100"></a>
-                    <a href="{{ url('/wljl/gyqqg') }}"><img src="{{ asset('images/wyjl/gyqqg.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/gyqqg') }}"><img src="{{ asset('images/wyjl/gyqqg.jpg') }}" alt="" class="img-100"  style="margin-top: 4%;"></a>
                 </div>
             </div>
         </div>
@@ -63,7 +63,9 @@
     
     <div class="row" style="margin-top: 30px;margin-bottom: 100px">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/jqwz.jpg') }}" alt="" class="img-100" style="padding: 0 7.5px;">
+            <a href="https://ditu.amap.com/search?id=B038E00AD3&city=610423&geoobj=108.755764%7C34.156832%7C109.250148%7C34.375023&query_type=IDQ&query=%E5%B4%87%E6%96%87%E5%A1%94&zoom=12">
+                <img src="{{ asset('images/wyjl/jqwz.jpg') }}" alt="" class="img-100" style="padding: 0 7.5px;">
+            </a>
         </div>
     </div>
 

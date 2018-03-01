@@ -48,14 +48,14 @@
         	<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/fcz') }}"><img src="{{ asset('images/wyjl/fcz.jpg') }}" alt="" class="img-100"></a>
-                    <a href="{{ url('/wljl/lhc') }}"><img src="{{ asset('images/wyjl/lhc.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/lhc') }}"><img src="{{ asset('images/wyjl/lhc.jpg') }}" alt="" class="img-100"  style="margin-top: 4%;"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/spmsxz') }}"><img src="{{ asset('images/wyjl/spmsxz.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ url('/wljl/jhzhnyy') }}"><img src="{{ asset('images/wyjl/jhzhnyy.jpg') }}" alt="" class="img-100"></a>
-                    <a href="{{ url('/wljl/ddyd') }}"><img src="{{ asset('images/wyjl/ddyd.jpg') }}" alt="" class="img-100"  style="margin-top: 15px;"></a>
+                    <a href="{{ url('/wljl/ddyd') }}"><img src="{{ asset('images/wyjl/ddyd.jpg') }}" alt="" class="img-100"  style="margin-top: 4%;"></a>
                 </div>
             </div>
         </div>

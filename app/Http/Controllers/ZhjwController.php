@@ -76,6 +76,33 @@ class ZhjwController extends Controller
         return view($tzlj, compact('title'));
     }
 
+    public function szgc($bt){
+        $title = '市政工程--';
+        $tzlj = 'zhfw.';
+        switch ($bt) {
+            case 'lmwx':
+                $title .= '路面维修';
+                $tzlj .= 'lmwx';
+                break;
+            case 'ldwx':
+                $title .= '路灯维修';
+                $tzlj .= 'ldwx';
+                break;
+            case 'ldlh':
+                $title .= '路灯亮化';
+                $tzlj .= 'ldlh';
+                break;
+            case 'fwts':
+                $title .= '氛围提升';
+                $tzlj .= 'fwts';
+                break;
+            default:
+
+        }
+
+        return view($tzlj, compact('title'));
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
