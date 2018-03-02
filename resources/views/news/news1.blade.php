@@ -21,6 +21,20 @@
             margin: 0 5px;
         }
 
+        .share-list ul {
+            list-style: none;
+            float: right;
+         }
+
+        .share-list ul li{
+            float: left;
+            margin: 0 3px;
+        }
+
+        p img {
+            margin-left: -2em;
+        }
+
     </style>
 @endsection
 
@@ -65,8 +79,28 @@
                     {!! $new['content'] !!}
                 </div>
 
+            </div>
+        </div>
+        {{--责任编辑和分享--}}
+        <div class="row" style="margin-top:20px;margin-bottom: 100px;">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
                 <div class="row" style="margin-bottom: 100px;">
-                    <img src=" {{ asset('images/news/fx.png') }}" alt="" class="img-100">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <div style="display: inline-block">责任编辑：{{ $new['zrbj'] }}</div>
+                    </div>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 share-list">
+                        <ul>
+                            <li><a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=jinghechengfu.com"
+                                   target="_blank"><img src="{{ asset('images/icon/rrw.png') }}" alt="" id="rrw"></a></li>
+                            <li><a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=jinghechengfu.com"
+                                   target="_blank"><img src="{{ asset('images/icon/qqkj.png') }}" alt="" id="qqkj"></a></li>
+                            <li><a version="1.0" class="qzOpenerDiv" href="http://connect.qq.com/widget/shareqq/index.html?url=jinghechengfu.com"
+                                   target="_blank"><img src="{{ asset('images/icon/qq.png') }}" alt="" id="qq"></a></li>
+                            {{--<li><a href=""><img src="{{ asset('images/icon/wb.png') }}" alt="" id="wb"></a></li>
+                            <li><a href=""><img src="{{ asset('images/icon/wx.png') }}" alt="" id="wx"></a></li>
+                            <li><a href=""><img src="{{ asset('images/icon/ll.png') }}" alt="" id="ll"></a></li>--}}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

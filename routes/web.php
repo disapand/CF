@@ -47,11 +47,19 @@ Route::get('/news/1', function (){
 });
 
 Route::get('/news/sort/{sort}','Admin\NewsController@show_by_sort');
-
-Route::get('/{bt}', 'TestController@show');
-Route::group(['prefix' => '/admin'], function () {
+/*Route::group(['prefix' => '/admin', ], function () {
     Route::resource('news','Admin\NewsController');
-});
+});*/
+
+Route::get('/admin/news','Admin\NewsController@index')->name('news.index')->middleware('auth');
+Route::post('/admin/news','Admin\NewsController@store')->name('news.store')->middleware('auth');
+Route::get('/admin/news/create', 'Admin\NewsController@create')->name('news.create');
+Route::delete('/admin/news/{news}', 'Admin\NewsController@destroy')->name('news.destroy');
+Route::put('/admin/news/{news}','Admin\NewsController@update')->name('news.update');
+Route::get('/admin/news/{news}','Admin\NewsController@show')->name('news.show');
+Route::get('/admin/news/{news}/edit', 'Admin\NewsController@edit')->name('news.edit');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/{bt}', 'TestController@show');

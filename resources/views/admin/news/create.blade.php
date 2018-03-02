@@ -25,13 +25,41 @@
 
     <div class="container-fluid">
 
+        <ul class="nav navbar-nav navbar-right" style="margin-right: 15px;">
+            <!-- Authentication Links -->
+            @guest
+                <li><a href="{{ route('login') }}">Login</a></li>
+                <li><a href="{{ route('register') }}">Register</a></li>
+            @else
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+                        {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                注销
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            @endguest
+        </ul>
+
         <div class="row" style="margin-top: 30px">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
                 <form action="{{ route('news.store') }}" method="POST" role="form" id="news">
                     {!! csrf_field() !!}
                     <legend>添加新闻</legend>
 
-                    <div class="form-con">
+                    <div class="form-group">
                         <label for="title" class="control-label">新闻标题</label>
                         <input type="text" class="form-control" id="title" placeholder="请输入标题" name="title">
                     </div>
@@ -55,9 +83,16 @@
                     </div>
 
 
-                    <script id="ueditor" name="content" type="text/plain"></script>
+                    <div class="form-group">
+                        <script id="ueditor" name="content" type="text/plain"></script>
+                    </div>
 
-                    <button type="submit" class="btn btn-primary" style="margin:20px 0;" id="submit">添加</button>
+                    <div class="form-group">
+                        <label for="zrbj" class="control-label">责任编辑</label>
+                        <input type="text" class="form-control" id="zrbj" placeholder="请输入责任编辑" name="zrbj">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" style="margin:20px 0;" id="submit">添加</button>
                 </form>
             </div>
         </div>

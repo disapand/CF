@@ -51,6 +51,7 @@ class NewsController extends Controller
             'trash' =>  false,
             'top' =>  true,
             'show' =>  true,
+            'zrbj' => $request -> input('zrbj'),
         ];
         $new = News::create($input);
         $new -> save();
@@ -98,7 +99,6 @@ class NewsController extends Controller
     {
         $new = News::findOrFail($id);
         $sort = ['西咸新区','泾河新区','泾河城服'];
-//        dd($sort);
         return view('admin.news.edit', compact('new', 'sort'));
     }
 

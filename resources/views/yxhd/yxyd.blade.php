@@ -295,6 +295,21 @@
                 mySwiper1.slideTo(5)
             })
 
+            $('#sl6').click(function () {
+                mySwiper1.slideTo(6)
+            })
+
+            $('#sl7').click(function () {
+                mySwiper1.slideTo(7)
+            })
+
+            $('#sl8').click(function () {
+                mySwiper1.slideTo(8)
+            })
+
+            $('#sl9').click(function () {
+                mySwiper1.slideTo(9)
+            })
         })
     </script>
 @endsection

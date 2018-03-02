@@ -191,7 +191,7 @@
                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
 
                     <ul class="nav nav-tabs nav-justified" role="tablist">
-                        <li role="presentation" class="active"><a href="#xxxq" aria-controls="#xxxq" role="tab"
+                        <li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
                                                                   data-toggle="tab">西咸新区新闻</a></li>
                         <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab"
                                                    data-toggle="tab">泾河新城新闻</a>
