@@ -18,8 +18,8 @@
     <li><a href="{{ url('/wygl/cyy') }}">产业园</a></li>
     <li><a href="{{ url('/wygl/zz') }}">住宅</a></li>
     <li><a href="{{ url('/wygl/sy') }}">商业</a></li>
-    <li><a href="{{ url('/zhfw/cygn') }}">餐饮管理</a></li>
     <li><a href="{{ url('/wygl/shfw') }}" class="active">社会服务</a></li>
+    <li><a href="{{ url('/zhfw/cygn') }}">餐饮管理</a></li>
 @endsection
 
 @section('css')

@@ -80,6 +80,14 @@
             padding-right: 0;
         }
 
+        .bq {
+            font-size: .6em;
+        }
+
+        .bq p {
+            color: #999;
+        }
+
     </style>
 </head>
 <body>
@@ -143,7 +151,7 @@
 
 
         <div class="row">
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-2 col-md-offset-5">
                 <img src="{{ asset('images/ewm.jpg') }}" alt="" class="center-block ewm">
             </div>
         </div>
@@ -154,8 +162,8 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <img src="{{ asset('images/lxdh.png') }}" alt="" class="center-block">
+            <div class="col-md-2 col-md-offset-5">
+                <img src="{{ asset('images/lxdh.png') }}" alt="" class="center-block" style="width: 70%">
             </div>
         </div>
 
@@ -163,7 +171,7 @@
             <div class="col-md-4 col-md-offset-4">
                 <div class="text-center" style="margin: 5% 0;">
                     <span class="glyphicon glyphicon-map-marker dtbz"></span>
-                    <span style=" font-family: FZLT;font-size: 1.2em;">陕西省西咸新区泾河新城城市综合服务有限公司</span>
+                    <span style=" font-family: FZLT;">陕西省西咸新区泾河新城城市综合服务有限公司</span>
                 </div>
             </div>
         </div>
@@ -172,6 +180,14 @@
             <div class="col-md-4 col-md-offset-4">
                 <p class="text-center" style="font-size: 0.8em; color: #434343; margin-top: 5%; margin-bottom: 5%">
                     泾河城服版权所有&nbsp;&nbsp;&nbsp;JINGHE CITY SERVICE &copy; All Right Reserve</p>
+            </div>
+        </div>
+
+        <div class="row bq" style="margin-top: 30px;">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center">主办：陕西省西咸新区开发建设管理委员会&nbsp;&nbsp;&nbsp;&nbsp;电话：029-33186000&nbsp;&nbsp;&nbsp;&nbsp;传真：029-33186111</p>
+                <p class="text-center">地址：陕西省西咸新区沣泾大道西一路1号西咸大厦&nbsp;&nbsp;&nbsp;&nbsp;邮编：712000&nbsp;&nbsp;&nbsp;&nbsp;站点地图</p>
+                <p class="text-center">网站标识码：6190000001&nbsp;&nbsp;&nbsp;&nbsp;陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;陕公网安备6101960200052</p>
             </div>
         </div>
 

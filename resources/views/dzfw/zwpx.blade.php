@@ -34,13 +34,13 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src=" {{ asset('images/dzfw/zwpx_dt.jpg') }}" alt="" class="img-100">
+            <img src=" {{ asset('images/dzfw/zwfw.jpg') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/dzfw/zwpx_z.png') }}" alt="" class="img-100" style="margin-top: 60px;margin-bottom: 60px;">
+            <img src="{{ asset('images/zwfw_z.png') }}" alt="" class="img-100" style="margin-top: 60px;margin-bottom: 60px;">
         </div>
     </div>
 
