@@ -65,12 +65,12 @@
         }
 
         .yqlj span{
-            margin: 10px 0;
+            line-height: 2.5em;
             padding: 0 25px;
             border-right: #333 solid 1px;
         }
 
-        .yqlj a:hover, .yqlj a:focus, .yqlj a:visited {
+        .yqlj a:hover, .yqlj a:focus {
             text-decoration: none;
             color: #008cd5;
         }
@@ -103,11 +103,11 @@
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination visible-md-block visible-lg-block"></div>
 
                 <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev visible-md-block visible-lg-block"></div>
+                <div class="swiper-button-next visible-md-block visible-lg-block"></div>
 
             </div>
         </div>
@@ -115,9 +115,9 @@
 
     {{-- 特色党建、企业扶贫、团队建设 --}}
     <div class="row" style="margin-top: 50px; margin-bottom: 50px;margin-left: 0;margin-right: 0">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp1.png" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -128,7 +128,7 @@
 
                 </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp3.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -153,7 +153,7 @@
 
     <div class="row"
          style="padding-top: 50px; padding-bottom: 50px;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 </div>
@@ -162,8 +162,8 @@
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 50px;margin-bottom: 50px;">
-                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5" style="margin-bottom: 50px;">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -178,9 +178,9 @@
                         </div>
                     </div>
                     <!-- 如果需要分页器 -->
-                    <div class="swiper-pagination fyq2"></div>
+                    <div class="swiper-pagination fyq2 visible-md-block visible-lg-block"></div>
                 </div>
-                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7" style="padding-right: 15px;padding-left: 15px;">
 
                     <ul class="nav nav-tabs nav-justified" role="tablist">
                         <li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
@@ -238,26 +238,28 @@
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination visible-md-block visible-lg-block"></div>
 
                 <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev visible-md-block visible-lg-block"></div>
+                <div class="swiper-button-next visible-md-block visible-lg-block"></div>
 
             </div>
         </div>
     </div>
 
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-4"
                      style="margin-top: 100px;margin-bottom: 50px;">
                     <img src="images/fwdt.png" alt="" class="center-block">
                 </div>
             </div>
             <div class="row fwdt" style="margin-top: 50px; margin-bottom: 50px;">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw2.jpg" alt="..." style="width: 100%;">
                         <hr>
@@ -273,7 +275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw1.jpg" alt="..." style="width: 100%;">
                         <hr>
@@ -289,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw3.jpg" alt="..." style="width: 100%;">
                         <hr>
@@ -311,8 +313,8 @@
 
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 50px;padding-bottom: 50px;">
-            <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2">
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -326,15 +328,15 @@
                             </div>
                         </div>
                         <!-- 如果需要分页器 -->
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination visible-md-block visible-lg-block"></div>
 
                         <!-- 如果需要导航按钮 -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev visible-md-block visible-lg-block"></div>
+                        <div class="swiper-button-next visible-md-block visible-lg-block"></div>
 
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
                             <a href="{{ url('/wygl') }}"><img src="{{ asset('images/wyfuzn.png') }}" alt=""
@@ -377,30 +379,36 @@
             <div class="row yqlj" style="margin-top: 30px;">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="tab-content" id="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="qsy" style="margin-left: 200px;">
+                        <div role="tabpanel" class="tab-pane active" id="qsy">
                             <span><a href="http://www.xixianxinqu.gov.cn/" target="_blank">西咸新区</a></span>
+                            <span><a href="http://www.jinghenewcity.gov.cn/" target="_blank">泾河新城</a></span>
                             <span><a href="http://www.xxanc.gov.cn/" target="_blank">空港新城</a></span>
-                            <span><a href="http://www.xxfd.gov.cn/" target="_blank">沣东新城</a></span>
                             <span><a href="http://www.qhxc.gov.cn/" target="_blank">秦汉新城</a></span>
                             <span><a href="http://www.fcfx.gov.cn/" target="_blank">沣西新城</a></span>
-                            <span><a href="http://www.jinghenewcity.gov.cn/" target="_blank">泾河新城</a></span>
+                            <span><a href="http://www.xxfd.gov.cn/" target="_blank">沣东新城</a></span>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hzhb" style="margin-left: 280px;">
+                        <div role="tabpanel" class="tab-pane" id="hzhb">
                             <span><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></span>
                             <span><a href="http://www.people.com.cn/" target="_blank">人民网</a></span>
-                            <span><a href="http://www.hsw.cn/" target="_blank">华商网</a></span>
                             <span><a href="http://www.sxdaily.com.cn/" target="_blank">陕西传媒网</a></span>
-                            <span><a href="http://www.sxdaily.com.cn/" target="_blank">陕西日报</a></span>
+                            <span><a href="http://www.hsw.cn/" target="_blank">华商网</a></span>
                             <span><a href="http://hsb.hsw.cn/" target="_blank">华商报</a></span>
-                            <span><a href="http://epaper.xiancn.com/" target="_blank">西安晚报</a></span>
+                            <span><a href="http://esb.sxdaily.com.cn/sxrb/20180306/html/index.htm" target="_blank">陕西日报</a></span>
+                            <span><a href="http://epaper.xiancn.com/" target="_blank">西安报业</a></span>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hywz" style="margin-left: 280px;">
-                            <span><a href="" target="_blank">茯茶镇</a></span>
+                        <div role="tabpanel" class="tab-pane" id="hywz">
+                            <span><a href="http://www.jxftea.cn" target="_blank">茯茶镇</a></span>
                             <span><a href="http://www.jingheshiye.cn/" target="_blank">泾河实业</a></span>
+                            <span><a href="http://www.jinghefucha.com/" target="_blank">泾河茯茶</a></span>
+                            <span><a href="http://t.cn/REYQjhY" target="_blank">寿平民宿</a></span>
+                            <span><a href="http://xa.lehuacheng.com/index.php" target="_blank">乐华城</a></span>
+                            <span><a href="http://t.cn/REYQNvz" target="_blank">泾河智慧农业园</a></span>
                             <span><a href="" target="_blank">添丽茶事</a></span>
                             <span><a href="" target="_blank">煜恒国际教育旅行社</a></span>
+                            <span><a href="http://www.spg.com.cn/" target="_blank">地电（SPG）</a></span>
+                            <span><a href="http://www.raising.net.cn/" target="_blank">泾河热力（启迪控股|瑞行集团）</a></span>
                         </div>
                     </div>
                 </div>
