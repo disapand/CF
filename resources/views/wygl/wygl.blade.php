@@ -4,12 +4,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}"  class="active">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -73,13 +73,13 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 150px;margin-bottom: 50px;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 3%;">
             <img src=" {{ asset('images/wygl_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
             <h3 style="color: #008cd6;">一、概况</h3>
             <p style="text-indent: 2em;">
                 泾河城服物业管理团队是一支会管理、精业务、肯奉献、高素质、服务优的队伍。公司在管物业项目10余个，服务人员120余人，管理面积超过30余万平方米，项目涵盖高端住宅区、商业写字楼、政府办公楼、商业综合体、旅游综合体等。业务范围涉及项目前期规划、高级会议服务、星级酒店服务、环境卫生服务、安全秩序维护、园林绿化养护、设备维护保养、配套设施管理、资产委托管理等。</p>
@@ -87,7 +87,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
             <h3 style="color: #008cd6;">二、服务理念</h3>
             <p style="text-indent: 2em;">
                 践行“物有所依，业有所托”的服务承诺，发扬“精细、专业、诚信、和谐”的物业管理理念，以物业管理服务、增值服务为主要业务，达到物业管理精细化、专业服务标准化、管理手段现代化。</p>
@@ -95,7 +95,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
             <h3 style="color: #008cd6;">三、发展愿景</h3>
             <p style="text-indent: 2em;">
                 打造泾河新城乃至西咸新区管理服务的标杆企业，不断强化标准，成为全国物业管理服务行业标准。</p>
@@ -103,7 +103,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 50px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 3%;">
             <h3 style="color: #008cd6;">四、发展优势</h3>
             <p style="text-indent: 2em;">
                 本土化网络布局，聚焦行业终端的服务战略定位，优秀的管理团队和人才梯队建设，完善的管理体系保障，为物业保值增值的全方位贴心服务。</p>

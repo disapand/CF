@@ -9,8 +9,8 @@
 @section('contents')
 
     <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3" style="margin-top: 150px;margin-bottom: 150px;">
-            <img src="images/zzjg.png" alt="" class="center-block">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 col-md-offset-3 col-xs-offset-1 col-sm-offset-1" style="margin-top: 6%;margin-bottom: 6%;">
+            <img src="images/zzjg.png" alt="" class="center-block img-100">
         </div>
     </div>
     

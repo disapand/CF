@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             transform: translateX(-50%);
             font-size: 1.6em;
@@ -58,7 +58,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -74,12 +74,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -106,7 +106,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/cwbt.jpg') }}" alt="" class="img-100">
                 <div class="bt">崇文宝塔</div>
             <p>崇文塔原名铁佛寺塔，87.218米13层，中国第一高砖塔。建于明万历19年（1591年），传当时在朝为官泾阳藉刑部尚书—李世达为传承圣贤劝学之志，勉励学童努力向学，故修建此塔，名为崇文塔。</p>

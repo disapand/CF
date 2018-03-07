@@ -158,7 +158,7 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="images/xwzx.png" alt="" class="center-block">
+                    <img src="images/xwzx.png" alt="" class="center-block img-100">
                 </div>
             </div>
 
@@ -253,11 +253,12 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-4"
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
                      style="margin-top: 100px;margin-bottom: 50px;">
-                    <img src="images/fwdt.png" alt="" class="center-block">
+                    <img src="images/fwdt.png" alt="" class="center-block img-100">
                 </div>
             </div>
+
             <div class="row fwdt" style="margin-top: 50px; margin-bottom: 50px;">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
@@ -266,11 +267,11 @@
                         <div class="caption">
                             <h3><a href="#">研学活动动态</a></h3>
                             <ul>
-                                <li><a href="{{ url('yxhd/ytwg') }}">泾河新城2017年第45周空气质量</a></li>
-                                <li>关于开展泾河新城砂石场、白灰场</li>
-                                <li>泾河新城权责清单目录</li>
-                                <li>陕西省西咸新区泾河新城政务服务中心</li>
-                                <li>产为孵化基地规划公示牌</li>
+                                <li><a href="{{ url('/yxhd/jqld/blhx') }}">博览华夏</a></li>
+                                <li><a href="{{ url('/yxhd/jqld/ddyd') }}">大地原点</a></li>
+                                <li><a href="{{ url('yxhd/jqld/hsjy2') }}">红色大地</a></li>
+                                <li><a href="{{ url('yxhd/jqld/ngty') }}">农耕体验</a></li>
+                                <li><a href="{{ url('yxhd/jqld/spgd') }}">寿平古渡</a></li>
                             </ul>
                         </div>
                     </div>
@@ -282,11 +283,10 @@
                         <div class="caption">
                             <h3><a href="#">市政工程动态</a></h3>
                             <ul>
-                                <li>泾河新城2017年第45周空气质量</li>
-                                <li>关于开展泾河新城砂石场、白灰场</li>
-                                <li>泾河新城权责清单目录</li>
-                                <li>陕西省西咸新区泾河新城政务服务中心</li>
-                                <li>产为孵化基地规划公示牌</li>
+                                <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
+                                <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
+                                <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
+                                <li><a href="{{ url('/szgc/fwts') }}">氛围提升</a></li>
                             </ul>
                         </div>
                     </div>
@@ -298,11 +298,11 @@
                         <div class="caption">
                             <h3><a href="#">综合服务动态</a></h3>
                             <ul>
-                                <li>泾河新城2017年第45周空气质量</li>
-                                <li>关于开展泾河新城砂石场、白灰场</li>
-                                <li>泾河新城权责清单目录</li>
-                                <li>陕西省西咸新区泾河新城政务服务中心</li>
-                                <li>产为孵化基地规划公示牌</li>
+                                <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
+                                <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
+                                <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
+                                <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
+                                <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
                             </ul>
                         </div>
                     </div>

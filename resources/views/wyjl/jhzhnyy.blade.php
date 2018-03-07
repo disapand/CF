@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             transform: translateX(-50%);
             font-size: 1.6em;
@@ -58,7 +58,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -84,12 +84,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -116,7 +116,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/jhzhnyy1.jpg') }}" alt="" class="img-100">
             <div class="bt">泾河智慧农业园</div>
             <p>花木为媒，观光立区，在城市核心留一片会呼吸的地。现代农业，科技为核，万亩都市农业形成独特的城市景观。川田，花漾泾河，花博会绚丽绽放，郁金香花海旖旎芬芳，绿色蔬菜蓬勃生长，田园美景一览无余。</p>

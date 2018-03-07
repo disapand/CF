@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             transform: translateX(-50%);
             font-size: 1.6em;
@@ -58,7 +58,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -79,12 +79,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -111,7 +111,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/fcz1.jpg') }}" alt="" class="img-100">
                 <div class="bt">伏茶镇</div>
             <p style="margin-bottom: 50px">茯茶镇位于西咸新区泾河新城核心区域，占地约1300亩，总投资约30亿，其中茯茶镇商业街项目总投资约6亿。茯茶镇由茯茶镇商业街、茯茶文化产业园、茯茶文化博物馆、优美小镇、双赵民俗村五个部分组成，是中国最具特色的茯茶文化体验中心。</p>

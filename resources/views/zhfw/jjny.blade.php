@@ -14,12 +14,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}" class="active">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>{{--还没有开发--}}
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}" class="active">综合服务</a></li>
 @endsection
 
 @section('ejdh')

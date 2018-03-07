@@ -49,12 +49,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}" class="active">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -73,21 +73,21 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/ddyd_z.png') }}" alt=""
-                 style="width: 100%;margin-bottom: 50px;margin-top: 100px;">
+                 style="width: 100%;margin-bottom: 6%;margin-top: 6%;">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/ddyd_dyz.png') }}" alt=""
-                 style="margin-bottom: 50px;" class="center-block">
+                 style="margin-bottom: 3%;" class="center-block">
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+    <div class="row" style="margin-bottom: 5%;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -102,37 +102,37 @@
                 </div>
             </div>
             <!-- 如果需要分页器 -->
-            <div class="swiper-pagination fyq2"></div>
+            <div class="swiper-pagination fyq2 visible-md-block visible-lg-block"></div>
 
             <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev prev2"></div>
-            <div class="swiper-button-next next2"></div>
+            <div class="swiper-button-prev prev2 visible-md-block visible-lg-block"></div>
+            <div class="swiper-button-next next2 visible-md-block visible-lg-block"></div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/ddyd_dez.png') }}" alt=""
-                 style="margin-bottom: 50px;" class="center-block">
+                 style="margin-bottom: 3%;" class="center-block">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 3%;">
             <p>
                 亦称大地基准点，是国家地理坐标——经纬度的起算点和基准点。大地原点是人为界定的一个点，是利用高斯平面直角坐标的方法建立全国统一坐标系。20世纪70年代，中国决定建立自己独立的大地坐标系统。通过实地考察、综合分析，最后将中国的大地原点，确定在陕西省泾阳县永乐镇北横流村，具体位置在：北纬34°32′27.00″东经108°55′25.00″。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 50px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 3%;">
             <p>
                 走进大地原点，让学生们大地原点在国家经济建设、国防建设和社会发展方面发挥的重要意义，了解大地原点的由来，测量方式以及设置在此地的原因。</p>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 180px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+    <div class="row" style="margin-bottom: 10%;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -147,11 +147,11 @@
                 </div>
             </div>
             <!-- 如果需要分页器 -->
-            <div class="swiper-pagination fyq2"></div>
+            <div class="swiper-pagination fyq2 visible-md-block visible-lg-block"></div>
 
             <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev prev2"></div>
-            <div class="swiper-button-next next2"></div>
+            <div class="swiper-button-prev prev2 visible-md-block visible-lg-block"></div>
+            <div class="swiper-button-next next2 visible-md-block visible-lg-block"></div>
         </div>
     </div>
 

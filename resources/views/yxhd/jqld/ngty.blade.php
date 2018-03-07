@@ -50,12 +50,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}" class="active">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -74,21 +74,21 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/ngty_z.png') }}" alt=""
-                 style="width: 100%;margin-bottom: 50px;margin-top: 100px;">
+                 style="width: 100%;margin-bottom: 6%;margin-top:6%;">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/hsjy_dyz.png') }}" alt=""
-                 style="margin-bottom: 50px;" class="center-block">
+                 style="margin-bottom: 3%;" class="center-block">
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 80px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+    <div class="row" style="margin-bottom: 5%;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -103,37 +103,37 @@
                 </div>
             </div>
             <!-- 如果需要分页器 -->
-            <div class="swiper-pagination fyq2"></div>
+            <div class="swiper-pagination fyq2 visible-md-block visible-lg-block"></div>
 
             <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev prev2"></div>
-            <div class="swiper-button-next next2"></div>
+            <div class="swiper-button-prev prev2 visible-md-block visible-lg-block"></div>
+            <div class="swiper-button-next next2 visible-md-block visible-lg-block"></div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/yxhd/jqld/ngty_dez.png') }}" alt=""
-                 style="margin-bottom: 50px;" class="center-block">
+                 style="margin-bottom: 3%;" class="center-block">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 30px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 2%;">
             <p>
                 高陵场畔位于高陵区通远古镇，目前拥有农耕文化展示区、农耕体验区、关中民俗游戏园、关中特色餐饮区、关中文化长廊、关中大戏楼等6大板块。其中农耕博文馆，占地4000平方米、收集30000余件农业生产工具，按照农耕、水利、加工、日常生活等相关内容，通过实体展示和泥塑场景相结合，生动地将农事活动和生活场景表现出来，能亲身感受到祖辈的勤劳与智慧。</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 50px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 3%;">
             <p>
                 走进高陵场畔农耕体验园，感受关中农耕文化魅力，亲身感受到祖辈的勤劳与智慧，体验农务的艰辛与劳累，更能在以后的学习生活中，培养节俭、珍惜的习惯。</p>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 180px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+    <div class="row" style="margin-bottom: 10%;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -148,11 +148,11 @@
                 </div>
             </div>
             <!-- 如果需要分页器 -->
-            <div class="swiper-pagination fyq2"></div>
+            <div class="swiper-pagination fyq2 visible-md-block visible-lg-block"></div>
 
             <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev prev2"></div>
-            <div class="swiper-button-next next2"></div>
+            <div class="swiper-button-prev prev2 visible-md-block visible-lg-block"></div>
+            <div class="swiper-button-next next2 visible-md-block visible-lg-block"></div>
         </div>
     </div>
 

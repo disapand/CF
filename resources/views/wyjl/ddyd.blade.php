@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             transform: translateX(-50%);
             font-size: 1.6em;
@@ -58,7 +58,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -84,12 +84,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -116,7 +116,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/ddyd1.jpg') }}" alt="" class="img-100">
             <div class="bt">大地原点</div>
             <p>亦称大地基准点，是国家地理坐标——经纬度的起算点和基准点。大地原点是人为界定的一个点，是利用高斯平面直角坐标的方法建立全国统一坐标系。20世纪70年代，中国决定建立自己独立的大地坐标系统。通过实地考察、综合分析，最后将中国的大地原点，确定在陕西省泾阳县永乐镇北横流村，具体位置在：北纬34°32′27.00″东经108°55′25.00″。</p>

@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             margin-top: 0;
             transform: translateX(-50%);
@@ -59,7 +59,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -85,12 +85,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -117,7 +117,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
                 <div class="bt">乐华城</div>
             <p style="margin-bottom: 50px">乐华城国际欢乐度假区是一个及文化旅游、休闲度假、娱乐购物、高端居住为一体的新都市旅游生态综合城区，旨在为人们创造一个全新的城市空间，传播一个全新的欢乐理念，营造一种全新的生活方式，分享一种全新的幸福体验。</p>
             <h3 class="text-center">乐华城·乐华欢乐世界</h3>

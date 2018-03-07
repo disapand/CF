@@ -50,7 +50,7 @@
 
         .bt {
             display: inline-block;
-            margin: 50px 0;
+            margin: 6% 0;
             margin-left: 50%;
             transform: translateX(-50%);
             font-size: 1.6em;
@@ -58,7 +58,7 @@
             background-color: #008cd5;
             border: #008cd5 solid 1px;
             border-radius: 10px;
-            padding: 10px 50px;
+            padding: 1% 6%;
         }
 
         p{
@@ -74,12 +74,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -106,7 +106,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/sswhblg1.jpg') }}" alt="" class="img-100">
             <div class="bt">陕商文化博览馆</div>
             <p style="margin-bottom: 50px">陕商文化博览馆位于崇文塔景区东北侧，展陈面积1000平方米，是中国第一个以 “陕商文化”为主题的博览馆。展馆分为“抢抓机遇、商帮诞生”、“天下第一商帮”、“敢为人先，勇创第一”、“西商大贾，富甲天下”、“厚重质直，忠义仁勇”、“泾河之阳，省市商都”等主题展区，以小空间、大历史，以景叙史，忆陕商、塑文化，再现历史的理念，达到一步一景一体验，一闻一学一收获的目的，通过地景浮雕、门楼照壁、幻影成像等元素呈现出陕商庞大的经营规模与创业的艰辛，激励后人发扬陕商精神，响应国家号召建设"丝绸之路经济带"， 为促进亚欧经济文化交流贡献一份力量。</p>

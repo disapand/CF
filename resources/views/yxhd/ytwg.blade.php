@@ -92,12 +92,12 @@
     <li>
         <a href="{{ url('/') }}">走进城服</a>
     </li>
-    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}" class="active">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
     <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+    <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
 
 @section('ejdh')
@@ -116,13 +116,13 @@
     </div>
 
     <div class="row" style="margin-top: 100px;">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 30px;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 2%;">
             <img src="{{ asset('images/yxhd/hzjl_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 6%;">
             <p>近年来，泾河新城以打造国内文化旅游新高地，大力发展文化旅游产业，加快旅游景区建设，完善旅游服务功能，打造精品旅游景点，全力构建大西安北部中心文化旅游目的地。随着发展，新城文化旅游产业已初具规模，实现了全域旅游立体化的转变。近年来，泾河新城以打造国内文化旅游新高地，大力发展文化旅游产业，加快旅游景区建设，完善旅游服务功能，打造精品旅游景点，全力构建大西安北部中心文化旅游目的地。随着发展，新城文化旅游产业已初具规模，实现了全域旅游立体化的转变。</p>
             <p>为加强在校学生实践教学，提高学生实践能力和科学研究的基本技能，达到资源共享、相互促进，发挥各自优势，泾河城服和西安科技大学达成共识，共同建立“特色鲜明、区位优势突出、国内领先、对国内外开放”的实习示范基地。</p>
         </div>

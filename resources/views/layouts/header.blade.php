@@ -40,10 +40,6 @@
             color: #e9f4f4;
         }
 
-        /* a:hover {
-             background-color: transparent !important;
-         }*/
-
         .footer {
             background-color: #eee;
         }
@@ -111,13 +107,12 @@
                 <li>
                     <a href="{{ url('/') }}" class="active">走进城服</a>
                 </li>
-                <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
                 <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
                 <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
                 <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-                <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>{{--还没有开发--}}
+                <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
                 <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
-                {{--<li><a href="{{ url('/dzfw') }}">定制服务</a></li>--}}{{--跟综合服务合并--}}
+                <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
             @show
         </ul>
     </div><!-- /.navbar-collapse -->
