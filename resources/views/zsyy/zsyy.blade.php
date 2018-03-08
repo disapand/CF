@@ -28,13 +28,13 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 100px;margin-bottom: 50px;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 3%;">
             <img src=" {{ asset('images/zsyy/zsyy_z.png') }}" alt="" class="img-100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2 wzys" style="margin-bottom: 100px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-sm-offset-1 col-xs-offset-1" style="margin-bottom: 6%;">
             <h3 style="color:#008cd5;font-size: 1.6em;" class="text-center">招商理念</h3>
             <h4 style="color:#999;margin-bottom: 30px;" class="text-center">洞悉根本 前瞻未来</h4>
             <p>一支能力强、讲奉献、品德好的招商团队，是保证招商工作顺利进行的重要因素。</p>

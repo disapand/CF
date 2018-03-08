@@ -362,58 +362,58 @@
 
     <div class="row" style="margin-top: 50px;margin-bottom: 50px">
         <div class="col-md-8 col-md-offset-2" style="margin-top: 50px;margin-bottom: 50px;">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <ul class="nav nav-tabs nav-justified" role="tablist">
-                        <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab"
-                                                                  data-toggle="tab">相关链接</a>
-                        </li>
-                        <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab"
-                                                   data-toggle="tab">新闻媒体网站</a></li>
-                        <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab"
-                                                   data-toggle="tab">合作伙伴</a>
-                        </li>
-                    </ul>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab"
+                                                                      data-toggle="tab">相关链接</a>
+                            </li>
+                            <li role="presentation"><a href="#hzhb" aria-controls="hzhb" role="tab"
+                                                       data-toggle="tab">新闻媒体网站</a></li>
+                            <li role="presentation"><a href="#hywz" aria-controls="hywz" role="tab"
+                                                       data-toggle="tab">合作伙伴</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="row yqlj" style="margin-top: 30px;">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="tab-content" id="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="qsy">
-                            <span><a href="http://www.xixianxinqu.gov.cn/" target="_blank">西咸新区</a></span>
-                            <span><a href="http://www.jinghenewcity.gov.cn/" target="_blank">泾河新城</a></span>
-                            <span><a href="http://www.xxanc.gov.cn/" target="_blank">空港新城</a></span>
-                            <span><a href="http://www.qhxc.gov.cn/" target="_blank">秦汉新城</a></span>
-                            <span><a href="http://www.fcfx.gov.cn/" target="_blank">沣西新城</a></span>
-                            <span><a href="http://www.xxfd.gov.cn/" target="_blank">沣东新城</a></span>
-                        </div>
+                <div class="row yqlj" style="margin-top: 30px;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="tab-content" id="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="qsy">
+                                <span><a href="http://www.xixianxinqu.gov.cn/" target="_blank">西咸新区</a></span>
+                                <span><a href="http://www.jinghenewcity.gov.cn/" target="_blank">泾河新城</a></span>
+                                <span><a href="http://www.xxanc.gov.cn/" target="_blank">空港新城</a></span>
+                                <span><a href="http://www.qhxc.gov.cn/" target="_blank">秦汉新城</a></span>
+                                <span><a href="http://www.fcfx.gov.cn/" target="_blank">沣西新城</a></span>
+                                <span><a href="http://www.xxfd.gov.cn/" target="_blank">沣东新城</a></span>
+                            </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hzhb">
-                            <span><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></span>
-                            <span><a href="http://www.people.com.cn/" target="_blank">人民网</a></span>
-                            <span><a href="http://www.sxdaily.com.cn/" target="_blank">陕西传媒网</a></span>
-                            <span><a href="http://www.hsw.cn/" target="_blank">华商网</a></span>
-                            <span><a href="http://hsb.hsw.cn/" target="_blank">华商报</a></span>
-                            <span><a href="http://esb.sxdaily.com.cn/sxrb/20180306/html/index.htm" target="_blank">陕西日报</a></span>
-                            <span><a href="http://epaper.xiancn.com/" target="_blank">西安报业</a></span>
-                        </div>
+                            <div role="tabpanel" class="tab-pane" id="hzhb">
+                                <span><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></span>
+                                <span><a href="http://www.people.com.cn/" target="_blank">人民网</a></span>
+                                <span><a href="http://www.sxdaily.com.cn/" target="_blank">陕西传媒网</a></span>
+                                <span><a href="http://www.hsw.cn/" target="_blank">华商网</a></span>
+                                <span><a href="http://hsb.hsw.cn/" target="_blank">华商报</a></span>
+                                <span><a href="http://esb.sxdaily.com.cn/sxrb/20180306/html/index.htm" target="_blank">陕西日报</a></span>
+                                <span><a href="http://epaper.xiancn.com/" target="_blank">西安报业</a></span>
+                            </div>
 
-                        <div role="tabpanel" class="tab-pane" id="hywz">
-                            <span><a href="http://www.jxftea.cn" target="_blank">茯茶镇</a></span>
-                            <span><a href="http://www.jingheshiye.cn/" target="_blank">泾河实业</a></span>
-                            <span><a href="http://www.jinghefucha.com/" target="_blank">泾河茯茶</a></span>
-                            <span><a href="http://t.cn/REYQjhY" target="_blank">寿平民宿</a></span>
-                            <span><a href="http://xa.lehuacheng.com/index.php" target="_blank">乐华城</a></span>
-                            <span><a href="http://t.cn/REYQNvz" target="_blank">泾河智慧农业园</a></span>
-                            <span><a href="" target="_blank">添丽茶事</a></span>
-                            <span><a href="" target="_blank">煜恒国际教育旅行社</a></span>
-                            <span><a href="http://www.spg.com.cn/" target="_blank">地电（SPG）</a></span>
-                            <span><a href="http://www.raising.net.cn/" target="_blank">泾河热力（启迪控股|瑞行集团）</a></span>
+                            <div role="tabpanel" class="tab-pane" id="hywz">
+                                <span><a href="http://www.jxftea.cn" target="_blank">茯茶镇</a></span>
+                                <span><a href="http://www.jingheshiye.cn/" target="_blank">泾河实业</a></span>
+                                <span><a href="http://www.jinghefucha.com/" target="_blank">泾河茯茶</a></span>
+                                <span><a href="http://t.cn/REYQjhY" target="_blank">寿平民宿</a></span>
+                                <span><a href="http://xa.lehuacheng.com/index.php" target="_blank">乐华城</a></span>
+                                <span><a href="http://t.cn/REYQNvz" target="_blank">泾河智慧农业园</a></span>
+                                <span><a href="" target="_blank">添丽茶事</a></span>
+                                <span><a href="" target="_blank">煜恒国际教育旅行社</a></span>
+                                <span><a href="http://www.spg.com.cn/" target="_blank">地电（SPG）</a></span>
+                                <span><a href="http://www.raising.net.cn/" target="_blank">泾河热力（启迪控股|瑞行集团）</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
 @endsection
