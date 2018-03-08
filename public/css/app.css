@@ -8420,3 +8420,33 @@ a {
   width: 100%;
 }
 
+.ewm {
+  margin-top: 15%;
+  margin-bottom: 3%;
+  width: 50%;
+}
+
+.lxdh {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .ewm {
+    width: 30%;
+  }
+
+  .lxdh {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ewm {
+    width: 30%;
+  }
+
+  .lxdh {
+    width: 30%;
+  }
+}
+

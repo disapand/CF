@@ -49,12 +49,6 @@
             margin-right: 0;
         }
 
-        .ewm {
-            margin-top: 15%;
-            margin-bottom: 3%;
-            width: 50%;
-        }
-
         .dtbz {
             font-size: 1.2em;
             padding-right: 1em;
@@ -158,7 +152,7 @@
 
         <div class="row">
             <div class="col-md-2 col-md-offset-5">
-                <img src="{{ asset('images/lxdh.png') }}" alt="" class="center-block" style="width: 70%">
+                <img src="{{ asset('images/lxdh.png') }}" alt="" class="center-block lxdh">
             </div>
         </div>
 

@@ -111,8 +111,8 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="row" style="margin-top: 20px;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 	<div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -134,16 +134,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl1.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/zsyy/cyfh') }}"><img src=" {{ asset('images/wygl1.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl2.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/whjq') }}"><img src=" {{ asset('images/wygl2.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -165,23 +165,23 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl3.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/zsyy/cwsx') }}"><img src=" {{ asset('images/wygl3.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl4.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/zz') }}"><img src=" {{ asset('images/wygl4.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-bloc" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                             <span>泾河公安分局</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
@@ -196,23 +196,23 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl5.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl5.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl6.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl6.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                             <span>信访办</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
@@ -227,16 +227,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl7.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl7.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl8.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/sy') }}"><img src=" {{ asset('images/wygl8.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -258,30 +258,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl9.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/whjq') }}"><img src=" {{ asset('images/wygl9.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl10.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/wygl/cyy') }}"><img src=" {{ asset('images/wygl10.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                             <span>餐饮管理</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-bottom: 100px;">
+            <div class="row" style="margin-bottom: 6%;margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <img src=" {{ asset('images/wygl11.jpg') }}" alt="" class="img-100">
+                    <a href="{{ url('/zhfw/cygn') }}"><img src=" {{ asset('images/wygl11.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
         </div>
