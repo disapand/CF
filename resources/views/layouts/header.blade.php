@@ -22,18 +22,25 @@
             margin-right: 10%;
         }
 
-        .ejdh ul a {
-            padding-top: 15px;
-            padding-bottom: 0;
+        .ejdh > li > a{
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .ejdh a {
             height: 100%;
             color: #fff;
             opacity: .55;
         }
 
-        .ejdh ul .active {
+        .ejdh .active {
             color: #e9f4f4;
             border-bottom: #e9f4f4 solid 1px;
             opacity: 1;
+        }
+
+        .nav li {
+            display: inline-block;
         }
 
         .ejdh ul a:active {
@@ -112,10 +119,8 @@
     </div><!-- /.navbar-collapse -->
 </nav>
 
-<div class="container-fluid">
     <div class="row" style="margin: 0">
         <div class="col-md-12 navbar-bg">
-            <div class="col-md-12 ejdh">
                 <ul class="nav navbar-nav ejdh" id="ejdh">
                     @section('ejdh')
                         <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
@@ -123,10 +128,8 @@
                         <li><a href="{{ url('/zzjg') }}">组织架构</a></li>
                     @show
                 </ul>
-            </div>
         </div>
     </div>
-</div>
 {{--正文内容--}}
 @yield('contents')
 

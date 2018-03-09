@@ -114,10 +114,10 @@
     </div>
 
     {{-- 特色党建、企业扶贫、团队建设 --}}
-    <div class="row" style="margin-top: 50px; margin-bottom: 50px;margin-left: 0;margin-right: 0">
+    <div class="row" style="margin-top: 3%; margin-bottom: 3%;margin-left: 0;margin-right: 0">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp1.png" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -128,7 +128,7 @@
 
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp3.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -152,7 +152,7 @@
     </div>
 
     <div class="row"
-         style="padding-top: 50px; padding-bottom: 50px;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
+         style="padding-top: 3%; padding-bottom: 3%;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -254,7 +254,7 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
-                     style="margin-top: 100px;margin-bottom: 50px;">
+                     style="margin-top: 6%;margin-bottom: 1%;">
                     <img src="images/fwdt.png" alt="" class="center-block img-100">
                 </div>
             </div>
@@ -312,7 +312,7 @@
     </div>
 
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 50px;padding-bottom: 50px;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 3%;padding-bottom: 3%;">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="swiper-container">
@@ -344,13 +344,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
                             <a href="{{ url('/yxhd/jqld') }}"><img src="{{ asset('images/jqfwzn.png') }}" alt=""
                                                                    class="center-block btm"></a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
                             <a href="{{ url('/zsyy') }}"><img src="{{ asset('images/zsyzzn.png') }}" alt=""
                                                               class="center-block btm"></a>
                         </div>
@@ -360,8 +360,8 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 50px;margin-bottom: 50px">
-        <div class="col-md-8 col-md-offset-2" style="margin-top: 50px;margin-bottom: 50px;">
+    <div class="row" style="margin-top: 3%;margin-bottom: 3%">
+        <div class="col-md-8 col-md-offset-2" style="margin-top: 3%;margin-bottom: 3%;">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="nav nav-tabs" role="tablist">

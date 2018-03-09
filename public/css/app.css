@@ -8407,7 +8407,9 @@ a {
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  height: 50px;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 0rem;
 }
 
 .wzys p {
@@ -8438,6 +8440,11 @@ a {
   .lxdh {
     width: 30%;
   }
+
+  .tpbj {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -8447,6 +8454,11 @@ a {
 
   .lxdh {
     width: 30%;
+  }
+
+  .tpbj {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
