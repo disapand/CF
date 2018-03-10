@@ -52,14 +52,6 @@
             background-color: #8ec322;
         }
 
-        .btm {
-            opacity: 0.8;
-        }
-
-        .btm:hover, .btm:active {
-            opacity: 1;
-        }
-
         .tab-content .active {
             display: inline-block;
         }
@@ -80,6 +72,15 @@
             -ms-text-overflow: ellipsis;
             text-overflow: ellipsis;
             overflow: hidden;
+        }
+
+        .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .caption ul {
+            padding-left: 0;
         }
 
     </style>
@@ -115,9 +116,9 @@
 
     {{-- 特色党建、企业扶贫、团队建设 --}}
     <div class="row" style="margin-top: 3%; margin-bottom: 3%;margin-left: 0;margin-right: 0">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 col-xs-offset-1 col-sm-offset-1">
             <div class="row">
-                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp1.png" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -128,7 +129,7 @@
 
                 </div>
 
-                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -138,7 +139,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 tpbj">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/tp3.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
@@ -155,14 +156,14 @@
          style="padding-top: 3%; padding-bottom: 3%;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                     <img src="images/xwzx.png" alt="" class="center-block img-100">
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 50px;">
+            <div class="row" style="margin-top: 3%;">
                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5" style="margin-bottom: 50px;">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -251,22 +252,22 @@
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4"
                      style="margin-top: 6%;margin-bottom: 1%;">
                     <img src="images/fwdt.png" alt="" class="center-block img-100">
                 </div>
             </div>
 
-            <div class="row fwdt" style="margin-top: 50px; margin-bottom: 50px;">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="row fwdt" style="margin-top: 3%; margin-bottom: 3%;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw2.jpg" alt="..." style="width: 100%;">
                         <hr>
-                        <div class="caption">
-                            <h3><a href="#">研学活动动态</a></h3>
-                            <ul>
+                        <div class="caption text-center">
+                            <h3><a href="{{ url('/yxhd') }}">研学活动动态</a></h3>
+                            <ul class="visible-md-block visible-lg-block">
                                 <li><a href="{{ url('/yxhd/jqld/blhx') }}">博览华夏</a></li>
                                 <li><a href="{{ url('/yxhd/jqld/ddyd') }}">大地原点</a></li>
                                 <li><a href="{{ url('yxhd/jqld/hsjy2') }}">红色大地</a></li>
@@ -276,13 +277,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
-                        <img src="images/fw1.jpg" alt="..." style="width: 100%;">
+                        <img src="images/fw1.jpg" style="width: 100%;">
                         <hr>
-                        <div class="caption">
-                            <h3><a href="#">市政工程动态</a></h3>
-                            <ul>
+                        <div class="caption text-center">
+                            <h3><a href="{{ url('/szgc/lmwx') }}">市政工程动态</a></h3>
+                            <ul class="visible-md-block visible-lg-block">
                                 <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
                                 <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
                                 <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
@@ -291,13 +292,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw3.jpg" alt="..." style="width: 100%;">
                         <hr>
-                        <div class="caption">
-                            <h3><a href="#">综合服务动态</a></h3>
-                            <ul>
+                        <div class="caption text-center">
+                            <h3><a href="{{ url('/zhfw/zhcs') }}">综合服务动态</a></h3>
+                            <ul class="visible-md-block visible-lg-block">
                                 <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
                                 <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
                                 <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
@@ -313,8 +314,8 @@
 
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 3%;padding-bottom: 3%;">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 col-xs-offset-1 col-sm-offset-1">
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -336,23 +337,23 @@
 
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <a href="{{ url('/wygl') }}"><img src="{{ asset('images/wyfuzn.png') }}" alt=""
-                                                              class="center-block btm"></a>
+                                                              class="img-100 btm"></a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <a href="{{ url('/yxhd/jqld') }}"><img src="{{ asset('images/jqfwzn.png') }}" alt=""
-                                                                   class="center-block btm"></a>
+                                                                   class="img-100 btm"></a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 100px;">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <a href="{{ url('/zsyy') }}"><img src="{{ asset('images/zsyzzn.png') }}" alt=""
-                                                              class="center-block btm"></a>
+                                                              class="img-100 btm"></a>
                         </div>
                     </div>
                 </div>
@@ -424,6 +425,9 @@
 
     <script>
         $(document).ready(function () {
+
+            // window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? '/wap' : ' ' ;
+
             var mySwiper = new Swiper('.swiper-container', {
                 autoplay: 5000,
                 speed: 1500,

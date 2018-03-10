@@ -31,7 +31,7 @@
         }
 
         .tpbt{
-            margin-bottom: -2px;
+            margin-bottom: -30px;
         }
 
         .tpbt span {
@@ -174,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="row visible-md-block visible-lg-bloc" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -191,7 +191,7 @@
                             <span>泾河消防</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>{{--没加链接--}}
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                 </div>
             </div>
 
-            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">

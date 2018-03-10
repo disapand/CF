@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     　　
     <link rel="icon" href="favicon.ico">
+    <script>
+    </script>
     @section('css')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}"></script>
@@ -116,7 +118,7 @@
                 <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
             @show
         </ul>
-    </div><!-- /.navbar-collapse -->
+    </div>
 </nav>
 
     <div class="row" style="margin: 0">
@@ -175,13 +177,13 @@
             </div>
         </div>
 
-        <div class="row bq" style="margin-top: 30px;">
+        {{--<div class="row bq" style="margin-top: 30px;">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center">主办：陕西省西咸新区开发建设管理委员会&nbsp;&nbsp;&nbsp;&nbsp;电话：029-33186000&nbsp;&nbsp;&nbsp;&nbsp;传真：029-33186111</p>
                 <p class="text-center">地址：陕西省西咸新区沣泾大道西一路1号西咸大厦&nbsp;&nbsp;&nbsp;&nbsp;邮编：712000&nbsp;&nbsp;&nbsp;&nbsp;站点地图</p>
                 <p class="text-center">网站标识码：6190000001&nbsp;&nbsp;&nbsp;&nbsp;陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;陕公网安备6101960200052</p>
             </div>
-        </div>
+        </div>--}}
 
     </div>
 

@@ -8432,7 +8432,25 @@ a {
   width: 70%;
 }
 
+.btm {
+  opacity: 0.8;
+  margin-top: 70px;
+}
+
+.btm:hover,
+.btm:active {
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
   .ewm {
     width: 30%;
   }
@@ -8444,10 +8462,22 @@ a {
   .tpbj {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .btm {
+    margin-top: 10%;
   }
 }
 
 @media screen and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
   .ewm {
     width: 30%;
   }
@@ -8459,6 +8489,10 @@ a {
   .tpbj {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .btm {
+    margin-top: 10%;
   }
 }
 
