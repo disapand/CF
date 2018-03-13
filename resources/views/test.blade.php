@@ -134,7 +134,7 @@
                         <img src="images/tp2.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
                             <h3><a href="{{ url('/qyfp') }}">企业扶贫</a></h3>
-                            <p>践行精准扶贫政策 <br /> 加快城乡统筹发展</p>
+                            <p class="fsm">践行精准扶贫政策 <br /> 加快城乡统筹发展</p>
                         </div>
                     </div>
                 </div>

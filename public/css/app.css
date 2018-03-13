@@ -8434,7 +8434,7 @@ a {
 
 .btm {
   opacity: 0.8;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .btm:hover,
@@ -8481,6 +8481,10 @@ a {
     font-size: 16px;
   }
 
+  .fsm {
+    font-size: 11px;
+  }
+
   .ewm {
     width: 30%;
   }
@@ -8495,7 +8499,7 @@ a {
   }
 
   .btm {
-    margin-top: 10%;
+    margin-top: 0;
   }
 
   .xqbt {
@@ -8527,6 +8531,10 @@ a {
     font-size: 16px;
   }
 
+  .fsm {
+    font-size: 11px;
+  }
+
   .ewm {
     width: 30%;
   }
@@ -8541,7 +8549,7 @@ a {
   }
 
   .btm {
-    margin-top: 10%;
+    margin-top: 0;
   }
 
   .xqbt {
