@@ -65,6 +65,11 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="url" class="control-label">外部链接</label>
+                        <input type="text" class="form-control" id="url" placeholder="请输入外链" name="url">
+                    </div>
+
+                    <div class="form-group">
                         <label for="author" class="control-label">作者</label>
                         <input type="text" class="form-control" id="author" placeholder="" name="author"
                                value="{{ $author or '泾河城服' }}">
@@ -119,7 +124,8 @@
         $('#submit').click(function () {
             if ($('#title').val() != null && $('#title').val() != '' && $('#title').val() != undefined
                 && $('#author').val() != null && $('#author').val() != '' && $('#author').val() != undefined
-                && ue.getContent() != '' && ue.getContent() != null) {
+                && ue.getContent() != '' && ue.getContent() != null &&
+                $('#zrbj').val() != null && $('#zrbj').val() != '' && $('#zrbj').val() != undefined) {
             } else {
                 alert('标题、作者和新闻内容都不能为空！请确认填写后再次提交');
                 return false;

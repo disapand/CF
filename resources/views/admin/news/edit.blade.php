@@ -69,6 +69,12 @@
                                value="{{ $new['title']}}">
                     </div>
 
+                    <div class="form-con">
+                        <label for="url" class="control-label">外部链接</label>
+                        <input type="text" class="form-control" id="url" placeholder="请输入标题" name="url"
+                               value="{{ $new['url']}}">
+                    </div>
+
                     <div class="form-group">
                         <label for="sort" class="control-label">新闻类别</label>
 
@@ -87,6 +93,11 @@
 
 
                     <script id="ueditor" name="content" type="text/plain"></script>
+
+                    <div class="form-group">
+                        <label for="url" class="control-label">责任编辑</label>
+                        <input type="text" class="form-control" id="url" placeholder="请输入责任编辑" name="url" value="{{ $new['url'] }}">
+                    </div>
 
                     <button type="submit" class="btn btn-primary" style="margin:20px 0;" id="submint">修改</button>
                 </form>

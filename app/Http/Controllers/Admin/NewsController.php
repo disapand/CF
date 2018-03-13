@@ -53,6 +53,14 @@ class NewsController extends Controller
             'show' =>  true,
             'zrbj' => $request -> input('zrbj'),
         ];
+
+        $uu = $request->input('url');
+        if (!strstr($uu, 'http://')){
+            $uu = 'http://' . $uu;
+        }
+
+        $input['url'] = $uu;
+
         $new = News::create($input);
         $new -> save();
         return redirect() -> route('news.index');
