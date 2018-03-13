@@ -3,7 +3,7 @@
 @section('css')
     @parent
     <style>
-        p{
+        .nr p{
             text-align: justify;
             text-indent: 2em;
             line-height: 2.5em;
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="margin-top: 1%;">
+                <div class="row nr" style="margin-top: 1%;">
                      {!! $new['content'] !!}
                 </div>
             </div>

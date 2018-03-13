@@ -8474,11 +8474,11 @@ a {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .ewm {
@@ -8520,11 +8520,11 @@ a {
 
 @media screen and (max-width: 1200px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .ewm {
