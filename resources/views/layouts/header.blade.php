@@ -24,7 +24,7 @@
             margin-right: 10%;
         }
 
-        .ejdh > li > a{
+        .ejdh > li > a {
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
         }
@@ -91,19 +91,28 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logo_cf.png') }}" alt=""></a>
+<div class="row" style="margin-top: -15px;">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="{{ url('/') }}"><img src="{{ asset('images/logo_cf.png') }}" alt="" class="margin_logo"></a>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="yjdh">
+    	<ul>
+            @section('yjdh')
+                <li>
+                    <a href="{{ url('/') }}" class="active">走进城服</a>
+                </li>
+                <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
+                <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
+                <li><a href="{{ url('/wygl') }}">物业管理</a></li>
+                <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
+                <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
+                <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
+            @show
+        </ul>
+    </div>
+</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+{{--<nav class="navbar navbar-default" role="navigation">
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav" id="yjdh" style="padding-top: 10px;">
             @section('yjdh')
@@ -119,19 +128,19 @@
             @show
         </ul>
     </div>
-</nav>
+</nav>--}}
 
-    <div class="row" style="margin: 0">
-        <div class="col-md-12 navbar-bg">
-                <ul class="nav navbar-nav ejdh" id="ejdh">
-                    @section('ejdh')
-                        <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
-                        <li><a href="{{ url('/fzyj') }}">发展愿景</a></li>
-                        <li><a href="{{ url('/zzjg') }}">组织架构</a></li>
-                    @show
-                </ul>
-        </div>
+<div class="row" style="margin: 0">
+    <div class="col-md-12 navbar-bg">
+        <ul class="nav navbar-nav ejdh" id="ejdh">
+            @section('ejdh')
+                <li><a href="{{ url('/qyjj') }}">企业简介</a></li>
+                <li><a href="{{ url('/fzyj') }}">发展愿景</a></li>
+                <li><a href="{{ url('/zzjg') }}">组织架构</a></li>
+            @show
+        </ul>
     </div>
+</div>
 {{--正文内容--}}
 @yield('contents')
 
@@ -142,7 +151,6 @@
         <div class="row">
             <div class="col-md-12 end"></div>
         </div>
-
 
         <div class="row">
             <div class="col-md-2 col-md-offset-5">
@@ -177,13 +185,13 @@
             </div>
         </div>
 
-        {{--<div class="row bq" style="margin-top: 30px;">
+        <div class="row bq" style="margin-top: 30px;">
             <div class="col-md-6 col-md-offset-3">
-                <p class="text-center">主办：陕西省西咸新区开发建设管理委员会&nbsp;&nbsp;&nbsp;&nbsp;电话：029-33186000&nbsp;&nbsp;&nbsp;&nbsp;传真：029-33186111</p>
-                <p class="text-center">地址：陕西省西咸新区沣泾大道西一路1号西咸大厦&nbsp;&nbsp;&nbsp;&nbsp;邮编：712000&nbsp;&nbsp;&nbsp;&nbsp;站点地图</p>
-                <p class="text-center">网站标识码：6190000001&nbsp;&nbsp;&nbsp;&nbsp;陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;陕公网安备6101960200052</p>
+                <p class="text-center">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-38952115</p>
+                <p class="text-center">地址：陕西省西咸新区泾河新城高泾南路与正阳大道十字西南角（崇文塔景区）&nbsp;&nbsp;&nbsp;&nbsp;P.C.：713700&nbsp;&nbsp;&nbsp;&nbsp;邮箱：jinghechengfu@126.com</p>
+                <p class="text-center">备案号陕ICP备18001733</p>
             </div>
-        </div>--}}
+        </div>
 
     </div>
 

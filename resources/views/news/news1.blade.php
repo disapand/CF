@@ -40,7 +40,7 @@
 
 @section('yjdh')
     <li>
-        <a href="{{ url('/') }}">走进城服</a>
+        <a href="{{ url('/') }}" class=".active">走进城服</a>
     </li>
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
@@ -56,18 +56,18 @@
 @section('contents')
 
     <div class="container-fluid">
-        <div class="row" style="margin-top: 100px;">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="row" style="margin-top: 6%;">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             	<div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    	<h1 style="color: #008dd5">{{ $new['title'] }}</h1>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 xqbt">
+                    	<h3 style="color: #008dd5">{{ $new['title'] }}</h3>
                     </div>
                 </div>
-                <div class="row" style="padding-bottom: 60px;border-bottom: #d2d2d2 solid 1px;">
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <p style="color: #d2d2d2; margin-top: 0">{{ \Carbon\Carbon::parse($new['updated_at'])->toDateString() }}</p>
+                <div class="row" style="padding-bottom: 4%;border-bottom: #d2d2d2 solid 1px;">
+                    <div class="col-xs-10 col-sm-10 col-md-2 col-lg-2">
+                        <p style="color: #d2d2d2; margin-top: 0;text-indent: 0;">{{ \Carbon\Carbon::parse($new['updated_at'])->toDateString() }}</p>
                     </div>
-                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 visible-md-block visible-lg-block">
                         <div class="text-right">
                             <span>收藏</span>
                             <span>评论</span>
@@ -75,20 +75,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="margin-top: 30px;">
-                    {!! $new['content'] !!}
+                <div class="row" style="margin-top: 1%;">
+                     {!! $new['content'] !!}
                 </div>
-
             </div>
         </div>
+
         {{--责任编辑和分享--}}
-        <div class="row" style="margin-top:20px;margin-bottom: 100px;">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
-                <div class="row" style="margin-bottom: 100px;">
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="row" style="margin-top:1%;margin-bottom: 6%;">
+            <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         <div style="display: inline-block">责任编辑：{{ $new['zrbj'] }}</div>
                     </div>
-                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 share-list">
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 share-list">
                         <ul>
                             <li><a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=jinghechengfu.com"
                                    target="_blank"><img src="{{ asset('images/icon/rrw.png') }}" alt="" id="rrw"></a></li>
@@ -96,9 +96,6 @@
                                    target="_blank"><img src="{{ asset('images/icon/qqkj.png') }}" alt="" id="qqkj"></a></li>
                             <li><a version="1.0" class="qzOpenerDiv" href="http://connect.qq.com/widget/shareqq/index.html?url=jinghechengfu.com"
                                    target="_blank"><img src="{{ asset('images/icon/qq.png') }}" alt="" id="qq"></a></li>
-                            {{--<li><a href=""><img src="{{ asset('images/icon/wb.png') }}" alt="" id="wb"></a></li>
-                            <li><a href=""><img src="{{ asset('images/icon/wx.png') }}" alt="" id="wx"></a></li>
-                            <li><a href=""><img src="{{ asset('images/icon/ll.png') }}" alt="" id="ll"></a></li>--}}
                         </ul>
                     </div>
                 </div>
