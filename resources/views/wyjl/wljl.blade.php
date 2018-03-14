@@ -47,8 +47,8 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/wljl_dt.png') }}" alt="" class="center-block"
-                 style="margin-top: 60px;margin-bottom: 60px;">
+            <img src="{{ asset('images/wyjl/wljl_dt.png') }}" alt="" class="center-block dbsxtp"
+                 style="margin-top: 5%;margin-bottom: 5%;">
         </div>
     </div>
 
@@ -58,7 +58,7 @@
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <img src="{{ asset('images/wyjl/wljl_t1.jpg') }}" alt="" style="width: 100%;">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="margin-left: 20px;">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="margin-left: 2%;">
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-12 col-lg-12">
                     <img src="{{ asset('images/wyjl/wljl_z.png') }}" alt="" style="width: 100%;">
@@ -75,16 +75,16 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-md-offset-2"
-             style="background-color: #eeeeee;padding-top: 20px;padding-bottom: 20px;margin-bottom: 60px;margin-top: 60px;">
+             style="background-color: #eeeeee;padding-top: 2%;padding-bottom: 2%;margin-bottom: 5%;margin-top: 5%;">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/wyjl/wljl_xt1.jpg') }}" alt="" class="img-100"  style="margin-bottom: 20px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="{{ asset('images/wyjl/wljl_xt1.jpg') }}" alt="" class="img-100"  style="margin-bottom: 2%;">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/wyjl/wljl_xt2.jpg') }}" alt="" class="img-100"  style="margin-bottom: 20px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="{{ asset('images/wyjl/wljl_xt2.jpg') }}" alt="" class="img-100"  style="margin-bottom: 2%;">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/wyjl/wljl_xt3.jpg') }}" alt="" class="img-100"  style="margin-bottom: 20px;">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="{{ asset('images/wyjl/wljl_xt3.jpg') }}" alt="" class="img-100"  style="margin-bottom: 2%;">
                 </div>
             </div>
 

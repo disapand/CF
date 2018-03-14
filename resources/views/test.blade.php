@@ -321,13 +321,13 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="images/wy.jpg" alt="">
+                                <img src="{{ asset('images/wy.jpg') }}" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/wy.jpg" alt="">
+                                <img src="{{ asset('images/jqfw.jpg') }}" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/wy.jpg" alt="">
+                                <img src="{{ asset('images/zsyz.jpg') }}" alt="">
                             </div>
                         </div>
                         <!-- 如果需要分页器 -->

@@ -16,7 +16,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="images/tb1.png" alt="" class="center-block" style="margin-bottom: 6%;">
+            <img src="images/tb1.png" alt="" class="center-block dbsxtp" style="margin-bottom: 6%;">
         </div>
     </div>
 

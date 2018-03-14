@@ -170,8 +170,8 @@
         <div class="row bq" style="margin-top: 30px;">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-38952115</p>
-                <p class="text-center">地址：陕西省西咸新区泾河新城高泾南路与正阳大道十字西南角（崇文塔景区）&nbsp;&nbsp;&nbsp;&nbsp;P.C.：713700&nbsp;&nbsp;&nbsp;&nbsp;邮箱：jinghechengfu@126.com</p>
-                <p class="text-center">备案号陕ICP备18001733</p>
+                <p class="text-center">地址：陕西省西咸新区泾河新城高泾南路与正阳大道十字西南角（崇文塔景区）</p>
+                <p class="text-center">备案号陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;P.C.：713700&nbsp;&nbsp;&nbsp;&nbsp;邮箱：jinghechengfu@126.com</p>
             </div>
         </div>
 
