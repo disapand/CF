@@ -367,7 +367,7 @@
         <div class="col-md-8 col-md-offset-2" style="margin-top: 3%;margin-bottom: 3%;">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <ul class="nav nav-tabs" role="tablist">
+                        <ul class="nav nav-tabs nav-justified" role="tablist">
                             <li role="presentation" class="active"><a href="#qsy" aria-controls="qsy" role="tab"
                                                                       data-toggle="tab">相关链接</a>
                             </li>
