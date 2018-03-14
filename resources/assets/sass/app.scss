@@ -105,6 +105,10 @@ a {
   margin-bottom: 1%;
 }
 
+.dhjj{
+  margin-top: -15px;
+}
+
 #yjdh{
   ul{
     list-style: none;
@@ -138,6 +142,10 @@ a {
 
   h3{
     font-size: 12px;
+  }
+
+  .dhjj{
+    margin-top: 15px;
   }
 
   .fsm{
@@ -185,6 +193,10 @@ a {
     }
   }
 
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    width: 32%;
+  }
+
 }
 @media screen and (max-width: 1200px){
 
@@ -198,6 +210,10 @@ a {
 
   .fsm{
     font-size: 9px;
+  }
+
+  .dhjj{
+    margin-top: 15px;
   }
 
   .ewm {
@@ -239,6 +255,10 @@ a {
         margin-right: 2%;
       }
     }
+  }
+
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+   width: 32%;
   }
 
 }
