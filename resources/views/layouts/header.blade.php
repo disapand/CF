@@ -5,6 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {{--SEO优化--}}
+    <meta name="keywords" content="泾河,城服,泾河城,泾河城服">
+    <meta name="description" content="泾河城服官方网站">
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="bookmark" type="image/x-icon" href="favicon.ico"/>
     　　
