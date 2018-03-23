@@ -14,9 +14,9 @@ class TestController extends Controller
      */
     public function index()
     {
-        $xxxq = News::where('sort','西咸新区')->limit(7)->orderBy('updated_at','desc')->get();
-        $jhcf = News::where('sort','泾河城服')->limit(7)->orderBy('updated_at','desc')->get();
-        $jhxq = News::where('sort','泾河新区')->limit(7)->orderBy('updated_at','desc')->get();
+        $xxxq = News::where('sort','西咸新区')->limit(7)->where('trash',0)->orderBy('updated_at','desc')->get();
+        $jhcf = News::where('sort','泾河城服')->limit(7)->where('trash',0)->orderBy('updated_at','desc')->get();
+        $jhxq = News::where('sort','泾河新区')->limit(7)->where('trash',0)->orderBy('updated_at','desc')->get();
         return view('test', compact('xxxq','jhcf', 'jhxq'));
     }
 
