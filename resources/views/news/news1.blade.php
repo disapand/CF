@@ -60,11 +60,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             	<div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 xqbt">
-                        @if(isset($new['url']) && $new['url'] != '')
-                            <a href="{{ $new['url'] }}"><h3 style="color: #008dd5">{{ $new['title'] }}</h3></a>
-                        @else
-                    	    <h3 style="color: #008dd5">{{ $new['title'] }}</h3>
-                        @endif
+                        <h3 style="color: #008dd5">{{ $new['title'] }}</h3>
                     </div>
                 </div>
                 <div class="row" style="padding-bottom: 4%;border-bottom: #d2d2d2 solid 1px;">

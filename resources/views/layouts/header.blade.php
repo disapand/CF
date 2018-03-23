@@ -9,6 +9,8 @@
     {{--SEO优化--}}
     <meta name="keywords" content="泾河,城服,泾河城,泾河城服">
     <meta name="description" content="泾河城服官方网站">
+    <meta name="sogou_site_verification" content="cGlaUgC7We"/>
+    <meta name="baidu-site-verification" content="Jr1eK9uQ0J" />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="bookmark" type="image/x-icon" href="favicon.ico"/>

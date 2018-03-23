@@ -76,11 +76,13 @@ class NewsController extends Controller
     {
         $new = News::findOrFail($id);
 //        dd($new);
+        if (isset($new['url']) && $new['url'] != '')
+            return redirect($new['url']);
         return view('news.news1', compact('new'));
     }
 
     public function show_by_sort($sort){
-        $news = News::where(['sort' => $sort, 'trash' => false])->paginate(15);
+        $news = News::where(['sort' => $sort, 'trash' => false])->paginate(7);
         $tzlj = 'news.';
         switch ($sort){
             case '西咸新区':
@@ -106,7 +108,7 @@ class NewsController extends Controller
     public function edit($id)
     {
         $new = News::findOrFail($id);
-        $sort = ['西咸新区','泾河新区','泾河城服'];
+        $sort = ['西咸新区','泾河新城','泾河城服'];
         return view('admin.news.edit', compact('new', 'sort'));
     }
 

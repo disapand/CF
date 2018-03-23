@@ -124,10 +124,9 @@
         $('#submit').click(function () {
             if ($('#title').val() != null && $('#title').val() != '' && $('#title').val() != undefined
                 && $('#author').val() != null && $('#author').val() != '' && $('#author').val() != undefined
-                && ue.getContent() != '' && ue.getContent() != null &&
-                $('#zrbj').val() != null && $('#zrbj').val() != '' && $('#zrbj').val() != undefined) {
+                && $('#zrbj').val() != null && $('#zrbj').val() != '' && $('#zrbj').val() != undefined) {
             } else {
-                alert('标题、作者和新闻内容都不能为空！请确认填写后再次提交');
+                alert('标题和作者不能为空！请确认填写后再次提交');
                 return false;
             }
         })

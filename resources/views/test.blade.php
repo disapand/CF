@@ -99,10 +99,10 @@
                         <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/banner2.jpg" alt="">
+                        <a href="{{ url('/admin/news/3') }}"><img src="images/banner2.jpg" alt=""></a>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/banner3.jpg" alt="">
+                        <img src="images/banner3.png" alt="">
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
