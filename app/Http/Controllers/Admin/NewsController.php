@@ -46,8 +46,8 @@ class NewsController extends Controller
             'author' => $request->input('author'),
             'content' => $request->input('content'),
             'sort' => $request -> input('sort'),
-            'count' =>  0,
-            'share' =>  0,
+            'count' =>  $request->input('count'),
+            'share' =>  rand(10, 100),
             'trash' =>  false,
             'top' =>  true,
             'show' =>  true,
@@ -55,7 +55,10 @@ class NewsController extends Controller
         ];
 
         $uu = $request->input('url');
-        if (!strstr($uu, 'http://')){
+        if($uu == null || $uu == ''){
+            $uu = '';
+        }
+        else if (!strstr($uu, 'http://')){
             $uu = 'http://' . $uu;
         }
 
@@ -78,6 +81,8 @@ class NewsController extends Controller
 //        dd($new);
         if (isset($new['url']) && $new['url'] != '')
             return redirect($new['url']);
+        $new['count'] += 1;
+        $new->save();
         return view('news.news1', compact('new'));
     }
 

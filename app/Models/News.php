@@ -36,7 +36,7 @@ use Illuminate\Database\Eloquent\Model;
 class News extends Model
 {
     protected $fillable = [
-      'title','author','content','count','share','top','show','trash','sort','zrbj','url'
+      'title','author','content','count','share','top','show','trash','sort','zrbj','url','count'
     ];
 
 }

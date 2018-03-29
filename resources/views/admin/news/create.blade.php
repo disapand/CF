@@ -84,9 +84,13 @@
                             <option value="泾河城服">泾河城服</option>
 
                         </select>
-
                     </div>
 
+                    <div class="form-group">
+                        <label for="count" class="control-label">浏览量</label>
+                        <input type="number" class="form-control" id="count" placeholder="" name="count"
+                               value="0">
+                    </div>
 
                     <div class="form-group">
                         <script id="ueditor" name="content" type="text/plain"></script>
@@ -94,7 +98,7 @@
 
                     <div class="form-group">
                         <label for="zrbj" class="control-label">责任编辑</label>
-                        <input type="text" class="form-control" id="zrbj" placeholder="请输入责任编辑" name="zrbj">
+                        <input type="text" class="form-control" id="zrbj" placeholder="请输入责任编辑" name="zrbj" value="{{ Auth::user()->name }}">
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-block" style="margin:20px 0;" id="submit">添加</button>
@@ -126,7 +130,7 @@
                 && $('#author').val() != null && $('#author').val() != '' && $('#author').val() != undefined
                 && $('#zrbj').val() != null && $('#zrbj').val() != '' && $('#zrbj').val() != undefined) {
             } else {
-                alert('标题和作者不能为空！请确认填写后再次提交');
+                alert('标题、作者和责任编辑不能为空！请确认填写后再次提交');
                 return false;
             }
         })

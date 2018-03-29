@@ -91,12 +91,17 @@
 
                     </div>
 
+                    <div class="form-group">
+                        <label for="count" class="control-label">浏览量</label>
+                        <input type="number" class="form-control" id="count" placeholder="" name="count"
+                               value="{{ $new['count'] }}">
+                    </div>
 
                     <script id="ueditor" name="content" type="text/plain"></script>
 
                     <div class="form-group">
                         <label for="url" class="control-label">责任编辑</label>
-                        <input type="text" class="form-control" id="url" placeholder="请输入责任编辑" name="url" value="{{ $new['url'] }}">
+                        <input type="text" class="form-control" id="url" placeholder="请输入责任编辑" name="url" value="{{ $new['zrbj'] }}">
                     </div>
 
                     <button type="submit" class="btn btn-primary" style="margin:20px 0;" id="submint">修改</button>
