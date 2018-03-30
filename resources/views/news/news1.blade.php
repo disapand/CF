@@ -3,18 +3,18 @@
 @section('css')
     @parent
     <style>
-        .nr p{
+        .nr p {
             text-align: justify;
             text-indent: 2em;
             line-height: 2.5em;
             margin-top: 30px;
         }
 
-        p img{
+        p img {
             width: 100%;
         }
 
-        span{
+        span {
             border-radius: 5px;
             border: 1px solid #eee;
             padding: 10px 20px;
@@ -24,9 +24,9 @@
         .share-list ul {
             list-style: none;
             float: right;
-         }
+        }
 
-        .share-list ul li{
+        .share-list ul li {
             float: left;
             margin: 0 3px;
         }
@@ -58,7 +58,7 @@
     <div class="container-fluid">
         <div class="row" style="margin-top: 6%;">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            	<div class="row">
+                <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 xqbt">
                         <h3 style="color: #008dd5">{{ $new['title'] }}</h3>
                     </div>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="row nr" style="margin-top: 1%;">
-                     {!! $new['content'] !!}
+                    {!! $new['content'] !!}
                 </div>
             </div>
         </div>
@@ -87,19 +87,39 @@
                     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         <div style="display: inline-block">责任编辑：{{ $new['zrbj'] }}</div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 share-list">
-                        <ul>
-                            <li><a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=jinghechengfu.com"
-                                   target="_blank"><img src="{{ asset('images/icon/rrw.png') }}" alt="" id="rrw"></a></li>
-                            <li><a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=jinghechengfu.com"
-                                   target="_blank"><img src="{{ asset('images/icon/qqkj.png') }}" alt="" id="qqkj"></a></li>
-                            <li><a version="1.0" class="qzOpenerDiv" href="http://connect.qq.com/widget/shareqq/index.html?url=jinghechengfu.com"
-                                   target="_blank"><img src="{{ asset('images/icon/qq.png') }}" alt="" id="qq"></a></li>
-                        </ul>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                        <div class="bdsharebuttonbox" style="float: right;">
+                            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                            <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                            <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                            <a href="#" class="bds_more" data-cmd="more"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+
+
+        </div>
+
     </div>
 
+@endsection
+
+@section('script')
+    <script>window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "1",
+                "bdSize": "24"
+            }, "share": {}
+        };
+        with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
 @endsection
