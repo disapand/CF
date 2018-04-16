@@ -104,6 +104,9 @@
                     <div class="swiper-slide">
                         <img src="images/banner3.png" alt="">
                     </div>
+                    <div class="swiper-slide">
+                        <a href="http://www.jinghenewcity.gov.cn/news/201804/14/2810.html"><img src="images/banner4.jpg" alt=""></a>
+                    </div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination visible-md-block visible-lg-block"></div>
