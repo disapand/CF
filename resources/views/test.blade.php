@@ -99,7 +99,7 @@
                         <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ url('/admin/news/3') }}"><img src="images/banner2.jpg" alt=""></a>
+                        <a href="https://companyadc.51job.com/companyads/2018/cs/jinghe0416a_7182wh/index.htm?from=singlemessage&isappinstalled=0"><img src="images/banner2.jpg" alt=""></a>
                     </div>
                     <div class="swiper-slide">
                         <img src="images/banner3.png" alt="">

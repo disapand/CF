@@ -58,7 +58,10 @@ class NewsController extends Controller
         if($uu == null || $uu == ''){
             $uu = '';
         }
-        else if (!strstr($uu, 'http://')){
+        /*else if (!strstr($uu, 'http://') && !strstr($uu, 'https://')){
+            $uu = 'http://' . $uu;
+        }*/
+        elseif (!preg_match('/https?:/', $uu)) {
             $uu = 'http://' . $uu;
         }
 
@@ -129,6 +132,19 @@ class NewsController extends Controller
         $new = News::findOrFail($id);
         $new -> title = $request -> input('title');
         $new -> content = $request -> input('content');
+
+        $uu = $request->input('url');
+        if($uu == null || $uu == ''){
+            $uu = '';
+        }
+        /*else if (!strstr($uu, 'http://') && !strstr($uu, 'https://')){
+            $uu = 'http://' . $uu;
+        }*/
+        elseif (!preg_match('/https?:/', $uu)) {
+            $uu = 'http://' . $uu;
+        }
+        $new -> url = $uu;
+        
         $new['sort'] = $request -> input('sort');
 //        dd($new);
         $new -> save();

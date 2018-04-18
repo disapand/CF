@@ -61,7 +61,7 @@
                 <form action="{{ route('news.update', ['id' => $new['id']]) }}" method="POST" role="form">
                     {!! csrf_field() !!}
                     {{ method_field('PUT') }}
-                    <legend>添加新闻</legend>
+                    <legend>编辑新闻</legend>
 
                     <div class="form-con">
                         <label for="title" class="control-label">新闻标题</label>
@@ -100,8 +100,8 @@
                     <script id="ueditor" name="content" type="text/plain"></script>
 
                     <div class="form-group">
-                        <label for="url" class="control-label">责任编辑</label>
-                        <input type="text" class="form-control" id="url" placeholder="请输入责任编辑" name="url" value="{{ $new['zrbj'] }}">
+                        <label for="zrbj" class="control-label">责任编辑</label>
+                        <input type="text" class="form-control" id="zrbj" placeholder="请输入责任编辑" name="zrbj" value="{{ $new['zrbj'] }}">
                     </div>
 
                     <button type="submit" class="btn btn-primary" style="margin:20px 0;" id="submint">修改</button>
