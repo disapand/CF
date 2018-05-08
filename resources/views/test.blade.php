@@ -105,7 +105,7 @@
                         <img src="images/banner3.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <a href="http://www.jinghenewcity.gov.cn/news/201804/14/2810.html"><img src="images/banner4.jpg" alt=""></a>
+                        <a href="http://www.jinghechengfu.com/admin/news/14"><img src="images/banner4.jpg" alt=""></a>
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
@@ -205,6 +205,9 @@
                                 @foreach($xxxq as $xx)
                                     <li><a href="{{ url('/admin/news/'.$xx['id'])}}">{{ $xx['title'] }}</a></li>
                                 @endforeach
+                                @if( count($xxxq) >= 7 )
+                                        <li><a href="{{ url('/news/sort/西咸新区')}}" style="color: #158dd4;">查看更多》》》</a></li>
+                                @endif
                             </ul>
                         </div>
 
@@ -213,6 +216,9 @@
                                 @foreach($jhxq as $xq)
                                     <li><a href="{{ url('/admin/news/'.$xq['id'])}}">{{ $xq['title'] }}</a></li>
                                 @endforeach
+                                @if( count($jhxq) >= 7 )
+                                    <li><a href="{{ url('/news/sort/泾河新城')}}" style="color: #158dd4;">查看更多》》》</a></li>
+                                @endif
                             </ul>
                         </div>
 
@@ -221,6 +227,9 @@
                                 @foreach($jhcf as $cf)
                                     <li><a href="{{ url('/admin/news/'.$cf['id'])}}">{{ $cf['title'] }}</a></li>
                                 @endforeach
+                                @if( count($jhcf) >= 7 )
+                                    <li><a href="{{ url('/news/sort/泾河城服')}}" style="color: #158dd4;">查看更多》》》</a></li>
+                                @endif
                             </ul>
                         </div>
                     </div>
