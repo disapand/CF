@@ -11,7 +11,7 @@
         }
 
         p img {
-            width: 100%;
+            max-width: 100%;
         }
 
         span {
@@ -32,7 +32,8 @@
         }
 
         p img {
-            margin-left: -2em;
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
 
     </style>
