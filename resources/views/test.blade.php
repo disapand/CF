@@ -105,7 +105,7 @@
                         <img src="images/banner3.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <a href="http://www.jinghechengfu.com/admin/news/14"><img src="images/banner4.jpg" alt=""></a>
+                        <a href="http://www.jinghechengfu.com/admin/news/17"><img src="images/banner4.jpg" alt=""></a>
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
@@ -200,7 +200,7 @@
                     </ul>
 
                     <div class="tab-content xwlb">
-                        <div role="tabpanel" class="tab-pane active" id="xxxq" style="width: 100%;">
+                        <div role="tabpanel" class="tab-pane active fade in" id="xxxq" style="width: 100%;">
                             <ul>
                                 @foreach($xxxq as $xx)
                                     <li><a href="{{ url('/admin/news/'.$xx['id'])}}">{{ $xx['title'] }}</a></li>
@@ -211,7 +211,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="jhxc" style="width: 100%;">
+                        <div role="tabpanel" class="tab-pane fade" id="jhxc" style="width: 100%;">
                             <ul>
                                 @foreach($jhxq as $xq)
                                     <li><a href="{{ url('/admin/news/'.$xq['id'])}}">{{ $xq['title'] }}</a></li>
@@ -222,7 +222,7 @@
                             </ul>
                         </div>
 
-                        <div role="tabpanel" class="tab-pane" id="jhcf" style="width: 100%;">
+                        <div role="tabpanel" class="tab-pane fade" id="jhcf" style="width: 100%;">
                             <ul>
                                 @foreach($jhcf as $cf)
                                     <li><a href="{{ url('/admin/news/'.$cf['id'])}}">{{ $cf['title'] }}</a></li>
@@ -458,8 +458,23 @@
                 prevButton: '.swiper-button-prev',
             })
 
-            /*Tabs内容居中*/
+            /*点击Tabs切换到对应的焦点图*/
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+                switch ($(e.target).text()){
+                    case '西咸新区新闻':
+                        mySwiper[1].slideTo(1, 1000, false)
+                        break;
+                    case '泾河新城新闻':
+                        mySwiper[1].slideTo(2, 1000, false)
+                        break;
+                    case '泾河城服新闻':
+                        mySwiper[1].slideTo(3, 1000, false)
+                        break;
+                    default:;
+                }
+            })
         })
+
     </script>
 
 @endsection

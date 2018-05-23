@@ -66,7 +66,7 @@
                 </div>
                 <div class="row" style="padding-bottom: 4%;border-bottom: #d2d2d2 solid 1px;">
                     <div class="col-xs-10 col-sm-10 col-md-2 col-lg-2">
-                        <p style="color: #d2d2d2; margin-top: 0;text-indent: 0;">{{ \Carbon\Carbon::parse($new['updated_at'])->toDateString() }}</p>
+                        <p style="color: #d2d2d2; margin-top: 0;text-indent: 0;">{{ \Carbon\Carbon::parse($new['created_at'])->toDateString() }}</p>
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 visible-md-block visible-lg-block">
                         <div class="text-right">
