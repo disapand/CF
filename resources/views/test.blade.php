@@ -176,10 +176,10 @@
                                 <a href="#"><img src="images/xw1.jpg" alt=""></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#"><img src="images/xw1.jpg" alt=""></a>
+                                <a href="#"><img src="images/xw2.jpg" alt=""></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#"><img src="images/xw1.jpg" alt=""></a>
+                                <a href="#"><img src="images/xw3.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -243,13 +243,13 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="images/dt1.jpg" alt="">
+                        <img src="images/cfr.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
                         <img src="images/dt1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/dt1.jpg" alt="">
+                        <img src="images/cfr.jpg" alt="">
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
