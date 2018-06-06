@@ -85,6 +85,10 @@
             padding-left: 0;
         }
 
+        .thumbnail {
+            margin-bottom: 0;
+        }
+
     </style>
 
 @endsection
@@ -120,7 +124,7 @@
     </div>
 
     {{-- 特色党建、企业扶贫、团队建设 --}}
-    <div class="row" style="margin-top: 3%; margin-bottom: 3%;margin-left: 0;margin-right: 0">
+    <div class="row" style="margin-top: 1.5%;margin-left: 0;margin-right: 0">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -158,7 +162,7 @@
     </div>
 
     <div class="row"
-         style="padding-top: 3%; padding-bottom: 3%;background-color: #eeeeee;margin-right: 0;margin-left:0 ">
+         style="padding-top: 1.5%;background-color: #eeeeee;margin-right: 0;margin-left:0;padding-bottom: 1.5%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
@@ -168,8 +172,8 @@
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 3%;">
-                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5" style="margin-bottom: 50px;">
+            <div class="row" style="margin-top: 1.5%;">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -269,19 +273,19 @@
                 <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4"
-                     style="margin-top: 6%;margin-bottom: 1%;">
+                     style="margin-top: 1.5%;margin-bottom: 1.5%;">
                     <img src="images/fwdt.png" alt="" class="center-block img-100">
                 </div>
             </div>
 
-            <div class="row fwdt" style="margin-top: 3%; margin-bottom: 3%;">
+            <div class="row fwdt" style="margin-bottom: 1.5%;">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw2.jpg" alt="..." style="width: 100%;">
                         <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/yxhd') }}">研学活动动态</a></h3>
-                            <ul class="visible-md-block visible-lg-block">
+                            <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
                                 <li><a href="{{ url('/yxhd/jqld/blhx') }}">博览华夏</a></li>
                                 <li><a href="{{ url('/yxhd/jqld/ddyd') }}">大地原点</a></li>
                                 <li><a href="{{ url('yxhd/jqld/hsjy2') }}">红色大地</a></li>
@@ -297,7 +301,7 @@
                         <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/szgc/lmwx') }}">市政工程动态</a></h3>
-                            <ul class="visible-md-block visible-lg-block">
+                            <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
                                 <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
                                 <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
                                 <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
@@ -312,7 +316,7 @@
                         <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/zhfw/zhcs') }}">综合服务动态</a></h3>
-                            <ul class="visible-md-block visible-lg-block">
+                            <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
                                 <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
                                 <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
                                 <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
@@ -327,7 +331,7 @@
     </div>
 
     <div class="row" style="margin-left: 0;margin-right: 0;width: 100%;">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 3%;padding-bottom: 3%;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 vibg" style="padding-top: 1.5%;padding-bottom: 1.5%;">
             <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 col-xs-offset-1 col-sm-offset-1">
                 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                     <div class="swiper-container">
@@ -375,8 +379,8 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 3%;margin-bottom: 3%">
-        <div class="col-md-8 col-md-offset-2" style="margin-top: 3%;margin-bottom: 3%;">
+    <div class="row" style="margin-top: 1.5%;">
+        <div class="col-md-8 col-md-offset-2" style="margin-bottom: 1.5%;">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -391,7 +395,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row yqlj" style="margin-top: 30px;">
+                <div class="row yqlj" style="margin-top: 1.5%;">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="tab-content" id="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="qsy">

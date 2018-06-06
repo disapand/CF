@@ -175,7 +175,7 @@
             </div>
         </div>
 
-        <div class="row bq" style="margin-top: 2%;">
+        <div class="row bq" style="margin-top: 1%;">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center" style="line-height: 0.5em">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-38952115</p>
                 <p class="text-center" style="line-height: 0.5em">地址：陕西省西咸新区泾河新城高泾南路与正阳大道十字西南角（崇文塔景区）</p>
