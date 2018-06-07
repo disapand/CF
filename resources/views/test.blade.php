@@ -282,7 +282,6 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw2.jpg" alt="..." style="width: 100%;">
-                        <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/yxhd') }}">研学活动动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
@@ -298,7 +297,6 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw1.jpg" style="width: 100%;">
-                        <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/szgc/lmwx') }}">市政工程动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
@@ -313,7 +311,6 @@
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw3.jpg" alt="..." style="width: 100%;">
-                        <hr>
                         <div class="caption text-center">
                             <h3><a href="{{ url('/zhfw/zhcs') }}">综合服务动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
