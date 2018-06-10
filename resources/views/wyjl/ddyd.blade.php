@@ -108,7 +108,7 @@
     <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
         	<ul class="sider-bar">
-                <li><a href="{{ url('wljl/fcz') }}">伏茶镇</a></li>
+                <li><a href="{{ url('wljl/fcz') }}">茯茶镇</a></li>
                 <li><a href="{{ url('/wljl/lhc') }}">乐华城</a></li>
                 <li><a href="{{ url('/wljl/spmsxz') }}">寿平民宿小镇</a></li>
                 <li><a href="{{ url('/wljl/jhzhnyy') }}">泾河智慧农业园</a></li>

@@ -103,7 +103,7 @@
     <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-2">
         	<ul class="sider-bar">
-                <li class="li-active"><a href="{{ url('wljl/fcz') }}">伏茶镇</a></li>
+                <li class="li-active"><a href="{{ url('wljl/fcz') }}">茯茶镇</a></li>
                 <li><a href="{{ url('/wljl/lhc') }}">乐华城</a></li>
                 <li><a href="{{ url('/wljl/spmsxz') }}">寿平民宿小镇</a></li>
                 <li><a href="{{ url('/wljl/jhzhnyy') }}">泾河智慧农业园</a></li>
@@ -113,7 +113,7 @@
 
         <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/fcz1.jpg') }}" alt="" class="img-100">
-                <div class="bt">伏茶镇</div>
+                <div class="bt">茯茶镇</div>
             <p style="margin-bottom: 50px">茯茶镇位于西咸新区泾河新城核心区域，占地约1300亩，总投资约30亿，其中茯茶镇商业街项目总投资约6亿。茯茶镇由茯茶镇商业街、茯茶文化产业园、茯茶文化博物馆、优美小镇、双赵民俗村五个部分组成，是中国最具特色的茯茶文化体验中心。</p>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
