@@ -28,7 +28,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 3%;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 50px;">
             <img src=" {{ asset('images/zsyy/cyfh_z.png') }}" alt="" class="img-100">
         </div>
     </div>

@@ -33,7 +33,7 @@
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/wyjl/zbjq.png') }}" alt="" class="img-100"
-                 style="margin-top: 60px;margin-bottom: 60px;">
+                 style="margin-top: 60px;margin-bottom: 50px;">
         </div>
     </div>
 

@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/cyy_z.png') }}" alt="" class="center-block" style="margin-top: 10%;">
+            <img src="{{ asset('images/cyy_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -70,7 +70,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 30px;margin-bottom: 10%;">
+    <div class="row" style="margin-top: 30px;margin-bottom: 6%;">
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-md-offset-3">
             <img src=" {{ asset('images/cyy4.jpg') }}" alt="" class="img-100">
         </div>

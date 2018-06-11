@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/gafj_z.png') }}" alt="" class="center-block" style="margin-top: 10%;">
+            <img src="{{ asset('images/wyjl/gafj_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -54,12 +54,12 @@
 
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-md-offset-1">
-            <p style="margin-top: 5%;margin-bottom: 2%px;">该项目位于泾河新城崇文佳苑三区西北角，办公区域分为2层，面积约为1300平米，项目配备项目经理一名，主管一名，保安8名，保洁6名。日常服务包含24小时监控安保服务、办公室及公共区域内部精细化保洁、户外道路清扫工作。项目管理人员经过专业培训，具有多年物业服务管理工作经验；在人员配置上借鉴成熟物业服务项目的成功经验，按照精干高效的原则，合理配备项目所需人员，为泾河新城公安分局保一方平安提供优质服务。</p>
+            <p style="margin-top: 5%;margin-bottom: 50px;">该项目位于泾河新城崇文佳苑三区西北角，办公区域分为2层，面积约为1300平米，项目配备项目经理一名，主管一名，保安8名，保洁6名。日常服务包含24小时监控安保服务、办公室及公共区域内部精细化保洁、户外道路清扫工作。项目管理人员经过专业培训，具有多年物业服务管理工作经验；在人员配置上借鉴成熟物业服务项目的成功经验，按照精干高效的原则，合理配备项目所需人员，为泾河新城公安分局保一方平安提供优质服务。</p>
         </div>
     </div>
 
     {{--泾河消防--}}
-    <div class="row" style="margin-top: 10%;">
+    <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="{{ asset('images/wyjl/jhxf_dt.jpg') }}" alt="" class="img-100">
         </div>
@@ -67,7 +67,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/wyjl/jhxf_z.png') }}" alt="" class="center-block" style="margin-top: 100px;">
+            <img src="{{ asset('images/wyjl/jhxf_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -83,14 +83,14 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 10%;">
+    <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/wyjl/jhxf_t1.jpg') }}" alt="" class="img-100">
         </div>
     </div>
 
     {{--信访办--}}
-    <div class="row" style="margin-top: 100px;">
+    <div class="row" style="margin-top: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="{{ asset('images/wyjl/xfb_dt.jpg') }}" alt="" class="img-100">
         </div>
@@ -98,7 +98,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 100px;">
+            <img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -114,7 +114,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 100px;">
+    <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <img src="{{ asset('images/wyjl/xfb_t1.jpg') }}" alt="" class="img-100">
         </div>

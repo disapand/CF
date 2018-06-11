@@ -33,14 +33,8 @@
 @section('contents')
 
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src=" {{ asset('images/dzfw/zwfw.jpg') }}" alt="" class="img-100">
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zwfw_z.png') }}" alt="" class="img-100" style="margin-top: 3%;margin-bottom: 3%;">
+            <img src="{{ asset('images/zwfw_z.png') }}" alt="" class="img-100" style="margin-top: 6%;margin-bottom: 50px;">
         </div>
     </div>
 

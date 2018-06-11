@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/whjq_z.png') }}" alt="" class="center-block" style="margin-top: 100px;">
+            <img src="{{ asset('images/whjq_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -87,7 +87,7 @@
     </div>
 
     {{--寿平民宿小镇--}}
-    <div class="row" style="margin-top: 8%;">
+    <div class="row" style="margin-top: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="{{ asset('images/whjq_dt2.jpg') }}" alt="" class="img-100">
         </div>
@@ -95,7 +95,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/whjq_z2.png') }}" alt="" class="center-block" style="margin-top: 100px;">
+            <img src="{{ asset('images/whjq_z2.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -125,7 +125,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 4px;margin-bottom: 10%;">
+    <div class="row" style="margin-top: 4px;margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img src=" {{ asset('images/whjq_10.jpg') }}" alt="" class="img-100">

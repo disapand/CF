@@ -43,7 +43,7 @@
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/dzfw/hqaz_z.png') }}" alt="" class="img-100" style="margin-top: 3%;margin-bottom: 2%;">
+            <img src="{{ asset('images/dzfw/hqaz_z.png') }}" alt="" class="img-100" style="margin-top: 6%;margin-bottom: 50px;">
         </div>
     </div>
 
@@ -75,7 +75,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 50px;margin-top: 5px;">
+    <div class="row" style="margin-bottom: 6%;margin-top: 5px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 xt">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding: 0 3px;">

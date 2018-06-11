@@ -116,7 +116,7 @@
     </div>
 
     <div class="row" style="margin-top: 6%;">
-        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 2%;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-bottom: 50px;">
             <img src="{{ asset('images/yxhd/yxyd_z.png') }}" alt="" class="img-100">
         </div>
     </div>

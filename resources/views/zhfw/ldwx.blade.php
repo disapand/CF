@@ -33,7 +33,7 @@
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zhfw/ldwx.png') }}" alt="" class="center-block" style="margin-top: 10%;">
+            <img src="{{ asset('images/zhfw/ldwx.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 10%;">
+    <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">

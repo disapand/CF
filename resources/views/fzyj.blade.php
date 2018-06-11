@@ -15,7 +15,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 6%;">
+        <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2" style="margin-top: 6%;margin-bottom: 50px;">
             <img src="images/fzyj_z.png" alt="" style="width: 99%;">
         </div>
     </div>
