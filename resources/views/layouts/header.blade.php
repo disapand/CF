@@ -160,7 +160,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-8 col-md-offset-2">
                 <div class="text-center" style="margin: 1% 0;">
                     <span class="glyphicon glyphicon-map-marker dtbz"></span>
                     <span style=" font-family: FZLT;">陕西省西咸新区泾河新城城市综合服务有限公司</span>
@@ -176,7 +176,7 @@
         </div>
 
         <div class="row bq" style="margin-top: 1%;">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-8 col-md-offset-2">
                 <p class="text-center" style="line-height: 0.5em">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-38952115</p>
                 <p class="text-center" style="line-height: 0.5em">地址：陕西省西咸新区泾河新城高泾南路与正阳大道十字西南角（崇文塔景区）</p>
                 <p class="text-center" style="line-height: 0.5em">备案号陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;P.C.：713700&nbsp;&nbsp;&nbsp;&nbsp;邮箱：jinghechengfu@126.com</p>
