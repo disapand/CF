@@ -109,6 +109,9 @@
                         <img src="images/banner3.png" alt="">
                     </div>
                     <div class="swiper-slide">
+                        <a href="http://www.jinghechengfu.com/admin/news/37"><img src="images/banner5.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
                         <a href="http://www.jinghechengfu.com/admin/news/17"><img src="images/banner4.jpg" alt=""></a>
                     </div>
                 </div>
@@ -247,7 +250,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="images/cfr.jpg" alt="">
+                        <img src="images/dt2.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
                         <img src="images/dt1.jpg" alt="">

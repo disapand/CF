@@ -81,7 +81,7 @@
                 <img src=" {{ asset('images/whjq_5.jpg') }}" alt="" class="img-100">
             </div>
             <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
-                <img src=" {{ asset('images/whjq_3.jpg') }}" alt="" class="img-100">
+                <img src=" {{ asset('images/whjq_60.jpg') }}" alt="" class="img-100">
             </div>
         </div>
     </div>
