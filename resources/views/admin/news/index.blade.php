@@ -51,7 +51,6 @@
                 <table class="table table-hover table-striped">
                     <thead>
                     <tr>
-                        <th>序号</th>
                         <th>标题</th>
                         <th>新闻类别</th>
                         <th>浏览次数</th>
@@ -64,7 +63,6 @@
                     <tbody>
                     @foreach($news as $new)
                         <tr>
-                            <td>{{ $new['id'] }}</td>
                             <td><a href="{{ url('/admin/news/' . $new['id']) }}">{{ $new['title'] }}</a></td>
                             <td>{{ $new['sort'] }}</td>
                             <td>{{ $new['count'] }}</td>

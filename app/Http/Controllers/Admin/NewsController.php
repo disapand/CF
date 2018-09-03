@@ -17,7 +17,7 @@ class NewsController extends Controller
     {
         $title = '城服管理后台';
 
-        $news = News::where('trash', '0') -> paginate(15);
+        $news = News::where('trash', '0')->orderBy('updated_at', 'desc')->paginate(15);
         return view('admin.news.index', compact('title', 'news'));
     }
 
