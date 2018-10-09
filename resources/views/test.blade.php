@@ -100,6 +100,9 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpeg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="images/banner1.jpg" alt="">
                     </div>
                     {{--<div class="swiper-slide">
@@ -111,9 +114,6 @@
                     {{--<div class="swiper-slide">
                         <a href="http://www.jinghechengfu.com/admin/news/37"><img src="images/banner5.jpg" alt=""></a>
                     </div>--}}
-                    <div class="swiper-slide">
-                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpeg" alt=""></a>
-                    </div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination visible-md-block visible-lg-block"></div>
@@ -132,7 +132,7 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="thumbnail center-block djtp">
-                        <img src="images/tp1.png" alt="..." style="width: 100%;">
+                        <img src="images/tp1.jpg" alt="..." style="width: 100%;">
                         <div class="caption text-center">
                             <h3><a href="{{ url('/tsdj') }}">特色党建</a></h3>
                             <p>围绕业务抓党建 <br /> 抓好党建促发展</p>
