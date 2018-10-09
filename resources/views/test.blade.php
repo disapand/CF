@@ -112,7 +112,7 @@
                         <a href="http://www.jinghechengfu.com/admin/news/37"><img src="images/banner5.jpg" alt=""></a>
                     </div>--}}
                     <div class="swiper-slide">
-                        <a href="http://www.jinghechengfu.com/admin/news/17"><img src="images/banner4.jpg" alt=""></a>
+                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpeg" alt=""></a>
                     </div>
                 </div>
                 <!-- 如果需要分页器 -->
