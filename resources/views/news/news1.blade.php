@@ -13,6 +13,7 @@
         .nr span {
             border-radius: 5px;
             padding: 10px 20px;
+            border: none;
             margin: 0 5px;
         }
 
