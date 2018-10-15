@@ -10,6 +10,12 @@
             margin-top: 30px;
         }
 
+        .nr span {
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+
         p img {
             max-width: 100%;
         }
@@ -70,8 +76,8 @@
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 visible-md-block visible-lg-block">
                         <div class="text-right">
-                            <span>浏览<span class="badge">{{ $new['count'] }}</span></span>
-                            <span>分享<span class="badge">{{ $new['share'] }}</span></span>
+                            <span class="border-span">浏览<span class="badge">{{ $new['count'] }}</span></span>
+                            <span class="border-span">分享<span class="badge">{{ $new['share'] }}</span></span>
                         </div>
                     </div>
                 </div>
