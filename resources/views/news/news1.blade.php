@@ -76,8 +76,8 @@
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 visible-md-block visible-lg-block">
                         <div class="text-right">
-                            <span class="border-span">浏览<span class="badge">{{ $new['count'] }}</span></span>
-                            <span class="border-span">分享<span class="badge">{{ $new['share'] }}</span></span>
+                            <span>浏览<span class="badge">{{ $new['count'] }}</span></span>
+                            <span>分享<span class="badge">{{ $new['share'] }}</span></span>
                         </div>
                     </div>
                 </div>
