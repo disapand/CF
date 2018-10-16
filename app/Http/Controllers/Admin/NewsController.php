@@ -41,10 +41,15 @@ class NewsController extends Controller
      */
     public function store(Request $request)
     {
+        $content = $request->input('content');
+        $content = str_replace('\r\n', '', $content);
+        $content = str_replace('\n', '', $content);
+        $content = str_replace('\t', '', $content);
+        $content = preg_replace("'<s[\s\S]*</style>'", '', $content);
         $input = [
             'title' => $request->input('title'),
             'author' => $request->input('author'),
-            'content' => $request->input('content'),
+            'content' => $content,
             'sort' => $request -> input('sort'),
             'count' =>  $request->input('count'),
             'share' =>  rand(10, 100),
@@ -131,7 +136,13 @@ class NewsController extends Controller
     {
         $new = News::findOrFail($id);
         $new -> title = $request -> input('title');
-        $new -> content = $request -> input('content');
+
+        $content = $request->input('content');
+        $content = str_replace('\r\n', '', $content);
+        $content = str_replace('\n', '', $content);
+        $content = str_replace('\t', '', $content);
+        $content = preg_replace("'<s[\s\S]*</style>'", '', $content);
+        $new -> content = $content;
 
         $uu = $request->input('url');
         if($uu == null || $uu == ''){
