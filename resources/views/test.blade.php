@@ -100,10 +100,10 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpeg" alt=""></a>
+                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpg" alt=""></a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="http://jinghechengfu.com/admin/news/71"><img src="{{ asset('images/banner-20181105.jpeg') }}" alt=""></a>
+                        <a href="http://jinghechengfu.com/admin/news/71"><img src="{{ asset('images/banner-20181105.jpg') }}" alt=""></a>
                     </div>
                     <div class="swiper-slide">
                         <img src="images/banner1.jpg" alt="">

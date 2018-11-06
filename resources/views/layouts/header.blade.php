@@ -101,7 +101,7 @@
 
 <div class="row dhjj">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="{{ url('/') }}"><img src="{{ asset('images/logo-new.jpg') }}" alt="" class="margin_logo"></a>
+        <a href="{{ url('/') }}"><img src="{{ asset('images/logo-new.png') }}" alt="" class="margin_logo" style="width: 217px;"></a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="yjdh">
     	<ul>
