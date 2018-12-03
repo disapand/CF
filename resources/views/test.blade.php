@@ -89,6 +89,18 @@
             margin-bottom: 0;
         }
 
+        .box {
+            margin-top: -80px;
+            position: relative;
+            z-index: 99;
+        }
+
+        .img-cover img {
+            display: inline-block;
+            float: left;
+            width: 12.5%;
+        }
+
     </style>
 
 @endsection
@@ -113,6 +125,47 @@
                     </div>--}}
                     <div class="swiper-slide">
                         <img src="images/banner3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/banner1203.jpg" alt="">
+                        <div class="box">
+                            <div class="img-cover">
+                                <img src="images/1203/01.png" alt="">
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://sn.people.com.cn/n2/2018/1113/c380804-32280552.html?from=singlemessage&isappinstalled=0" target="_blank">
+                                    <img src="images/1203/02.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://www.sn.xinhuanet.com/2018-11/13/c_1123708033.htm" target="_blank">
+                                    <img src="images/1203/03.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://sn.ifeng.com/a/20181113/7023843_0.shtml" target="_blank">
+                                    <img src="images/1203/04.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="https://xw.qq.com/xian/20181113010911/XAC2018111301091100?from=singlemessage&isappinstalled=0" target="_blank">
+                                    <img src="images/1203/05.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://ehsb.hspress.net/shtml/hsb/20181116/706171.shtml?from=singlemessage&isappinstalled=0" target="_blank">
+                                    <img src="images/1203/06.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="https://c.m.163.com/news/a/E0GI0SN8051495SS.html?spss=newsapp&spsw=4&spssid=1b7de81e8fd1e310667455b69ddd02b4&from=singlemessage&isappinstalled=0" target="_blank">
+                                    <img src="images/1203/07.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <img src="images/1203/08.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     {{--<div class="swiper-slide">
                         <a href="http://www.jinghechengfu.com/admin/news/37"><img src="images/banner5.jpg" alt=""></a>
