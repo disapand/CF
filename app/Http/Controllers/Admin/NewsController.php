@@ -107,6 +107,9 @@ class NewsController extends Controller
             case '泾河新城':
                 $tzlj .= 'jhxq';
                 break;
+            case '泾河集团':
+                $tzlj .= 'jhjt';
+                break;
             default:;
         }
         return view($tzlj, compact('news'));
@@ -121,7 +124,7 @@ class NewsController extends Controller
     public function edit($id)
     {
         $new = News::findOrFail($id);
-        $sort = ['西咸新区','泾河新城','泾河城服'];
+        $sort = ['西咸新区','泾河新城','泾河城服', '泾河集团'];
         return view('admin.news.edit', compact('new', 'sort'));
     }
 
@@ -155,7 +158,7 @@ class NewsController extends Controller
             $uu = 'http://' . $uu;
         }
         $new -> url = $uu;
-        
+
         $new['sort'] = $request -> input('sort');
 //        dd($new);
         $new -> save();

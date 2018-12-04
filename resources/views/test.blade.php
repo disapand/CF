@@ -112,21 +112,6 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpg" alt=""></a>
-                    </div>
-                    {{--<div class="swiper-slide">
-                        <a href="http://jinghechengfu.com/admin/news/71"><img src="{{ asset('images/banner-20181105.jpg') }}" alt=""></a>
-                    </div>--}}
-                    <div class="swiper-slide">
-                        <img src="images/banner1.jpg" alt="">
-                    </div>
-                    {{--<div class="swiper-slide">
-                        <a href="https://companyadc.51job.com/companyads/2018/cs/jinghe0416a_7182wh/index.htm?from=singlemessage&isappinstalled=0"><img src="images/banner2.jpg" alt=""></a>
-                    </div>--}}
-                    <div class="swiper-slide">
-                        <img src="images/banner3.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
                         <img src="images/banner1203.jpg" alt="">
                         <div class="box">
                             <div class="img-cover">
@@ -167,9 +152,15 @@
                             </div>
                         </div>
                     </div>
-                    {{--<div class="swiper-slide">
-                        <a href="http://www.jinghechengfu.com/admin/news/37"><img src="images/banner5.jpg" alt=""></a>
-                    </div>--}}
+                    <div class="swiper-slide">
+                        <a href="https://mp.weixin.qq.com/s/GnOIfBBKqOJomMVBriOizg"><img src="images/banner5.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/banner1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/banner3.png" alt="">
+                    </div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination visible-md-block visible-lg-block"></div>
@@ -260,6 +251,9 @@
                         <li role="presentation"><a href="#jhcf" aria-controls="jhcf" role="tab"
                                                    data-toggle="tab">泾河城服新闻</a>
                         </li>
+                        <li role="presentation"><a href="#jhjt" aria-controls="jhjt" role="tab"
+                                                   data-toggle="tab">泾河集团新闻</a>
+                        </li>
                     </ul>
 
                     <div class="tab-content xwlb">
@@ -292,6 +286,17 @@
                                 @endforeach
                                 @if( count($jhcf) >= 7 )
                                     <li><a href="{{ url('/news/sort/泾河城服')}}" style="color: #158dd4;">查看更多》》》</a></li>
+                                @endif
+                            </ul>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane fade" id="jhjt" style="width: 100%;">
+                            <ul>
+                                @foreach($jhjt as $cf)
+                                    <li><a href="{{ url('/admin/news/'.$cf['id'])}}">{{ $cf['title'] }}</a></li>
+                                @endforeach
+                                @if( count($jhjt) >= 7 )
+                                    <li><a href="{{ url('/news/sort/泾河集团')}}" style="color: #158dd4;">查看更多》》》</a></li>
                                 @endif
                             </ul>
                         </div>

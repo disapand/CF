@@ -82,6 +82,7 @@
                             <option value="西咸新区" selected>西咸新区</option>
                             <option value="泾河新城">泾河新城</option>
                             <option value="泾河城服">泾河城服</option>
+                            <option value="泾河集团">泾河集团</option>
 
                         </select>
                     </div>

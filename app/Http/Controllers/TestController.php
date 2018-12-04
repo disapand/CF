@@ -17,7 +17,8 @@ class TestController extends Controller
         $xxxq = News::where('sort','西咸新区')->limit(7)->where('trash',0)->orderBy('created_at','desc')->get();
         $jhcf = News::where('sort','泾河城服')->limit(7)->where('trash',0)->orderBy('created_at','desc')->get();
         $jhxq = News::where('sort','泾河新城')->limit(7)->where('trash',0)->orderBy('created_at','desc')->get();
-        return view('test', compact('xxxq','jhcf', 'jhxq'));
+        $jhjt = News::where('sort','泾河集团')->limit(7)->where('trash',0)->orderBy('created_at','desc')->get();
+        return view('test', compact('xxxq','jhcf', 'jhxq', 'jhjt'));
     }
 
     /**
