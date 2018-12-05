@@ -17,7 +17,7 @@
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}"  class="active">物业管理</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">城市配套维护</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
     <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
@@ -33,7 +33,7 @@
 @endsection
 
 @section('contents')
-    
+
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="{{ asset('images/wygl_cyy.jpg') }}" alt="" class="img-100">

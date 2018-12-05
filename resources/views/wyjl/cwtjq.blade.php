@@ -18,7 +18,7 @@
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">城市配套维护</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
     <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
@@ -39,7 +39,7 @@
 
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 wzys col-md-offset-2 col-xs-offset-1 col-sm-offset-1">
-        	<p>崇文塔景区为国家AAA级旅游景区，位于西咸新区泾河新城崇文镇，景区占地面积300余亩。景区以高87.218米的中国第一高砖塔——崇文塔为核心，聚集陕商文化博览馆、国艺秦腔馆、崇文国学馆、三秦非遗博览馆、太极馆、文化雕塑园，设有综合商业区、活动健身区，形成内容丰富、规模集中的文化旅游景区。</p>
+        	<p>崇文塔景区位于西咸新区泾河新城崇文镇，由泾河城服运营。景区占地面积300余亩，以高87.218米中国第一高砖塔—崇文塔为核心，包含陕商文化博览馆、国艺秦腔馆、崇文国学馆、三秦非遗博览馆四馆及文化教育雕塑群，并设有2.4万㎡综合商业区、3000㎡运动健身区，是集文物保护、旅游教育、运动健身为一体的文化旅游综合景区。</p>
         </div>
     </div>
 
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="row" style="margin-top: 30px;margin-bottom: 100px">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <a href="https://ditu.amap.com/search?id=B038E00AD3&city=610423&geoobj=108.755764%7C34.156832%7C109.250148%7C34.375023&query_type=IDQ&query=%E5%B4%87%E6%96%87%E5%A1%94&zoom=12">

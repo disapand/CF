@@ -13,7 +13,7 @@ class YxhdController extends Controller
      */
     public function index()
     {
-        $title = '研学活动';
+        $title = '文化教育';
         return view('yxhd.yxhd', compact('title'));
     }
 

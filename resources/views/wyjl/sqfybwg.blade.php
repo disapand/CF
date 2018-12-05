@@ -77,7 +77,7 @@
     <li><a href="{{ url('/wljl') }}"  class="active">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>
+    <li><a href="{{ url('/zhfw/szgc') }}">城市配套维护</a></li>
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
     <li><a href="{{ url('/zhfw') }}">综合服务</a></li>
 @endsection
@@ -109,7 +109,7 @@
         <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
             <img src="{{ asset('images/wyjl/sqfybwg1.jpg') }}" alt="" class="img-100">
             <div class="bt">三秦非遗博物馆</div>
-            <p style="margin-bottom: 50px">三秦非遗博览馆位于崇文塔景区西南侧，展陈面积700平方米，分为“威武关中，华夏脉搏”、“灵秀陕南，秦风楚韵”、“豪迈陕北，边塞雄风”三个主展区，利用“旧场景、新科技”的设计理念对陕西省国家级非物质文化遗产进行全面展示，呈现出非物资文化遗产的艺术价值和人文价值，合理利用非遗文化，是西咸新区泾河新城也是西安市、陕西省的一个展示陕西优秀传统文化和技艺的亮点窗口。</p>
+            <p style="margin-bottom: 50px">三秦非遗文化馆位于崇文塔西南侧，展陈面积近1000余平方米，分为“威武关中，华夏脉搏”、“灵秀陕南，秦风楚韵”、“豪迈陕北，边塞雄风”三个主展区，利用“旧场景、新科技”的设计理念对陕西省国家级非物质文化遗产进行全面展示，如华县皮影戏、西安鼓乐、安塞腰鼓、黄帝祭典等，通过场景的互动让游客在玩的同时也了解和体验到了我们陕西非遗的魅力。</p>
             <img src="{{ asset('images/wyjl/sqfybwg2.jpg') }}" alt="" class="img-100">
             <img src="{{ asset('images/wyjl/sqfybwg3.jpg') }}" alt="" class="img-100" style="margin-top: 10px;margin-bottom: 100px">
         </div>

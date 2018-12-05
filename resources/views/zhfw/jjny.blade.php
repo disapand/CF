@@ -17,7 +17,7 @@
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>{{--还没有开发--}}
+    <li><a href="{{ url('/zhfw/szgc') }}">城市配套维护</a></li>{{--还没有开发--}}
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
     <li><a href="{{ url('/zhfw') }}" class="active">综合服务</a></li>
 @endsection
@@ -26,7 +26,7 @@
     <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
     <li><a href="{{ url('/zhfw/jjny') }}" class="active">洁净能源</a></li>
     <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
-    <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
+    <li><a href="{{ url('/zhfw/ggjt') }}">汽车租赁</a></li>
     <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
 @endsection
 
@@ -46,7 +46,23 @@
 
     <div class="row" style="margin-bottom: 2%;">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p>为了贯彻落实省、市“铁腕治霾”工作部署，根据《西咸新区铁腕治霾2017年1+10方案》的要求，做好原煤散烧污染治理工作，让环保节能的洁净煤走进千家万户，从真正意义上实现洁净煤的使用普及化。为了确保洁净煤符合国家环保要求，并且在经营过程中合法合规，城服公司开展泾河新城洁净煤配送中心(简称洁净煤配送中心)。同时按照“合理布局、保障供应" 的原则，在辖区建设四个配送网点，实现统一质量标准和统一配送，确保居民以及用煤单位的洁净煤使用全覆盖。 </p>
+            <h3 style="color: #008cd6;">一、泾河新城环卫中心垃圾压缩站</h3>
+            <p style="text-indent: 2em;">
+                泾河新城环卫中心垃圾压缩站位于泾河新城永乐镇，属于智能化生活垃圾压缩中转站，由泾河城服运营管理，被徐工集团确立为全国垃圾压缩业务重要示范点。
+            </p>
+            <p style="text-indent: 2em;">
+                该站设计规模为日均转化垃圾300吨，采用先进的水平压缩工艺，完全封闭化作业，具备降尘、除臭、清洁功能，可有效防止二次污染。泾河城服通过优化合理的操作流程，依照各类环境标准，运用先进的信息化平台，实施大数据统计与分析，制定完善的管理制度，开创安全的运营模式。逐步实现了新城垃圾处理的无害化、减量化、智能化，也为建设泾河新城环卫一体化打下坚实的基础。
+            </p>
+            <p style="text-indent: 2em;">垃圾压缩站对于泾河新城生活质量及经济建设产生深远影响，有效解决了居民垃圾出路问题，整治了生活垃圾的灰色地带。大幅度提高城市垃圾处理能力，美化环境，防止污染，逐步实现垃圾处理无害化、减量化、资源化，也提高人民群众的健康水平，利于生态环境建设的可持续发展，为建设“大美泾河”树立良好的城市形象。</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 2%;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+            <h3 style="color: #008cd6;">二、垃圾分类</h3>
+            <p style="text-indent: 2em;">
+                泾河城服开展“垃圾分类，变废为宝”主题活动，通过普及环保知识、张贴宣传海报、完善工具设施、落实责任制等方式，提高废品回收利用率，全面推进落实节能环保，建设文明物业服务单位。
+            </p>
         </div>
     </div>
 

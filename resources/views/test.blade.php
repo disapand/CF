@@ -244,15 +244,15 @@
 
                     <ul class="nav nav-tabs nav-justified" role="tablist">
                         <li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
-                                                                  data-toggle="tab">西咸新区新闻</a></li>
+                                                                  data-toggle="tab">西咸新区<br />新闻</a></li>
                         <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab"
-                                                   data-toggle="tab">泾河新城新闻</a>
-                        </li>
-                        <li role="presentation"><a href="#jhcf" aria-controls="jhcf" role="tab"
-                                                   data-toggle="tab">泾河城服新闻</a>
+                                                   data-toggle="tab">泾河新城<br />新闻</a>
                         </li>
                         <li role="presentation"><a href="#jhjt" aria-controls="jhjt" role="tab"
-                                                   data-toggle="tab">泾河集团新闻</a>
+                                                   data-toggle="tab">泾河集团<br />新闻</a>
+                        </li>
+                        <li role="presentation"><a href="#jhcf" aria-controls="jhcf" role="tab"
+                                                   data-toggle="tab">泾河城服<br />新闻</a>
                         </li>
                     </ul>
 
@@ -362,7 +362,7 @@
                     <div class="thumbnail center-block djtp">
                         <img src="images/fw1.jpg" style="width: 100%;">
                         <div class="caption text-center">
-                            <h3><a href="{{ url('/szgc/lmwx') }}">市政工程动态</a></h3>
+                            <h3><a href="{{ url('/szgc/lmwx') }}">城市配套维护动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
                                 <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
                                 <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
@@ -381,7 +381,7 @@
                                 <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
                                 <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
                                 <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
-                                <li><a href="{{ url('/zhfw/ggjt') }}">公共交通</a></li>
+                                <li><a href="{{ url('/zhfw/ggjt') }}">汽车租赁</a></li>
                                 <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
                             </ul>
                         </div>

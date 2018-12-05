@@ -17,7 +17,7 @@
     <li><a href="{{ url('/wljl') }}">全域旅游</a></li>
     <li><a href="{{ url('/yxhd') }}">文化教育</a></li>
     <li><a href="{{ url('/wygl') }}">物业管理</a></li>
-    <li><a href="{{ url('/zhfw/szgc') }}">市政工程</a></li>{{--还没有开发--}}
+    <li><a href="{{ url('/zhfw/szgc') }}">城市配套维护</a></li>{{--还没有开发--}}
     <li><a href="{{ url('/zsyy') }}">招商运营</a></li>
     <li><a href="{{ url('/zhfw') }}"  class="active">综合服务</a></li>
 @endsection
@@ -26,7 +26,7 @@
     <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
     <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
     <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
-    <li><a href="{{ url('/zhfw/ggjt') }}" class="active">公共交通</a></li>
+    <li><a href="{{ url('/zhfw/ggjt') }}" class="active">汽车租赁</a></li>
     <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
 @endsection
 
@@ -46,13 +46,7 @@
 
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 2%;">
-            <p>泾河新城按照“快捷交通连接”理念，实现与西安、咸阳主城区的无缝对接，方便居民的出行。开通的西安北站至泾河新城的360路公交线路，直抵家门；315路、316路从乐华欢乐世界出发，连接泾河新城与西安城东、城西畅通；2017年3月，西成新区泾河新城旅游直通车正式启动，前期建设班线为“西安城北客运站泾河新城”和“泾阳泾河新城”两条线路，串联了乐华城。乐华欢乐世界、茯茶镇、崇文塔景区、寿平民宿小镇、智慧农业园等景区项。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 2%;">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p>未来将坐享地铁时代，地铁10号线支线穿梭于泾河新城与西安主城之间，一小时即可到达西安主城商业中心，即刻享受都市生活圈。地铁16号线起点泾阳县城，南达新西安南站，一触即达。 </p>
+            <p>汽车租赁公司负责公务车辆信息化平台的运行维护、数据采集；负责公务车辆采购，车辆日常维修（保养）、燃油、保险、年审等管理，车辆安全管理；负责制定、完善公务车辆管理相关制度及规范；负责司勤人员调度管理及安全培训；通过信息化平台，负责泾河新城管委会的公务用车管理和服务保障任务。</p>
         </div>
     </div>
 

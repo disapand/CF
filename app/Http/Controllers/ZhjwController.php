@@ -50,11 +50,11 @@ class ZhjwController extends Controller
         $tzlj = 'zhfw.';
         switch ($id) {
             case 'szgc':
-                $title .= '市政工程';
+                $title .= '城市配套维护';
                 $tzlj .= 'szgc';
                 break;
             case 'ggjt':
-                $title .= '公共交通';
+                $title .= '汽车租赁';
                 $tzlj .= 'ggjt';
                 break;
             case 'jjny':
@@ -77,7 +77,7 @@ class ZhjwController extends Controller
     }
 
     public function szgc($bt){
-        $title = '市政工程--';
+        $title = '城市配套维护--';
         $tzlj = 'zhfw.';
         switch ($bt) {
             case 'lmwx':
