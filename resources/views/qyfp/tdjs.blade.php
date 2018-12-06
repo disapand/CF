@@ -50,15 +50,15 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-md-offset-2">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt1.jpg') }}" alt="" class="img-100">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt2.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt3.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>--}}
                 </div>
             </div>
         </div>
@@ -67,15 +67,15 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt4.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt5.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt6.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>--}}
                 </div>
             </div>
         </div>
@@ -84,15 +84,15 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt7.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt8.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>--}}
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/tdjs/tdjs_xt9.jpg') }}" alt="" style="width: 99%;">
-                    <p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>
+                    {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2015.6.4.篮球友谊赛</p>--}}
                 </div>
             </div>
         </div>

@@ -34,8 +34,9 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 6%;">
-            <p>计划在2018年开展崇文尚学项目（二期）商品房网签、银行按揭工作，网签中心工作人员将竭诚为业主服务，仔细核对业务信息，按时提交，并及时跟进业务审核进度。力争顺利完成崇文尚学（二期）的网签工作；组建优秀的销售团队，通过多样化的营销手段，完成尚学项目（一、二期）剩余房源的营销工作。</p>
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 50px;">
+            <p>崇文尚学住宅项目位于中国著名的第一高砖塔“崇文塔”的东侧，地处泾河新城正阳西一路，三面公园环绕，自然资源优越，整体环境优雅宜人。一、二期总建筑面积114816.32㎡。</p>
+            <p style="margin-top: 50px">服务范围：崇文尚学为泾河新区高档住宅小区，项目管理服务包括物业中心前台接待工作、公共区域日常保洁、绿植养护、垃圾收集及清运、工程设施设备保养维护，秩序维护管理、增值服务等物业服务。</p>
         </div>
     </div>
 

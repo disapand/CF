@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 50px;">
+    <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -99,10 +99,10 @@
         </div>
     </div>
 
-    <div class="row" style="line-height: 2em;margin-bottom: 6%;">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p>除以上工作外，支部还严格按照要求，深入贯彻落实中央和省委关于加强和改进企业党建工作的有关精神，有效落实“一岗双责”、廉政、教育和培训工作，每周制作党建工作简报、上报党建工作要情，严格落实“三会一课制度”，按照程序发展党员。截止9月底，已经召开党员大会3次，上党课1次，召开民主生活会1次；通过谈话、备案，已经确定2名人员为积极分子。</p>
-            <p>我们在以后的党建工作中仍会不懈努力，不断完善组织机构,保证组织生活，加强党风廉政建设，实现党建与公司业务发展双赢得目标，真正把支部和公司做大做强。</p>
-        </div>
-    </div>
+    {{--<div class="row" style="line-height: 2em;margin-bottom: 6%;">--}}
+        {{--<div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">--}}
+            {{--<p>除以上工作外，支部还严格按照要求，深入贯彻落实中央和省委关于加强和改进企业党建工作的有关精神，有效落实“一岗双责”、廉政、教育和培训工作，每周制作党建工作简报、上报党建工作要情，严格落实“三会一课制度”，按照程序发展党员。截止9月底，已经召开党员大会3次，上党课1次，召开民主生活会1次；通过谈话、备案，已经确定2名人员为积极分子。</p>--}}
+            {{--<p>我们在以后的党建工作中仍会不懈努力，不断完善组织机构,保证组织生活，加强党风廉政建设，实现党建与公司业务发展双赢得目标，真正把支部和公司做大做强。</p>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 @endsection

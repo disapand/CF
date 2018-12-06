@@ -54,7 +54,8 @@
 
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 col-md-offset-3 wzys col-xs-offset-1 col-sm-offset-1">
-            <p style="margin-top: 50px;text-indent: 2em;margin-bottom: 50px;">泾河智慧农业园位于泾河新城高泾大道以北，茶马大道以西；日常物业管理工作由城服公司负责，面积约48987.75平方米。项目配备项目经理1名，保洁员19名，秩序维护员19名，水电维修1名。日常服务包含农业园园区道路、馆场、公共区域设施设备保洁服务、保安服务、水电的日常物业管理服务等工作。</p>
+            <p style="margin-top: 50px;text-indent: 2em;margin-bottom: 25px;">茯茶展示基地项目位于泾河新城茶源二路以南，高泾大道以北，茶香大道以东，茶坊四路以西。项目占地20.15亩，总建筑面积约16000㎡。由生产区、研发办公区、茯茶众创空间、茶文化展示区、销售展示区、手筑体验区六大版块组成，并积极致力于成为行业标杆、区域典范。</p>
+            <p style="margin-top: 25px;text-indent: 2em;margin-bottom: 50px;">服务范围：茯茶展示基地是泾河茯茶展示的对外窗口，项目管理服务包括前台接待工作、公共区域日常保洁养护、垃圾收集及清运、秩序维护管理。</p>
         </div>
     </div>
 
@@ -70,12 +71,15 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 30px;margin-bottom: 6%;">
+    <div class="row" style="margin-top: 4px;margin-bottom: 50px;">
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-md-offset-3">
             <img src=" {{ asset('images/cyy4.jpg') }}" alt="" class="img-100">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
             <img src=" {{ asset('images/cyy5.jpg') }}" alt="" class="img-100">
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+            <img src=" {{ asset('images/cyy6.jpg') }}" alt="" class="img-100">
         </div>
     </div>
 
