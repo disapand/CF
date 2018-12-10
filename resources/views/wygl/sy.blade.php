@@ -81,7 +81,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/jhsy.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -101,7 +101,7 @@
     {{--茯茶集团办公楼--}}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/fcjt.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -135,7 +135,7 @@
     {{--政务大厅--}}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block">
+            <img src="{{ asset('images/zwdt.png') }}" alt="" class="center-block">
         </div>
     </div>
 

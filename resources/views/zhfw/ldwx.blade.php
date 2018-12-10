@@ -43,9 +43,18 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 6%;">
+    <div class="row" style="margin-bottom: 30px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+            <p>主次干道道路照明设施加强巡查维修，排布计划，进行整体维修，同时加强夜间路灯巡查，对发现的零星路灯故障，及时进行检修，确保路灯照明率达到98%以上。</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 50px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                    <img src="{{ asset('images/zhfw/ldwx.jpg') }}" alt="" class="img-100">
+                </div>
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                     <img src="{{ asset('images/zhfw/ldwx_1.jpg') }}" alt="" class="img-100">
                 </div>

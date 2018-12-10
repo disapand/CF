@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/gafj_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/ylgs.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
@@ -84,10 +84,99 @@
         </div>
     </div>
 
+{{--泾河消防--}}
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="{{ asset('images/wyjl/jhxf_dt.jpg') }}" alt="" class="img-100">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
+        <img src="{{ asset('images/wyjl/jhxf_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+        <p style="margin-top: 50px;margin-bottom: 25px;">泾河新城消防大队项目位于乐华城西门向西200米（瀛洲一街），营区建筑面积约6800㎡，配备保洁3人。</p>
+        <p style="margin-top: 25px;margin-bottom: 50px;">服务范围：负责区域包括咸阳市泾阳县永乐镇、崇文镇、泾干镇三镇的全部和高庄镇的一部；做好办公楼公共区域精细化保洁服务，提升物业服务质量，做好后勤保障工作。</p>
+    </div>
+</div>
+
+<div class="row" style="margin-bottom: 6%;">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <img src="{{ asset('images/wyjl/jhxf_t1.jpg') }}" alt="" class="img-100">
+    </div>
+</div>
+
+{{--信访办--}}
+<div class="row" style="margin-top: 6%;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="{{ asset('images/wyjl/xfb_dt.jpg') }}" alt="" class="img-100">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
+        <img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+        <p style="margin-top: 50px;margin-bottom: 50px;">该项目位于泾河新城崇文佳苑三区西南角，办公区域分为2层，面积约为800多平米，项目配备项目主管1名，保安4名，保洁2名。日常服务包含24小时安保服务、办公室以及公共区域内部精细化保洁、户外道路清扫工作。</p>
+    </div>
+</div>
+
+<div class="row" style="margin-bottom: 6%;">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <img src="{{ asset('images/wyjl/xfb_t1.jpg') }}" alt="" class="img-100">
+    </div>
+</div>
+
+{{--综合执法局--}}
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="{{ asset('images/zhzf.jpg') }}" alt="" class="img-100">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
+        <img src="{{ asset('images/zhzfdd.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+        <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+        <p style="margin-top: 50px;margin-bottom: 25px;">泾河新城综合行政执法局项目属于开放式办公物业服务类型，经委托方提供测算结果，项目占地面积约25700平方米，其中办公区面积约10200平方米，绿化面积约2800平方米，公共区域约12700平方米。</p>
+        <p style="margin-top: 25px;margin-bottom: 50px;">服务范围：办公区、公共部分、走廊、卫生间、会议室的室内外清洁卫生、生活垃圾收集清运，门岗安全秩序维护工作，来访人员登记工作，餐厅运营服务管理，客服会议及接待室服务。</p>
+    </div>
+</div>
+
 {{--群众中心--}}
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-        <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block">
+        <img src="{{ asset('images/qzgzzx.png') }}" alt="" class="center-block" style="height: 45px">
     </div>
 </div>
 
@@ -121,73 +210,10 @@
     </div>
 </div>
 
-    {{--泾河消防--}}
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="{{ asset('images/wyjl/jhxf_dt.jpg') }}" alt="" class="img-100">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/wyjl/jhxf_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p style="margin-top: 50px;margin-bottom: 25px;">泾河新城消防大队项目位于乐华城西门向西200米（瀛洲一街），营区建筑面积约6800㎡，配备保洁3人。</p>
-            <p style="margin-top: 25px;margin-bottom: 50px;">服务范围：负责区域包括咸阳市泾阳县永乐镇、崇文镇、泾干镇三镇的全部和高庄镇的一部；做好办公楼公共区域精细化保洁服务，提升物业服务质量，做好后勤保障工作。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 6%;">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/jhxf_t1.jpg') }}" alt="" class="img-100">
-        </div>
-    </div>
-
-    {{--信访办--}}
-    <div class="row" style="margin-top: 6%;">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="{{ asset('images/wyjl/xfb_dt.jpg') }}" alt="" class="img-100">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p style="margin-top: 50px;margin-bottom: 50px;">该项目位于泾河新城崇文佳苑三区西南角，办公区域分为2层，面积约为800多平米，项目配备项目主管1名，保安4名，保洁2名。日常服务包含24小时安保服务、办公室以及公共区域内部精细化保洁、户外道路清扫工作。</p>
-        </div>
-    </div>
-
-    <div class="row" style="margin-bottom: 6%;">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/wyjl/xfb_t1.jpg') }}" alt="" class="img-100">
-        </div>
-    </div>
-
 {{--学校安保--}}
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-        <img src="{{ asset('images/sy_z.png') }}" alt="" class="center-block">
+        <img src="{{ asset('images/xxab.png') }}" alt="" class="center-block" style="height: 45px;">
     </div>
 </div>
 
@@ -216,32 +242,6 @@
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <img src=" {{ asset('images/xxab3.jpg') }}" alt="" class="img-100">
         </div>
-    </div>
-</div>
-
-{{--综合执法局--}}
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img src="{{ asset('images/zhzf.jpg') }}" alt="" class="img-100">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-        <img src="{{ asset('images/wyjl/jhxf_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-        <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-        <p style="margin-top: 50px;margin-bottom: 25px;">泾河新城综合行政执法局项目属于开放式办公物业服务类型，经委托方提供测算结果，项目占地面积约25700平方米，其中办公区面积约10200平方米，绿化面积约2800平方米，公共区域约12700平方米。</p>
-        <p style="margin-top: 25px;margin-bottom: 50px;">服务范围：办公区、公共部分、走廊、卫生间、会议室的室内外清洁卫生、生活垃圾收集清运，门岗安全秩序维护工作，来访人员登记工作，餐厅运营服务管理，客服会议及接待室服务。</p>
     </div>
 </div>
 

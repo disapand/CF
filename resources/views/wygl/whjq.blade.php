@@ -144,7 +144,7 @@
     {{--十三、陕西茯茶文化博物馆--}}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/whjq_z2.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/fcbwg.png') }}" alt="" class="center-block" style="margin-top: 6%;">
         </div>
     </div>
 
