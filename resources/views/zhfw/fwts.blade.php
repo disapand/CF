@@ -23,17 +23,17 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
-    <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
-    <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
-    <li><a href="{{ url('/szgc/fwts') }}" class="active">氛围提升</a></li>
+    <li><a href="{{ url('/szgc/lmwx') }}">路面维护</a></li>
+    <li><a href="{{ url('/szgc/ldwx') }}">路灯维护</a></li>
+    <li><a href="{{ url('/szgc/ldlh') }}">管网维护</a></li>
+    <li><a href="{{ url('/szgc/fwts') }}" class="active">亮化提升</a></li>
 @endsection
 
 @section('contents')
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zhfw/fwts.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/zhfw/lhts.png') }}" alt="" class="center-block" style="margin-top: 50px;height: 45px;">
         </div>
     </div>
 
@@ -45,18 +45,18 @@
 
     <div class="row" style="margin-bottom: 30px;">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-        	<p>泾河城服正在积极准备对高速出口、泾干中学、西区政务大厅等重要路口进行花卉造型布置，计划于春节前全部完成，展现泾河新城崭新形象。</p>
+        	<p>为全面提升新城内人居环境，持续改善城市环境质量。泾河城服制定新城亮化方案，全力做好亮化造型灯安装工作，完成多条主要道路亮化造型灯安装工作，同步对原有亮化造型灯进行全面检修，努力营造绚丽多彩，灯火辉煌的城市夜景。</p>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 6%;">
+    <div class="row" style="margin-bottom: 50px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/fwts1.jpg') }}" alt="" class="img-100">
+                    <img src="{{ asset('images/zhfw/lhts1.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/fwts2.jpg') }}" alt="" class="img-100">
+                    <img src="{{ asset('images/zhfw/lhts2.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img src="{{ asset('images/zhfw/fwts3.jpg') }}" alt="" class="img-100">

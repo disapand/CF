@@ -23,17 +23,17 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
-    <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
-    <li><a href="{{ url('/szgc/ldlh') }}" class="active">路灯亮化</a></li>
-    <li><a href="{{ url('/szgc/fwts') }}">氛围提升</a></li>
+    <li><a href="{{ url('/szgc/lmwx') }}">路面维护</a></li>
+    <li><a href="{{ url('/szgc/ldwx') }}">路灯维护</a></li>
+    <li><a href="{{ url('/szgc/ldlh') }}" class="active">管网维护</a></li>
+    <li><a href="{{ url('/szgc/fwts') }}">亮化提升</a></li>
 @endsection
 
 @section('contents')
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zhfw/ldlh.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/zhfw/gwwh.png') }}" alt="" class="center-block" style="margin-top: 50px;height: 45px;">
         </div>
     </div>
 
@@ -43,29 +43,26 @@
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 5px;">
+    <div class="row" style="margin-bottom: 30px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+            <p>系统全面地对辖区范围内主次干道排水管网、排水口、检查井等设施以及排水排污情况进行地毯式实地勘察排查，对发现的管道堵塞、井框井篦子损坏、丢失等问题立即进行疏通维修更换，保障污水管道通畅，井框井篦子等设施完好，有效提升市民居住环境。</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 50px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/ldlh1.jpg') }}" alt="" class="img-100">
+                    <img src="{{ asset('images/zhfw/gwwh1.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/ldwx_2.jpg') }}" alt="" class="img-100">
+                    <img src="{{ asset('images/zhfw/gwwh2.jpg') }}" alt="" class="img-100">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/ldlh3.jpg') }}" alt="" class="img-100">
+                    <img src="{{ asset('images/zhfw/gwwh3.jpg') }}" alt="" class="img-100">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 6%;">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-            <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img src="{{ asset('images/zhfw/ldlh4.jpg') }}" alt="" class="img-100">
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection

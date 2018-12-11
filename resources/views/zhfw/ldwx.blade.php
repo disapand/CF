@@ -23,17 +23,17 @@
 @endsection
 
 @section('ejdh')
-    <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
-    <li><a href="{{ url('/szgc/ldwx') }}" class="active">路灯维修</a></li>
-    <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
-    <li><a href="{{ url('/szgc/fwts') }}">氛围提升</a></li>
+    <li><a href="{{ url('/szgc/lmwx') }}">路面维护</a></li>
+    <li><a href="{{ url('/szgc/ldwx') }}" class="active">路灯维护</a></li>
+    <li><a href="{{ url('/szgc/ldlh') }}">管网维护</a></li>
+    <li><a href="{{ url('/szgc/fwts') }}">亮化提升</a></li>
 @endsection
 
 @section('contents')
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zhfw/ldwx.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/zhfw/ldwh.png') }}" alt="" class="center-block" style="margin-top: 50px;height: 45px">
         </div>
     </div>
 

@@ -81,19 +81,19 @@ class ZhjwController extends Controller
         $tzlj = 'zhfw.';
         switch ($bt) {
             case 'lmwx':
-                $title .= '路面维修';
+                $title .= '路面维护';
                 $tzlj .= 'lmwx';
                 break;
             case 'ldwx':
-                $title .= '路灯维修';
+                $title .= '路灯维护';
                 $tzlj .= 'ldwx';
                 break;
             case 'ldlh':
-                $title .= '路灯亮化';
+                $title .= '管网维护';
                 $tzlj .= 'ldlh';
                 break;
             case 'fwts':
-                $title .= '氛围提升';
+                $title .= '亮化提升';
                 $tzlj .= 'fwts';
                 break;
             default:

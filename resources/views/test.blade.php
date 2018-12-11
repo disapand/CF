@@ -364,10 +364,10 @@
                         <div class="caption text-center">
                             <h3><a href="{{ url('/szgc/lmwx') }}">城市配套维护动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
-                                <li><a href="{{ url('/szgc/lmwx') }}">路面维修</a></li>
-                                <li><a href="{{ url('/szgc/ldwx') }}">路灯维修</a></li>
-                                <li><a href="{{ url('/szgc/ldlh') }}">路灯亮化</a></li>
-                                <li><a href="{{ url('/szgc/fwts') }}">氛围提升</a></li>
+                                <li><a href="{{ url('/szgc/lmwx') }}">路面维护</a></li>
+                                <li><a href="{{ url('/szgc/ldwx') }}">路灯维护</a></li>
+                                <li><a href="{{ url('/szgc/ldlh') }}">管网维护</a></li>
+                                <li><a href="{{ url('/szgc/fwts') }}">亮化提升</a></li>
                             </ul>
                         </div>
                     </div>
