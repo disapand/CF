@@ -177,7 +177,7 @@
 
         <div class="row bq" style="margin-top: 1%;">
             <div class="col-md-8 col-md-offset-2">
-                <p class="text-center" style="line-height: 0.5em">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-38952115</p>
+                <p class="text-center" style="line-height: 0.5em">主办：陕西省西咸新区泾河新城城市综合服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;电话：029-36390885</p>
                 <p class="text-center" style="line-height: 0.5em">地址：陕西省西咸新区泾河新城产业孵化中心3号楼C区</p>
                 <p class="text-center" style="line-height: 0.5em">备案号陕ICP备18001733&nbsp;&nbsp;&nbsp;&nbsp;P.C.：713700&nbsp;&nbsp;&nbsp;&nbsp;邮箱：jinghechengfu@126.com</p>
             </div>
