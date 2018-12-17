@@ -52,30 +52,33 @@
             <p style="padding-bottom: 2%;">
                 泾河城服以电商为手段，精准扶贫为目标，整合泾河新城内贫困农户信息，打造专业性的脱贫攻坚电商平台——泾河帮帮卖。商城通过对贫困户农副产品的收集、展示、销售，大力推广贫困家庭自产的有机农副产品，让泾河新城优良的绿色原生态农副产品走到更广阔的市场，让喜欢原生态绿色食品的市民能够找到最真诚质朴的产品。同时，也使得人人皆可在平台贡献力量，帮助贫困户改善生活。确保扶贫目的，展示扶贫成果，精准扶贫农户。
             </p>
-            <p style="padding-bottom: 2%;">
+            <p>
                 平台销售产品主要包括：一是贫困户自产或参与生产的产品，销售利润全部归贫困户所有；二是参与扶贫的爱心企业生产的产品，从营业额中计提一定比例的资金设立扶贫基金，用于区域的扶贫工作。目前平台在售产品为房老太系列产品、“新庄情”系列产品，威氏英系列洗衣液产品，冰草系列产品等。</p>
         </div>
     </div>
 
-    <div class="row" style="margin-bottom: 3%;">
+    <div class="row" style="line-height: 2em;margin-bottom: 50px;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
+            <h3 style="color: #008cd6;">二、线下——扶贫产品展销中心</h3>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 50px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img src="{{ asset('images/qyfp/qyfp_xt1.jpg') }}" alt="" class="img-100">
             </div>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img src="{{ asset('images/qyfp/qyfp_xt2.jpg') }}" alt="" class="img-100">
-
             </div>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img src="{{ asset('images/qyfp/qyfp_xt3.jpg') }}" alt="" class="img-100">
-
             </div>
         </div>
     </div>
 
     <div class="row" style="line-height: 2em;margin-bottom: 6%;">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <h3 style="color: #008cd6;">二、线下——扶贫产品展销中心</h3>
             <p style="margin-bottom: 2%;">
                 此前，泾河城服集聚电商力量，在茯茶镇积极部署建设“扶贫产品展销中心”，形成线上线下相融合的格局，扩大了宣传展销力度和覆盖面。</p>
             <p style="margin-bottom: 2%;">

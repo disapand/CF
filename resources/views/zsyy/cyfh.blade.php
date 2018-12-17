@@ -40,10 +40,22 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 6%;">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 50px;">
             <p >产业孵化中心一号楼致力打造成为泾河新城中小企业孵化基地，其中1号、2号、4号楼对外招商，5号楼用于政务服务大厅、企业展厅，泾河税务和泾河工商办公场地；3号楼用于泾河新城管委会、泾河新城开发建设(集团)有限公司和外协单位办公使用，6号楼为公寓楼，7号楼为食堂和运动场地。</p>
         </div>
     </div>
 
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 2px">
+                <img src="{{ asset('images/zsyy/zsyy_cyfh.jpg') }}" alt="" style="width: 99%;">
+                {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.3.12植树活动</p>--}}
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 2px">
+                <img src="{{ asset('images/zsyy/zsyy_cyfh1.jpg') }}" alt="" style="width: 99%;">
+                {{--<p class="text-center visible-md-block visible-lg-block" style="margin-top: 10px;">2014.2前往安吴青训班进行学习交流</p>--}}
+            </div>
+        </div>
+    </div>
 
 @endsection
