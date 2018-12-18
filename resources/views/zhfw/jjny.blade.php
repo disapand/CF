@@ -3,7 +3,7 @@
 @section('css')
     @parent
     <style>
-        .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4{
+        .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3{
             padding-left: 3px;
             padding-right: 2px;
         }
@@ -69,14 +69,17 @@
     <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('images/zhfw/jjny_xt1.jpg') }}" alt="" class="img-100">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('images/zhfw/jjny_xt2.jpg') }}" alt="" class="img-100">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('images/zhfw/jjny_xt3.jpg') }}" alt="" class="img-100">
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <img src="{{ asset('images/zhfw/jjny_xt4.jpg') }}" alt="" class="img-100">
                 </div>
             </div>
         </div>
