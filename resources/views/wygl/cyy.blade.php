@@ -42,7 +42,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-            <img src="{{ asset('images/cyy_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
+            <img src="{{ asset('images/cyy_z.png') }}" alt="" class="center-block" style="margin-top: 6%;height: 45px">
         </div>
     </div>
 

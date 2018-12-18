@@ -72,5 +72,30 @@
             </div>
         </div>
     </div>
+{{--崇文尚学--}}
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="{{ asset('images/zsyy/zsyy_cwsx.jpg') }}" alt="" class="img-100">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+            <img src="{{ asset('images/cwsx_z.png') }}" alt="" class="center-block" style="margin-top: 6%;height: 45px">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+            <img src="{{ asset('images/cyfhzx_xmjj.png') }}" alt="" class="center-block" style="margin-top: 5%;width: 100%;">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1" style="margin-bottom: 50px;">
+            <p style="margin-top: 50px;margin-bottom: 25px;">崇文尚学住宅项目位于中国著名的第一高砖塔“崇文塔”的东侧，地处泾河新城正阳西一路，三面公园环绕，自然资源优越，整体环境优雅宜人。一、二期总建筑面积114816.32㎡。</p>
+            <p style="margin-top: 25px;margin-bottom: 25px;">服务范围：崇文尚学为泾河新区高档住宅小区，项目管理服务包括物业中心前台接待工作、公共区域日常保洁、绿植养护、垃圾收集及清运、工程设施设备保养维护，秩序维护管理、增值服务等物业服务。</p>
+        </div>
+    </div>
 
 @endsection

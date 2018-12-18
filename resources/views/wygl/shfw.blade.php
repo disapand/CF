@@ -117,35 +117,35 @@
 </div>
 
 {{--信访办--}}
-<div class="row" style="margin-top: 6%;">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img src="{{ asset('images/wyjl/xfb_dt.jpg') }}" alt="" class="img-100">
-    </div>
-</div>
+{{--<div class="row" style="margin-top: 6%;">--}}
+    {{--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">--}}
+        {{--<img src="{{ asset('images/wyjl/xfb_dt.jpg') }}" alt="" class="img-100">--}}
+    {{--</div>--}}
+{{--</div>--}}
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
-        <img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">
-    </div>
-</div>
+{{--<div class="row">--}}
+    {{--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">--}}
+        {{--<img src="{{ asset('images/wyjl/xfb_z.png') }}" alt="" class="center-block" style="margin-top: 6%;">--}}
+    {{--</div>--}}
+{{--</div>--}}
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-        <img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">
-    </div>
-</div>
+{{--<div class="row">--}}
+    {{--<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">--}}
+        {{--<img src="{{ asset('images/whjq_xmjj.png') }}" alt="" class="center-block" style="margin-top: 50px;width: 100%;">--}}
+    {{--</div>--}}
+{{--</div>--}}
 
-<div class="row">
-    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-        <p style="margin-top: 50px;margin-bottom: 50px;">该项目位于泾河新城崇文佳苑三区西南角，办公区域分为2层，面积约为800多平米，项目配备项目主管1名，保安4名，保洁2名。日常服务包含24小时安保服务、办公室以及公共区域内部精细化保洁、户外道路清扫工作。</p>
-    </div>
-</div>
+{{--<div class="row">--}}
+    {{--<div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">--}}
+        {{--<p style="margin-top: 50px;margin-bottom: 50px;">该项目位于泾河新城崇文佳苑三区西南角，办公区域分为2层，面积约为800多平米，项目配备项目主管1名，保安4名，保洁2名。日常服务包含24小时安保服务、办公室以及公共区域内部精细化保洁、户外道路清扫工作。</p>--}}
+    {{--</div>--}}
+{{--</div>--}}
 
-<div class="row" style="margin-bottom: 6%;">
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
-        <img src="{{ asset('images/wyjl/xfb_t1.jpg') }}" alt="" class="img-100">
-    </div>
-</div>
+{{--<div class="row" style="margin-bottom: 6%;">--}}
+    {{--<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">--}}
+        {{--<img src="{{ asset('images/wyjl/xfb_t1.jpg') }}" alt="" class="img-100">--}}
+    {{--</div>--}}
+{{--</div>--}}
 
 {{--综合执法局--}}
 <div class="row">

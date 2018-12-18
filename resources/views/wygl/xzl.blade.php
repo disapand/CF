@@ -76,7 +76,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 4px;margin-bottom: 150px;">
+    <div class="row" style="margin-top: 4px;margin-bottom: 50px;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img src=" {{ asset('images/xzl_4.jpg') }}" alt="" class="img-100">

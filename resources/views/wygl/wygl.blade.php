@@ -126,76 +126,14 @@
                         	<span>产业孵化中心</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/zsyy/cyfh') }}">查看更多 >></a>
+                            <a href="{{ url('/wygl/xzl') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>崇文塔景区</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 2%;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/zsyy/cyfh') }}"><img src=" {{ asset('images/wygl1.jpg') }}" alt="" class="img-100"></a>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/whjq') }}"><img src=" {{ asset('images/wygl2.jpg') }}" alt="" class="img-100"></a>
-                </div>
-            </div>
-
-            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>崇文·尚学</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>崇文佳苑</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/zz') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 2%;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/zsyy/cwsx') }}"><img src=" {{ asset('images/wygl3.jpg') }}" alt="" class="img-100"></a>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/zz') }}"><img src=" {{ asset('images/wygl4.jpg') }}" alt="" class="img-100"></a>
-                </div>
-            </div>
-
-            <div class="row visible-md-block visible-lg-block" style="margin-top: 2%;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>泾河公安分局</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>泾河消防</span>
+                            <span>永乐国税所</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                             <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
@@ -205,41 +143,10 @@
             </div>
             <div class="row" style="margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl5.jpg') }}" alt="" class="img-100"></a>
+                    <a href="{{ url('/wygl/xzl') }}"><img src=" {{ asset('images/wygl1.jpg') }}" alt="" class="img-100"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl6.jpg') }}" alt="" class="img-100"></a>
-                </div>
-            </div>
-
-            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>信访办</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="row tpbt">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>泾河热力物业</span>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 2%;">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl7.jpg') }}" alt="" class="img-100"></a>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/wygl/sy') }}"><img src=" {{ asset('images/wygl8.jpg') }}" alt="" class="img-100"></a>
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl_ylgs.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
 
@@ -257,7 +164,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span style="margin-left: -25px">泾河智慧农业园</span>
+                            <span>茯茶展示基地</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                             <a href="{{ url('/wygl/cyy') }}">查看更多 >></a>
@@ -278,17 +185,203 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <div class="row tpbt">
                         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                            <span>餐饮管理</span>
+                            <span>崇文·尚学</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/zsyy/cwsx') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河实业</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/zsyy/cwsx') }}"><img src=" {{ asset('images/wygl3.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/sy') }}"><img src=" {{ asset('images/wygl_jhsy.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河热力</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>崇文佳苑</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/zz') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/sy') }}"><img src=" {{ asset('images/wygl8.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/zz') }}"><img src=" {{ asset('images/wygl4.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河公安分局</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>群众工作中心</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl5.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl_qzgz.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span style="margin-left: -27px">崇文塔景区商建</span>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                             <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>政务大厅</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/whjq') }}"><img src=" {{ asset('images/wygl_whjq.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/sy') }}"><img src=" {{ asset('images/wygl_zwdt.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span style="margin-left: -27px">茯茶文化博物馆</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/whjq') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>泾河消防</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/whjq') }}"><img src=" {{ asset('images/wygl_fcbwg.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/wygl/shfw') }}"><img src=" {{ asset('images/wygl6.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span style="margin-left: -27px">茯茶集团办公楼</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/sy') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>学校安保服务</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/zhfw/sy') }}"><img src=" {{ asset('images/wygl_jtbgl.jpg') }}" alt="" class="img-100"></a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <a href="{{ url('/zhfw/shfw') }}"><img src=" {{ asset('images/wygl_abfw.jpg') }}" alt="" class="img-100"></a>
+                </div>
+            </div>
+
+            <div class="row visible-md-block visible-lg-block" style="margin-top: 20px;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row tpbt">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <span>综合执法大队</span>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <a href="{{ url('/wygl/shfw') }}">查看更多 >></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row" style="margin-bottom: 6%;margin-top: 2%;">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <a href="{{ url('/zhfw/cygn') }}"><img src=" {{ asset('images/wygl11.jpg') }}" alt="" class="img-100"></a>
+                    <a href="{{ url('/zhfw/shfw') }}"><img src=" {{ asset('images/wygl_zhzf.jpg') }}" alt="" class="img-100"></a>
                 </div>
             </div>
         </div>
