@@ -3,7 +3,7 @@
 @section('css')
     @parent
     <style>
-        .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3{
+        .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6{
             padding-left: 3px;
             padding-right: 2px;
         }
@@ -24,7 +24,7 @@
 
 @section('ejdh')
     <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
-    <li><a href="{{ url('/zhfw/jjny') }}" class="active">洁净能源</a></li>
+    <li><a href="{{ url('/zhfw/jjny') }}" class="active">生态建设</a></li>
     <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
     <li><a href="{{ url('/zhfw/ggjt') }}">汽车租赁</a></li>
     <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>
@@ -40,7 +40,7 @@
 
     <div class="row">
         <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-md-offset-2">
-            <img src="{{ asset('images/zhfw/jjny_z.png') }}" alt="" class="img-100" style="margin-top: 6%;margin-bottom: 50px;">
+            <img src="{{ asset('images/zhfw/stjs_z.png') }}" alt="" class="img-100" style="margin-top: 6%;margin-bottom: 50px;">
         </div>
     </div>
 
@@ -57,6 +57,19 @@
         </div>
     </div>
 
+    <div class="row" style="margin-bottom: 50px;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{ asset('images/zhfw/jjny_xt1.jpg') }}" alt="" class="img-100">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{ asset('images/zhfw/jjny_xt2.jpg') }}" alt="" class="img-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="row" style="margin-bottom: 2%;">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
             <h3 style="color: #008cd6;">二、垃圾分类</h3>
@@ -69,16 +82,10 @@
     <div class="row" style="margin-bottom: 6%;">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
         	<div class="row">
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <img src="{{ asset('images/zhfw/jjny_xt1.jpg') }}" alt="" class="img-100">
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <img src="{{ asset('images/zhfw/jjny_xt2.jpg') }}" alt="" class="img-100">
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <img src="{{ asset('images/zhfw/jjny_xt3.jpg') }}" alt="" class="img-100">
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <img src="{{ asset('images/zhfw/jjny_xt4.jpg') }}" alt="" class="img-100">
                 </div>
             </div>

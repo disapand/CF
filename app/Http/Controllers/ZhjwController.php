@@ -58,7 +58,7 @@ class ZhjwController extends Controller
                 $tzlj .= 'ggjt';
                 break;
             case 'jjny':
-                $title .= '洁净能源';
+                $title .= '生态建设';
                 $tzlj .= 'jjny';
                 break;
             case 'cygn':

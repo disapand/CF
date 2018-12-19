@@ -24,7 +24,7 @@
 
 @section('ejdh')
     <li><a href="{{ url('/dzfw/zwpx') }}" class="active">政务服务</a></li>
-    <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
+    <li><a href="{{ url('/zhfw/jjny') }}">生态建设</a></li>
     <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
     <li><a href="{{ url('/zhfw/ggjt') }}">汽车租赁</a></li>
     <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>

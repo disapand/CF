@@ -379,7 +379,7 @@
                             <h3><a href="{{ url('/zhfw/zhcs') }}">综合服务动态</a></h3>
                             <ul class="visible-md-block visible-lg-block" style="margin-bottom: 0">
                                 <li><a href="{{ url('/dzfw/zwpx') }}">政务服务</a></li>
-                                <li><a href="{{ url('/zhfw/jjny') }}">洁净能源</a></li>
+                                <li><a href="{{ url('/zhfw/jjny') }}">生态建设</a></li>
                                 <li><a href="{{ url('/dzfw') }}">回迁安置</a></li>
                                 <li><a href="{{ url('/zhfw/ggjt') }}">汽车租赁</a></li>
                                 <li><a href="{{ url('/zhfw/zhcs') }}">智慧城市</a></li>

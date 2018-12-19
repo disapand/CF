@@ -40,15 +40,9 @@
         </div>
     </div>
 
-    <div class="row" style="line-height: 2em;margin-bottom: 20px;">
-        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <p>为切实推进城服公司帮扶村庄——新庄村、铁孟村脱贫攻坚工作，助力泾河新城打赢脱贫攻坚战，经城服公司党支部研究决定，深入开展“党建+新庄村、铁孟村脱贫攻坚”工作，结合我公司实际，现制定具体工作方案如下：</p>
-        </div>
-    </div>
-
     <div class="row" style="line-height: 2em;margin-bottom: 50px;">
         <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-md-offset-2 wzys col-xs-offset-1 col-sm-offset-1">
-            <h3 style="color: #008cd6;">一、线上——泾河帮帮卖</h3>
+            <h3 style="color: #008cd6;">一、线上——扶贫电商平台</h3>
             <p style="padding-bottom: 2%;">
                 泾河城服以电商为手段，精准扶贫为目标，整合泾河新城内贫困农户信息，打造专业性的脱贫攻坚电商平台——泾河帮帮卖。商城通过对贫困户农副产品的收集、展示、销售，大力推广贫困家庭自产的有机农副产品，让泾河新城优良的绿色原生态农副产品走到更广阔的市场，让喜欢原生态绿色食品的市民能够找到最真诚质朴的产品。同时，也使得人人皆可在平台贡献力量，帮助贫困户改善生活。确保扶贫目的，展示扶贫成果，精准扶贫农户。
             </p>
