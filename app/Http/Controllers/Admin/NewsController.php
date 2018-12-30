@@ -91,7 +91,8 @@ class NewsController extends Controller
             return redirect($new['url']);
         $new['count'] += 1;
         $new->save();
-        return view('news.news1', compact('new'));
+        $title = $new['title'];
+        return view('news.news1', compact('new', 'title'));
     }
 
     public function show_by_sort($sort){

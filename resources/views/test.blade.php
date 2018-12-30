@@ -112,6 +112,9 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <a href="http://www.jinghechengfu.com/admin/news/85"><img src="images/banner6.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="images/banner1203.jpg" alt="">
                         <div class="box">
                             <div class="img-cover">
