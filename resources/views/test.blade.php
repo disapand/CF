@@ -482,6 +482,7 @@
                             </div>
 
                             <div role="tabpanel" class="tab-pane" id="hywz">
+                                <div><a href="http://www.xxjhjt.com" target="_blank">泾河集团</a></div>
                                 <div><a href="http://www.jxftea.cn" target="_blank">茯茶镇</a></div>
                                 <div><a href="http://www.jingheshiye.cn/" target="_blank">泾河实业</a></div>
                                 <div><a href="http://www.jinghefucha.com/" target="_blank">泾河茯茶</a></div>
