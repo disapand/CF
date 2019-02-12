@@ -248,7 +248,7 @@
                     <ul class="nav nav-tabs nav-justified" role="tablist">
                         {{--<li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
                                                                   data-toggle="tab">西咸新区<br />新闻</a></li>--}}
-                        <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab"
+                        <li role="presentation" class="active"><a href="#jhxc" aria-controls="jhxc" role="tab"
                                                    data-toggle="tab">泾河新城<br />新闻</a>
                         </li>
                         <li role="presentation"><a href="#jhjt" aria-controls="jhjt" role="tab"
