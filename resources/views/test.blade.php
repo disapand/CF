@@ -246,8 +246,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7" style="padding-right: 15px;padding-left: 15px;">
 
                     <ul class="nav nav-tabs nav-justified" role="tablist">
-                        <li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
-                                                                  data-toggle="tab">西咸新区<br />新闻</a></li>
+                        {{--<li role="presentation" class="active"><a href="#xxxq" aria-controls="xxxq" role="tab"
+                                                                  data-toggle="tab">西咸新区<br />新闻</a></li>--}}
                         <li role="presentation"><a href="#jhxc" aria-controls="jhxc" role="tab"
                                                    data-toggle="tab">泾河新城<br />新闻</a>
                         </li>
@@ -260,7 +260,7 @@
                     </ul>
 
                     <div class="tab-content xwlb">
-                        <div role="tabpanel" class="tab-pane active fade in" id="xxxq" style="width: 100%;">
+                        {{--<div role="tabpanel" class="tab-pane active fade in" id="xxxq" style="width: 100%;">
                             <ul>
                                 @foreach($xxxq as $xx)
                                     <li><a href="{{ url('/admin/news/'.$xx['id'])}}">{{ $xx['title'] }}</a></li>
@@ -269,7 +269,7 @@
                                         <li><a href="{{ url('/news/sort/西咸新区')}}" style="color: #158dd4;">查看更多》》》</a></li>
                                 @endif
                             </ul>
-                        </div>
+                        </div>--}}
 
                         <div role="tabpanel" class="tab-pane fade" id="jhxc" style="width: 100%;">
                             <ul>
