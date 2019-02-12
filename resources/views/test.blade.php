@@ -271,7 +271,7 @@
                             </ul>
                         </div>--}}
 
-                        <div role="tabpanel" class="tab-pane fade" id="jhxc" style="width: 100%;">
+                        <div role="tabpanel" class="tab-pane fade active in" id="jhxc" style="width: 100%;">
                             <ul>
                                 @foreach($jhxq as $xq)
                                     <li><a href="{{ url('/admin/news/'.$xq['id'])}}">{{ $xq['title'] }}</a></li>
