@@ -115,6 +115,9 @@
                         {{--<a href="http://www.jinghechengfu.com/admin/news/85"><img src="images/banner6.jpg" alt=""></a>--}}
                     {{--</div>--}}
                     <div class="swiper-slide">
+                        <a href="https://mp.weixin.qq.com/s/kpuh_sYyRj1HtC8QJWrNnw"><img src="images/banner7.jpeg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="images/banner1203.jpg" alt="">
                         <div class="box">
                             <div class="img-cover">
@@ -154,9 +157,6 @@
                                 <img src="images/1203/08.png" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://mp.weixin.qq.com/s/kpuh_sYyRj1HtC8QJWrNnw"><img src="images/banner7.jpeg" alt=""></a>
                     </div>
                     <div class="swiper-slide">
                         <img src="images/banner1.jpg" alt="">
