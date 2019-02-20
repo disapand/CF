@@ -95,6 +95,13 @@
             z-index: 99;
         }
 
+        .box-0220 {
+            position: relative;
+            margin-top: -60px;
+            margin-left: 13%;
+            width: 100%;
+        }
+
         .img-cover img {
             display: inline-block;
             float: left;
@@ -114,8 +121,39 @@
                     {{--<div class="swiper-slide">--}}
                         {{--<a href="http://www.jinghechengfu.com/admin/news/85"><img src="images/banner6.jpg" alt=""></a>--}}
                     {{--</div>--}}
+                    {{--<div class="swiper-slide">--}}
+                        {{--<a href="https://mp.weixin.qq.com/s/kpuh_sYyRj1HtC8QJWrNnw"><img src="images/banner7.jpeg" alt=""></a>--}}
+                    {{--</div>--}}
                     <div class="swiper-slide">
-                        <a href="https://mp.weixin.qq.com/s/kpuh_sYyRj1HtC8QJWrNnw"><img src="images/banner7.jpeg" alt=""></a>
+                        <img src="images/banner0220.jpeg" alt="">
+                        <div class="box-0220">
+                            <div class="img-cover">
+                                <img src="images/0220-l.png" alt="">
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://toutiao.cnwest.com/sxtt/share/news/2019/02/20/content_780495.html?_fixstr=dcgsnghgmhd" target="_blank">
+                                    <img src="images/0220-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://sn.ifeng.com/a/20190220/7226109_0.shtml" target="_blank">
+                                    <img src="images/0220-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="https://c.m.163.com/news/a/E8EVL7ST041999H8.html?spss=wap_refluxdl_2018&spssid=5eae51b7a7600f92130f1513eed7f5ac&spsw=2&from=singlemessage&isappinstalled=0" target="_blank">
+                                    <img src="images/0220-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <a href="http://view.inews.qq.com/a/XAC2019022000441100?openid=o04IBAF9HcJHP6kquMoWIeJsMt08&key=&version=17000326&devicetype=iOS12.1.4&wuid=oDdoCt_CazYivshTIO0dT47xPFDM&sharer=o04IBAF9HcJHP6kquMoWIeJsMt08&uid=&shareto=" target="_blank">
+                                    <img src="images/0220-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="img-cover">
+                                <img src="images/0220-r.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="images/banner1203.jpg" alt="">
