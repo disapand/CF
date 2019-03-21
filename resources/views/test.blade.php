@@ -118,9 +118,9 @@
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    {{--<div class="swiper-slide">--}}
-                        {{--<a href="http://www.jinghechengfu.com/admin/news/85"><img src="images/banner6.jpg" alt=""></a>--}}
-                    {{--</div>--}}
+                    <div class="swiper-slide">
+                        <a href="https://mp.weixin.qq.com/s?__biz=MzIyMjkwMzMxMw==&mid=2247484216&idx=1&sn=20150be656075a5170badfc2c244c5f9&chksm=e8272e46df50a7508da045d344d717ac956af228b6fd0b5b8983a7291d2d249ecfe424a41a94&token=1195640941&lang=zh_CN#rd"><img src="images/banner0321.jpeg" alt=""></a>
+                    </div>
                     {{--<div class="swiper-slide">--}}
                         {{--<a href="https://mp.weixin.qq.com/s/kpuh_sYyRj1HtC8QJWrNnw"><img src="images/banner7.jpeg" alt=""></a>--}}
                     {{--</div>--}}
